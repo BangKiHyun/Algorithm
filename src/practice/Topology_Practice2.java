@@ -26,13 +26,11 @@ public class Topology_Practice2 {
         }
         for (int i = 1; i <= n; i++) {
             int x = (int) q.peek();
-            if (!q.isEmpty()) {
-                q.poll();
-                for (int j : a[x]) {
-                    result[j] = max(result[j], result[x] + time[j]);
-                    if (--inDegree[j] == 0) {
-                        q.offer(j);
-                    }
+            q.poll();
+            for (int j : a[x]) {
+                result[j] = max(result[j], result[x] + time[j]);
+                if (--inDegree[j] == 0) {
+                    q.offer(j);
                 }
             }
         }
@@ -57,7 +55,6 @@ public class Topology_Practice2 {
                 }
                 inDegree[i]++;
                 a[x].add(i);
-                a[i].add(x);
             }
         }
         Topology();

@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+//백준 2252
 public class Topology_Practice {
     static final int MAX = 32000;
     static int n;
@@ -47,7 +48,6 @@ public class Topology_Practice {
             int x = sc.nextInt();
             int y = sc.nextInt();
             a[x].add(y);
-            a[y].add(x);
             inDegree[y]++;
         }
         Topology1();
