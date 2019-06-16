@@ -18,7 +18,7 @@ public class findString {
                     break;
                 }
                 if (finded) {
-                    return i;
+                    return i + 1;
                 }
             }
         }
