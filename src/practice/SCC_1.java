@@ -1,75 +1,67 @@
 package practice;
 
-import java.util.ArrayList;
+import java.util.*;
 import java.util.Stack;
 
-import static java.lang.Math.cbrt;
 import static java.lang.Math.min;
 
-public class SCC {
-
-    public static final int MAX = 10001;
+//백준 2150
+public class SCC_1 {
+    static int MAX = 10001;
     static int id;
     static int d[] = new int[MAX];
     static boolean finished[] = new boolean[MAX];
     static ArrayList<Integer> a[] = new ArrayList[MAX];
     static ArrayList<ArrayList<Integer>> SCC = new ArrayList<>();
-    static Stack<Integer> s = new Stack<Integer>();
+    static Stack<Integer> s = new Stack<>();
 
     static int dfs(int x) {
-        d[x] = id++;
+        d[x] = ++id;
         s.push(x);
 
         int parent = d[x];
-        for (int i : a[x]) {
-            int y = i;
+        for (int y : a[x]) {
             if (d[y] == 0) parent = min(parent, dfs(y));
             else if (!finished[y]) parent = min(parent, d[y]);
         }
 
         if (parent == d[x]) {
-            ArrayList<Integer> scc = new ArrayList<Integer>();
+            ArrayList<Integer> scc = new ArrayList<>();
             while (true) {
-                int t = s.peek();
-                s.pop();
+                int t = s.pop();
                 scc.add(t);
                 finished[t] = true;
                 if (t == x) break;
             }
+            Collections.sort(scc);
             SCC.add(scc);
         }
         return parent;
     }
 
     public static void main(String[] args) {
-        int v = 11;
+        Scanner sc = new Scanner(System.in);
+        int v, e;
+        v = sc.nextInt();
+        e = sc.nextInt();
         for (int i = 1; i <= v; i++) {
-            a[i] = new ArrayList<Integer>();
+            a[i] = new ArrayList<>();
         }
-        a[1].add(2);
-        a[2].add(3);
-        a[3].add(1);
-        a[4].add(2);
-        a[4].add(5);
-        a[5].add(7);
-        a[6].add(5);
-        a[7].add(6);
-        a[8].add(5);
-        a[8].add(9);
-        a[9].add(10);
-        a[10].add(11);
-        a[11].add(3);
-        a[11].add(8);
+        for (int i = 0; i < e; i++) {
+            int x, y;
+            x = sc.nextInt();
+            y = sc.nextInt();
+            a[x].add(y);
+        }
         for (int i = 1; i <= v; i++) {
             if (d[i] == 0) dfs(i);
-        }
-        System.out.println("SCC의 갯수 : " + SCC.size());
+        };
+        System.out.println(SCC.size());
         for (int i = 0; i < SCC.size(); i++) {
-            System.out.print(i + 1 + "번쨰 SCC : ");
             for (int j : SCC.get(i)) {
                 System.out.print(j + " ");
             }
-            System.out.println();
+            System.out.println("-1");
         }
     }
 }
