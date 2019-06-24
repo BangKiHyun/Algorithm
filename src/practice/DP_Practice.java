@@ -1,4 +1,3 @@
-/*
 package practice;
 
 import java.util.Scanner;
@@ -40,17 +39,17 @@ public class DP_Practice {
         return d3[x] = result;
     }
 
-    //2xN타일 문제 -> 2x1, 1x2, 1x1 3개로 백준14852 -> 2차원 dp사용해야 시간초과 안남
+    //2xN타일 문제 -> 2x1, 1x2, 1x1 3개로 백준14852 -> 2차원 dp사용해야 시간초과 안남 14852
     static int dp4(int x) {
-        if (x == 0) return 1;
-        if (x == 1) return 3;
-        if (x == 2) return 7;
-        if (d4[x] != 0) return d4[x];
-        int result = 2 * dp4(x - 1) + 3 * dp4(x - 2);
-        for (int i = 1; i <= x; i++) {
-            result += (2 * dp4(x - i)) % 100000007;
+        d4[0][0] = 0;
+        d4[1][0] = 2;
+        d4[2][0] = 7;
+        d4[2][1] = 1;
+        for (int i = 3; i <= x; i++) {
+            d4[i][1] = d4[i - 1][1] + d4[i - 3][0] % 100000007;
+            d4[i][0] = 2 * d4[i - 1][0] + 3 * d4[i - 2][0] + 2 * d4[i][1];
         }
-        return d4[x] = result;
+        return d4[x][0];
     }
 
     public static void main(String[] args) {
@@ -63,4 +62,3 @@ public class DP_Practice {
         System.out.print(result1 + " " + result2 + " " + result3 + " " + result4);
     }
 }
-*/
