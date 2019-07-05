@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Sort {
     public static void main(String[] args) {
-        int[] arr = {0,0,1000};
+        int[] arr = {0,0,1000,0};
         String result = solution(arr);
         System.out.println(result);
     }
@@ -17,12 +17,14 @@ public class Sort {
         }
         Collections.sort(list, new Comparator<String>() {
             @Override
-            public int compare(String s1, String s2) {
-                if (Integer.parseInt(s1 + s2) > Integer.parseInt(s2 + s1)) {
-                    return -1;
-                } else {
-                    return 1;
+            public int compare( String o1, String o2 ) {
+                if (o1.length() == o2.length()){
+                    return o2.compareTo(o1);
                 }
+                String artificial = o1+o2;
+                String reverse = o2+o1;
+
+                return reverse.compareTo(artificial);
             }
         });
         if (list.get(0).equals("0")) {
