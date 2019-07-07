@@ -9,11 +9,20 @@ public class sw_6900 {
 
     public static void result(int N, int M) {
         int money = 0;
-        int idx = 0;
-        for(int i=0;i<M;i++){
-            for(int j=0;j<N;j++){
+        for (int i = 0; i < M; i++) {
+            for (int j = 0; j < N; j++) {
+                int cnt = 0;
+                for (int k = 0; k < 8; k++) {
+                    if (myNum[i].charAt(k) == winNum[j].charAt(k) || winNum[j].charAt(k) == '*'){
+                        cnt++;
+                    }
+                }
+                if(cnt == 8){
+                    money += winMoney[j];
+                }
             }
         }
+        System.out.println(money);
     }
 
     public static void main(String[] args) {
@@ -31,7 +40,7 @@ public class sw_6900 {
                 winMoney[i] = sc.nextInt();
             }
             for (int j = 0; j < M; j++) myNum[j] = sc.next();
-            result(N,M);
+            result(N, M);
         }
     }
 }
