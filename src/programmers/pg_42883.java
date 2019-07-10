@@ -2,21 +2,21 @@ package programmers;
 
 public class pg_42883 {
     static public String solution(String number, int k) {
-        String answer = "";
-        char max;
         int idx = 0;
+        char max;
+        StringBuilder answer = new StringBuilder();
+
         if(number.charAt(0) == '0') return "0";
-        for (int i = 0; i < number.length() - k; i++) {
+        for(int i = 0; i < number.length() - k; i++) {
             max = '0';
-            for (int j = idx; j <= k+1; j++) {
-                if (max < number.charAt(j)){
-                    max = number.charAt(j);
-                    idx = j+1;
+            for(int j = idx; j <= k + i; j++) {
+                if(max < number.charAt(j)) {
+                    max = number.charAt(j); idx = j + 1;
                 }
             }
-            answer += max;
+            answer.append(max);
         }
-        return answer;
+        return answer.toString();
     }
 
     public static void main(String[] args) {
