@@ -9,8 +9,8 @@ public class sw_1210 {
     static int data[][] = new int[MAX][MAX];
     static Queue q = new LinkedList();
     static boolean visit[][] = new boolean[MAX][MAX];
-    static int Y[] = {0, 0, -1, 1};
-    static int X[] = {-1, 1, 0, 0};
+    static int Y[] = {-1, 1, 0, 0};
+    static int X[] = {0, 0, -1, 1};
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
