@@ -26,28 +26,36 @@ public class sw_1232 {
                 }
             }
             inOrder(tree, tree[1]);
-            int ans = cal(c.length / 2, n);
+            String ans = " ";
             System.out.println("#" + test_case + " " + ans);
         }
         br.close();
     }
 
-    static int cal(int len, int n) {
+    static String op(String s, int n1, int n2) {
         int ans = 0;
-        for (int i = 0; i < len; i++) {
-            for (int j = 0; j < n; j++) {
-
-            }
+        switch (s) {
+            case "-":
+                ans = n1 - n2;
+                break;
+            case "+":
+                ans = n1 + n2;
+                break;
+            case "*":
+                ans = n1 * n2;
+                break;
+            case "/":
+                ans = n1 / n2;
+            default:
+                break;
         }
-        return ans;
+        return Integer.toString(ans);
     }
 
     static void inOrder(Node tree[], Node node) {
         if (node != null) {
             inOrder(tree, tree[node.left]);
-            System.out.println(node.data);
-            c[idx] = node.data;
-            idx++;
+
             inOrder(tree, tree[node.right]);
         }
     }
@@ -57,14 +65,12 @@ public class sw_1232 {
         int left, right;
 
         public Node(String data, int left, int right) {
-            super();
             this.data = data;
             this.left = left;
             this.right = right;
         }
 
         public Node(String data) {
-            super();
             this.data = data;
         }
     }

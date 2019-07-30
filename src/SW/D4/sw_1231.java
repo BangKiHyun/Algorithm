@@ -28,7 +28,6 @@ public class sw_1231 {
                     tree[index] = new Node(sc.next());
                 }
             }
-
             System.out.print("#" + problem + " ");
             inOrder(tree, tree[1]);
             System.out.println();
@@ -43,23 +42,22 @@ public class sw_1231 {
             inOrder(tree, tree[node.right]);
         }
     }
-}
+    static class Node {
+        String data;
+        int left, right;
 
-class Node {
-    String data;
-    int left, right;
+        Node(String data, int left, int right) {
+            this(data, left);
+            this.right = right;
+        }
 
-    Node(String data, int left, int right) {
-        this(data, left);
-        this.right = right;
-    }
+        Node(String data, int left) {
+            this(data);
+            this.left = left;
+        }
 
-    Node(String data, int left) {
-        this(data);
-        this.left = left;
-    }
-
-    Node(String data) {
-        this.data = data;
+        Node(String data) {
+            this.data = data;
+        }
     }
 }
