@@ -8,8 +8,9 @@ public class sw_1249 {
     static int map[][];
     static Queue q;
     static int X[] = {-1, 1, 0, 0};
-    static int Y[] = {0, 0, -1, 1};
+    static int Y[] = {0, 0, 1, -1};
     static int d[][];
+    static int MAX = 9999999;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -23,10 +24,11 @@ public class sw_1249 {
                 String s = sc.next();
                 for (int j = 0; j < n; j++) {
                     map[i][j] = Integer.parseInt(s.substring(j, j + 1));
-                    d[i][j] = map[i][j];
+                    d[i][j] = MAX;
                 }
             }
             q.add(new Node(0, 0));
+            d[0][0] = 0;
             int ans = floyd(n);
             System.out.println("#" + test_case + " " + ans);
         }
@@ -40,8 +42,8 @@ public class sw_1249 {
                 int ny = n.y + Y[k];
                 if (nx < 0 || ny < 0 || nx >= num || ny >= num) continue;
 
-                if (d[nx][ny] > map[nx][ny] + d[n.x][n.y]) {
-                    d[nx][ny] = d[n.x][n.y] + map[nx][ny];
+                if (map[nx][ny] + d[n.x][n.y] < d[nx][ny]) {
+                    d[nx][ny] = map[nx][ny] + d[n.x][n.y];
                     q.add(new Node(nx, ny));
                 }
             }
