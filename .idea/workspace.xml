@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SW/D4/sw_1251.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SW/D4/sw_1251.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/SW/D4/sw_1258$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/SW/D4/sw_1258$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/SW/D4/sw_1258.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/SW/D4/sw_1258.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SW/D4/sw_1258.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SW/D4/sw_1258.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1258.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+            <state relative-caret-position="-235">
+              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -268,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564997734063" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565069063773" />
     <property name="last_opened_file_path" value="D:/Study_Spring/SpringBootStudy" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -432,12 +434,12 @@
       <workItem from="1564584839322" duration="130000" />
       <workItem from="1564640079822" duration="7081000" />
       <workItem from="1564723927782" duration="5842000" />
-      <workItem from="1564735632864" duration="9684000" />
+      <workItem from="1564735632864" duration="13234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341724000" />
+    <option name="totallyTimeSpent" value="345274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,7 +452,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2713348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -900,8 +901,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1258.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        <state relative-caret-position="-235">
+          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
         </state>
       </provider>
     </entry>
