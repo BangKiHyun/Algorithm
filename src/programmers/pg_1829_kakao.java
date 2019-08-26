@@ -61,7 +61,12 @@ public class pg_1829_kakao {
     }
 
     public static void main(String[] args) {
-        int[][] p = {{1, 1, 1, 0}, {1, 2, 2, 0}, {1, 0, 0, 1}, {0, 0, 0, 1}, {0, 0, 0, 3}, {0, 0, 0, 3}};
+        int[][] p = {{1, 1, 1, 0},
+                {1, 2, 2, 0},
+                {1, 0, 0, 1},
+                {0, 0, 0, 1},
+                {0, 0, 0, 3},
+                {0, 0, 0, 3}};
 
         int[] ans = solution(6, 4, p);
         for (int i = 0; i < ans.length; i++) {
