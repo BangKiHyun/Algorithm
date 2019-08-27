@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/META-INF/Algorithm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_12914_DP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_12914_DP.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,11 +66,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_12927.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/programmers/pg_12936.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" lean-forward="true" selection-start-line="15" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/programmers/pg_42577.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42578.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12909.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12911.java" />
@@ -183,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_12914.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12914_DP.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12927.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_12936.java" />
       </list>
     </option>
   </component>
@@ -234,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566866396126" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566869185164" />
     <property name="last_opened_file_path" value="D:/Study_Spring/SpringBootStudy" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -252,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pg_12927">
+  <component name="RunManager" selected="Application.pg_12936">
     <configuration name="pg_12914_DP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.pg_12914_DP" />
       <module name="Algorithm" />
@@ -268,6 +278,19 @@
     </configuration>
     <configuration name="pg_12927" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.pg_12927" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pg_12936" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.pg_12936" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -305,33 +328,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sw_1226_Re" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SW.D4.sw_1226_Re" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SW.D4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.sw_1226_Re" />
       <item itemvalue="Application.pg_1832_kakao" />
       <item itemvalue="Application.pg_1829_kakao" />
       <item itemvalue="Application.pg_12914_DP" />
       <item itemvalue="Application.pg_12927" />
+      <item itemvalue="Application.pg_12936" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pg_12936" />
         <item itemvalue="Application.pg_12927" />
         <item itemvalue="Application.pg_12914_DP" />
         <item itemvalue="Application.pg_1832_kakao" />
         <item itemvalue="Application.pg_1829_kakao" />
-        <item itemvalue="Application.sw_1226_Re" />
       </list>
     </recent_temporary>
   </component>
@@ -408,12 +418,12 @@
       <workItem from="1565844866967" duration="9041000" />
       <workItem from="1565943323290" duration="43380000" />
       <workItem from="1566864616490" duration="1124000" />
-      <workItem from="1566865851640" duration="799000" />
+      <workItem from="1566865851640" duration="3538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="429910000" />
+    <option name="totallyTimeSpent" value="432649000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,8 +455,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49781182" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49671772" weight="0.3369803" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50328225" side_tool="true" visible="true" weight="0.25629792" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49671772" weight="0.33625412" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50328225" side_tool="true" weight="0.25629792" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49671772" weight="0.3274918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -475,13 +485,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/practice/Heap_Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1219.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -839,8 +842,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_12927.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_12936.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" lean-forward="true" selection-start-line="15" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
