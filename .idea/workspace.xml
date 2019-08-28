@@ -31,15 +31,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_12914_DP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42577.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -52,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_12927.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -60,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_12936.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="494">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,10 +61,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/problem/bj_14501.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/problem/bj_14502.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="20" selection-end-line="98" />
+            <state relative-caret-position="836">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,11 +81,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_14501.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/problem/bj_14890.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="798">
+              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/problem/bj_17144.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="87" column="37" lean-forward="true" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+              <folding>
+                <element signature="method#spreadDust#0;class#bj_17144#0" />
+                <element signature="method#copyMap#0;class#bj_17144#0" />
+                <element signature="method#countDust#0;class#bj_17144#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice/DP_exFibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -123,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/problem/bj_14503.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="551">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/programmers/pg_12909.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12911.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12913.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_1226.java" />
@@ -205,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_12927.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12936.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_14502.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_17144.java" />
       </list>
     </option>
   </component>
@@ -249,14 +254,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566874422059" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566971729343" />
     <property name="last_opened_file_path" value="D:/Study_Spring/SpringBootStudy" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -274,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_14501">
+  <component name="RunManager" selected="Application.bj_17144">
     <configuration name="bj_14501" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem.bj_14501" />
       <module name="Algorithm" />
@@ -301,12 +306,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg_12914_DP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_12914_DP" />
+    <configuration name="bj_17144" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem.bj_17144" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,19 +346,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.pg_12914_DP" />
       <item itemvalue="Application.pg_12927" />
       <item itemvalue="Application.pg_12936" />
       <item itemvalue="Application.bj_14502" />
       <item itemvalue="Application.bj_14501" />
+      <item itemvalue="Application.bj_17144" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_17144" />
         <item itemvalue="Application.bj_14501" />
         <item itemvalue="Application.bj_14502" />
         <item itemvalue="Application.pg_12936" />
         <item itemvalue="Application.pg_12927" />
-        <item itemvalue="Application.pg_12914_DP" />
       </list>
     </recent_temporary>
   </component>
@@ -430,12 +435,13 @@
       <workItem from="1565844866967" duration="9041000" />
       <workItem from="1565943323290" duration="43380000" />
       <workItem from="1566864616490" duration="1124000" />
-      <workItem from="1566865851640" duration="7291000" />
+      <workItem from="1566865851640" duration="10595000" />
+      <workItem from="1566968101802" duration="3624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="436402000" />
+    <option name="totallyTimeSpent" value="443330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,7 +456,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32822758" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3358862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,7 +465,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49671772" visible="true" weight="0.25629792" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49671772" visible="true" weight="0.25629792" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,13 +503,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1218.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1231.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -622,13 +621,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_14891.java" />
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_14890.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_7988.java" />
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_8189.java" />
     <entry file="file://$PROJECT_DIR$/Algorithm.iml">
@@ -794,6 +786,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/DP_exFibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42577.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -801,10 +800,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/DP_exFibonacci.java">
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_12927.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_12936.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_14501.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_14502.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_14890.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_17070.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -820,52 +860,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_14503.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="551">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_12927.java">
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_17144.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_12936.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="572">
+          <caret line="87" column="37" lean-forward="true" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#spreadDust#0;class#bj_17144#0" />
+            <element signature="method#copyMap#0;class#bj_17144#0" />
+            <element signature="method#countDust#0;class#bj_17144#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_17070.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_14502.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="20" selection-end-line="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_14501.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
