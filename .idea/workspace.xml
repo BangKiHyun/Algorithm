@@ -31,15 +31,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42577.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_12927.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -90,16 +81,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/problem/bj_17144.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="87" column="37" lean-forward="true" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+            <state relative-caret-position="874">
+              <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
               <folding>
                 <element signature="method#spreadDust#0;class#bj_17144#0" />
                 <element signature="method#copyMap#0;class#bj_17144#0" />
+                <element signature="method#removeDust#0;class#bj_17144#0" />
                 <element signature="method#countDust#0;class#bj_17144#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/problem/bj_14888.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -159,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/programmers/pg_12911.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12913.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_1226.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_43163.java" />
@@ -210,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_12936.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_14502.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17144.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_14888.java" />
       </list>
     </option>
   </component>
@@ -261,7 +262,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566971729343" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566974255739" />
     <property name="last_opened_file_path" value="D:/Study_Spring/SpringBootStudy" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -279,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_17144">
+  <component name="RunManager" selected="Application.bj_14888">
     <configuration name="bj_14501" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem.bj_14501" />
       <module name="Algorithm" />
@@ -306,8 +307,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bj_17144" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem.bj_17144" />
+    <configuration name="bj_14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem.bj_14888" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -319,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg_12927" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_12927" />
+    <configuration name="bj_17144" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem.bj_17144" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,19 +347,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.pg_12927" />
       <item itemvalue="Application.pg_12936" />
       <item itemvalue="Application.bj_14502" />
       <item itemvalue="Application.bj_14501" />
       <item itemvalue="Application.bj_17144" />
+      <item itemvalue="Application.bj_14888" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_14888" />
         <item itemvalue="Application.bj_17144" />
         <item itemvalue="Application.bj_14501" />
         <item itemvalue="Application.bj_14502" />
         <item itemvalue="Application.pg_12936" />
-        <item itemvalue="Application.pg_12927" />
       </list>
     </recent_temporary>
   </component>
@@ -436,12 +437,12 @@
       <workItem from="1565943323290" duration="43380000" />
       <workItem from="1566864616490" duration="1124000" />
       <workItem from="1566865851640" duration="10595000" />
-      <workItem from="1566968101802" duration="3624000" />
+      <workItem from="1566968101802" duration="6164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="443330000" />
+    <option name="totallyTimeSpent" value="445870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,13 +504,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1231.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/Topology.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -870,13 +864,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_17144.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="87" column="37" lean-forward="true" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+        <state relative-caret-position="874">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
           <folding>
             <element signature="method#spreadDust#0;class#bj_17144#0" />
             <element signature="method#copyMap#0;class#bj_17144#0" />
+            <element signature="method#removeDust#0;class#bj_17144#0" />
             <element signature="method#countDust#0;class#bj_17144#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_14888.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
