@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class bj_17142 {
+public class bj_17142_me {
     static int n, virus;
     static int map[][];
     static int copy[][];
