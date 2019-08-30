@@ -99,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/problem/bj_17136.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="37" column="29" lean-forward="true" selection-end-line="71" />
+            <state relative-caret-position="610">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
               <folding>
                 <element signature="method#setPaper#0;class#bj_17136#0" />
               </folding>
@@ -111,13 +111,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_1829_kakao.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/problem/bj_17406.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+            <state relative-caret-position="378">
+              <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#424#500#1" />
+                <element signature="e#601#632#1" />
+                <element signature="e#1081#1150#1" />
+                <element signature="method#copyMap2#0;class#bj_17406#0" />
+                <element signature="class#Node#0;class#bj_17406#0" />
               </folding>
             </state>
           </provider>
@@ -157,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_4261.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_7088.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_1210.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_1218.java" />
@@ -208,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/problem/bj_17142_me.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_16637.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17136.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_17406.java" />
       </list>
     </option>
   </component>
@@ -259,7 +263,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567062922076" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567150225601" />
     <property name="last_opened_file_path" value="D:/Study_Spring/SpringBootStudy" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -277,20 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_17136">
-    <configuration name="bj_14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem.bj_14888" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.bj_17406">
     <configuration name="bj_14889" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem.bj_14889" />
       <module name="Algorithm" />
@@ -343,20 +334,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bj_17406" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem.bj_17406" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.bj_14888" />
       <item itemvalue="Application.bj_14889" />
       <item itemvalue="Application.bj_17142_me" />
       <item itemvalue="Application.bj_16637" />
       <item itemvalue="Application.bj_17136" />
+      <item itemvalue="Application.bj_17406" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_17406" />
         <item itemvalue="Application.bj_17136" />
         <item itemvalue="Application.bj_16637" />
         <item itemvalue="Application.bj_17142_me" />
         <item itemvalue="Application.bj_14889" />
-        <item itemvalue="Application.bj_14888" />
       </list>
     </recent_temporary>
   </component>
@@ -434,12 +438,12 @@
       <workItem from="1565943323290" duration="43380000" />
       <workItem from="1566864616490" duration="1124000" />
       <workItem from="1566865851640" duration="10595000" />
-      <workItem from="1566968101802" duration="27426000" />
+      <workItem from="1566968101802" duration="36501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467132000" />
+    <option name="totallyTimeSpent" value="476207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,16 +505,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1249.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_17070Re.java" />
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1258.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -874,10 +868,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_17136.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="37" column="29" lean-forward="true" selection-end-line="71" />
+        <state relative-caret-position="610">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding>
             <element signature="method#setPaper#0;class#bj_17136#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_17406.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+          <folding>
+            <element signature="e#424#500#1" />
+            <element signature="e#601#632#1" />
+            <element signature="e#1081#1150#1" />
+            <element signature="method#copyMap2#0;class#bj_17406#0" />
+            <element signature="class#Node#0;class#bj_17406#0" />
           </folding>
         </state>
       </provider>
