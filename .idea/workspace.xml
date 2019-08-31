@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem/bj_17406.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem/bj_17406.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,15 +111,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/problem/bj_17406.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+            <state relative-caret-position="304">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
+                <element signature="method#main#0;class#bj_17406#0" />
                 <element signature="e#424#500#1" />
                 <element signature="e#601#632#1" />
-                <element signature="e#1081#1150#1" />
+                <element signature="method#minNum#0;class#bj_17406#0" />
+                <element signature="method#rotate#0;class#bj_17406#0" />
+                <element signature="method#copyMap#0;class#bj_17406#0" />
                 <element signature="method#copyMap2#0;class#bj_17406#0" />
                 <element signature="class#Node#0;class#bj_17406#0" />
               </folding>
@@ -127,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_14503.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_8382_BFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="138">
+              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_7088.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_1210.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_1218.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_1219.java" />
@@ -212,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/problem/bj_16637.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17136.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17406.java" />
+        <option value="$PROJECT_DIR$/src/SW/D4/sw_8382_BFS.java" />
       </list>
     </option>
   </component>
@@ -252,6 +255,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SW" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SW" type="462c0819:PsiDirectoryNode" />
+              <item name="D4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -263,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567150225601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567219909891" />
     <property name="last_opened_file_path" value="D:/Study_Spring/SpringBootStudy" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -281,20 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_17406">
-    <configuration name="bj_14889" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem.bj_14889" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.sw_8382_BFS">
     <configuration name="bj_16637" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem.bj_16637" />
       <module name="Algorithm" />
@@ -347,20 +344,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sw_8382_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SW.D4.sw_8382_BFS" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SW.D4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.bj_14889" />
       <item itemvalue="Application.bj_17142_me" />
       <item itemvalue="Application.bj_16637" />
       <item itemvalue="Application.bj_17136" />
       <item itemvalue="Application.bj_17406" />
+      <item itemvalue="Application.sw_8382_BFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sw_8382_BFS" />
         <item itemvalue="Application.bj_17406" />
         <item itemvalue="Application.bj_17136" />
         <item itemvalue="Application.bj_16637" />
         <item itemvalue="Application.bj_17142_me" />
-        <item itemvalue="Application.bj_14889" />
       </list>
     </recent_temporary>
   </component>
@@ -438,12 +448,12 @@
       <workItem from="1565943323290" duration="43380000" />
       <workItem from="1566864616490" duration="1124000" />
       <workItem from="1566865851640" duration="10595000" />
-      <workItem from="1566968101802" duration="36501000" />
+      <workItem from="1566968101802" duration="42104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="476207000" />
+    <option name="totallyTimeSpent" value="481810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,7 +515,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_17070Re.java" />
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1258.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
@@ -878,14 +887,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_17406.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        <state relative-caret-position="304">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
+            <element signature="method#main#0;class#bj_17406#0" />
             <element signature="e#424#500#1" />
             <element signature="e#601#632#1" />
-            <element signature="e#1081#1150#1" />
+            <element signature="method#minNum#0;class#bj_17406#0" />
+            <element signature="method#rotate#0;class#bj_17406#0" />
+            <element signature="method#copyMap#0;class#bj_17406#0" />
             <element signature="method#copyMap2#0;class#bj_17406#0" />
             <element signature="class#Node#0;class#bj_17406#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_8382_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -40,13 +40,11 @@ public class bj_17406 {
     static void solution(int len) {
         if (len == k) {
             copyMap();
-
             for (int i = 0; i < k; i++) {
                 int r, c, s;
                 r = info.get(i).r;
                 c = info.get(i).c;
                 s = info.get(i).s;
-
                 for (int j = s; j > 0; j--) {
                     rotate(r, c, j);
                 }
@@ -54,7 +52,6 @@ public class bj_17406 {
             minNum();
             return;
         }
-
         for (int i = 0; i < k; i++) {
             if (!visit[i]) {
                 visit[i] = true;
