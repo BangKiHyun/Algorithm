@@ -10,7 +10,7 @@ public class bj_17142_me {
     static int map[][];
     static int copy[][];
     static boolean visit[][];
-    static int min = 987654321;
+    static int min = Integer.MAX_VALUE;
     static List<Dot> virusList = new LinkedList<>();
     static Queue<Dot> copyList = new LinkedList<>();
     static int[] X = {-1, 1, 0, 0};
@@ -31,7 +31,6 @@ public class bj_17142_me {
                 }
             }
         }
-
         solution(0, 0);
         System.out.println(min);
     }
@@ -55,27 +54,24 @@ public class bj_17142_me {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 copy[i][j] = map[i][j];
-                if (map[i][j] == 0) visit[i][j] = true;
+                if (map[i][j] != 0) visit[i][j] = true;
             }
         }
     }
 
     static int spreadVirus() {
-        int day = 987654231;
+        int day = Integer.MIN_VALUE;
         while (!copyList.isEmpty()) {
             Dot t = copyList.poll();
-            System.out.println(t.cnt);
             for (int i = 0; i < 4; i++) {
                 int nx = t.x + X[i];
                 int ny = t.y + Y[i];
                 if (nx >= 0 && ny >= 0 && nx < n && ny < n && map[nx][ny] == 0 && !visit[nx][ny]) {
                     visit[nx][ny] = true;
-                    day = Math.min(day, t.cnt);
-                    System.out.println(day);
-                    System.out.println(t.cnt);
                     copyList.add(new Dot(nx, ny, t.cnt + 1));
                 }
             }
+            day = Math.max(day, t.cnt);
         }
         return day;
     }
