@@ -21,13 +21,13 @@ public class sw_8382_BFS {
             startY = sc.nextInt();
             endX = sc.nextInt();
             endY = sc.nextInt();
+
             min = Integer.MAX_VALUE;
             visit = new boolean[200][200];
             q = new LinkedList<>();
             q.add(new Node(startX, startY, 0, 0));
             solution();
             q.clear();
-            System.out.println(q.size());
             visit = new boolean[200][200];
             q.add(new Node(startX, startY, 1, 0));
             solution();
@@ -43,27 +43,29 @@ public class sw_8382_BFS {
                 min = Math.min(min, n.cnt);
                 return;
             }
-            int nx, ny;
-            if (n.d == 0) {
-                for (int i = 0; i < 2; i++) {
-                    nx = n.x + X[i];
-                    ny = n.y + Y[i];
-                    if (nx >= 0 && ny >= 0 && nx < 200 && ny < 200 && !visit[nx][ny]) {
-                        visit[nx][ny] = true;
-                        q.add(new Node(nx, ny, 1, n.cnt + 1));
-                    }
-                }
-            } else {
-                for (int i = 2; i < 4; i++) {
-                    nx = n.x + X[i];
-                    ny = n.y + Y[i];
-                    if (nx >= 0 && ny >= 0 && nx < 200 && ny < 200 && !visit[nx][ny]) {
-                        visit[nx][ny] = true;
-                        q.add(new Node(nx, ny, 0, n.cnt + 1));
-                    }
+            int nx, ny, d, nd;
+            d = direction(n.d);
+            nd = nextDirection(d);
+
+            for (int i = d - 2; i < d; i++) {
+                nx = n.x + X[i];
+                ny = n.y + Y[i];
+                if (nx >= 0 && ny >= 0 && nx < 200 && ny < 200 && !visit[nx][ny]) {
+                    visit[nx][ny] = true;
+                    q.add(new Node(nx, ny, nd, n.cnt + 1));
                 }
             }
         }
+    }
+
+    static int nextDirection(int d) {
+        if (d == 2) return 1;
+        else return 0;
+    }
+
+    static int direction(int d) {
+        if (d == 0) return 2;
+        else return 4;
     }
 
     static class Node {
