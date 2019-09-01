@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem/bj_17142_me.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem/bj_17142_me.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem/bj_17144.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem/bj_17144.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,13 +31,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/problem/bj_17142_me.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="-163">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/problem/bj_17144.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+              <folding>
+                <element signature="method#spreadDust#0;class#bj_17144#0" />
+                <element signature="method#copyMap#0;class#bj_17144#0" />
+                <element signature="method#removeDust1#0;class#bj_17144#0" />
+                <element signature="method#removeDust2#0;class#bj_17144#0" />
+                <element signature="method#countDust#0;class#bj_17144#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/problem/bj_17406.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+              <folding>
+                <element signature="method#main#0;class#bj_17406#0" />
+                <element signature="method#minNum#0;class#bj_17406#0" />
+                <element signature="method#rotate#0;class#bj_17406#0" />
+                <element signature="method#copyMap#0;class#bj_17406#0" />
+                <element signature="method#copyMap2#0;class#bj_17406#0" />
+                <element signature="class#Node#0;class#bj_17406#0" />
               </folding>
             </state>
           </provider>
@@ -66,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_1210.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_1218.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_1219.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_1226_Re.java" />
@@ -108,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_12927.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12936.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_14502.java" />
-        <option value="$PROJECT_DIR$/src/problem/bj_17144.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_14888.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_14889.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17142.java" />
@@ -117,6 +148,8 @@
         <option value="$PROJECT_DIR$/src/problem/bj_17406.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_8382_BFS.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17142_me.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_17140.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_17144.java" />
       </list>
     </option>
   </component>
@@ -162,7 +195,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567319392618" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567323071170" />
     <property name="last_opened_file_path" value="D:/Study_Spring/SpringBootStudy" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -338,12 +371,12 @@
       <workItem from="1566864616490" duration="1124000" />
       <workItem from="1566865851640" duration="10595000" />
       <workItem from="1566968101802" duration="42494000" />
-      <workItem from="1567315334287" duration="4044000" />
+      <workItem from="1567315334287" duration="7713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="486244000" />
+    <option name="totallyTimeSpent" value="489913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,7 +400,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49671772" visible="true" weight="0.25301206" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49671772" weight="0.25301206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,7 +408,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49781182" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49671772" weight="0.33953997" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49671772" visible="true" weight="0.33953997" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50328225" side_tool="true" weight="0.25629792" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49671772" weight="0.3274918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -405,16 +438,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/practice/Kruskal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_Upgrade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -690,19 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_17144.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="method#spreadDust#0;class#bj_17144#0" />
-            <element signature="method#copyMap#0;class#bj_17144#0" />
-            <element signature="method#removeDust#0;class#bj_17144#0" />
-            <element signature="method#countDust#0;class#bj_17144#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_14890.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
@@ -758,21 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_17406.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="method#main#0;class#bj_17406#0" />
-            <element signature="method#minNum#0;class#bj_17406#0" />
-            <element signature="method#rotate#0;class#bj_17406#0" />
-            <element signature="method#copyMap#0;class#bj_17406#0" />
-            <element signature="method#copyMap2#0;class#bj_17406#0" />
-            <element signature="class#Node#0;class#bj_17406#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_8382_BFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -795,12 +790,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_17406.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="method#main#0;class#bj_17406#0" />
+            <element signature="method#minNum#0;class#bj_17406#0" />
+            <element signature="method#rotate#0;class#bj_17406#0" />
+            <element signature="method#copyMap#0;class#bj_17406#0" />
+            <element signature="method#copyMap2#0;class#bj_17406#0" />
+            <element signature="class#Node#0;class#bj_17406#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_17140.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="method#main#0;class#bj_17140#0" />
+            <element signature="method#init#0;class#bj_17140#0" />
+            <element signature="method#initMap#0;class#bj_17140#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_17142_me.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="-163">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_17144.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="method#spreadDust#0;class#bj_17144#0" />
+            <element signature="method#copyMap#0;class#bj_17144#0" />
+            <element signature="method#removeDust1#0;class#bj_17144#0" />
+            <element signature="method#removeDust2#0;class#bj_17144#0" />
+            <element signature="method#countDust#0;class#bj_17144#0" />
           </folding>
         </state>
       </provider>

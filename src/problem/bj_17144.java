@@ -40,7 +40,8 @@ public class bj_17144 {
     static void soulution() {
         spreadDust();
         copyMap();
-        removeDust();
+        removeDust1();
+        removeDust2();
         int ans = countDust();
 
         System.out.println(ans);
@@ -77,9 +78,15 @@ public class bj_17144 {
         }
     }
 
-    static void removeDust() {
-        map[start1 - 2][start2] = 0;
-        map[start1 + 1][start2] = 0;
+    static void removeDust1() {
+        for (int i = 1; i < c; i++) ;
+        for (int i = r - start1 - 2; i > 0; i--) ;
+        for (int i = c - 1; i > 0; i--) ;
+        for (int i = 0; i < start1; i++) ;
+    }
+
+    static void removeDust2() {
+
     }
 
     static int countDust() {
