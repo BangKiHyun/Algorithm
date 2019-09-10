@@ -29,18 +29,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_17142_me.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/problem/bj_17144.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
@@ -88,15 +76,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42861.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+            <state relative-caret-position="380">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#181#187#0" expanded="true" />
+                <element signature="method#solution#0;class#pg_42861#0" />
+                <element signature="method#getDistance#0;class#pg_42861#0" />
+                <element signature="method#getParent#0;class#pg_42861#0" />
+                <element signature="method#unionParent#0;class#pg_42861#0" />
+                <element signature="method#findParents#0;class#pg_42861#0" />
                 <element signature="method#sortList#0;class#pg_42861#0" />
+                <element signature="method#init#0;class#pg_42861#0" />
+                <element signature="class#Node#0;class#pg_42861#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42884.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_1861.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17070Re.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17070.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_14501.java" />
@@ -224,11 +230,12 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_42579_me.java" />
         <option value="$PROJECT_DIR$/src/practice/Kruskal.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42861.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_42884.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -269,7 +276,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568023495256" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568099185130" />
     <property name="last_opened_file_path" value="D:/Study_Spring/SpringBootStudy" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -287,26 +294,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pg_42861">
+  <component name="RunManager" selected="Application.pg_42884">
     <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.Kruskal" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bj_17142_me" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem.bj_17142_me" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,6 +334,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pg_42884" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.pg_42884" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sw_1251" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SW.D4.sw_1251" />
       <module name="Algorithm" />
@@ -354,19 +361,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.bj_17142_me" />
       <item itemvalue="Application.sw_1251" />
       <item itemvalue="Application.pg_42579" />
       <item itemvalue="Application.Kruskal" />
       <item itemvalue="Application.pg_42861" />
+      <item itemvalue="Application.pg_42884" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pg_42884" />
         <item itemvalue="Application.pg_42861" />
         <item itemvalue="Application.Kruskal" />
         <item itemvalue="Application.pg_42579" />
         <item itemvalue="Application.sw_1251" />
-        <item itemvalue="Application.bj_17142_me" />
       </list>
     </recent_temporary>
   </component>
@@ -445,12 +452,12 @@
       <workItem from="1566864616490" duration="1124000" />
       <workItem from="1566865851640" duration="10595000" />
       <workItem from="1566968101802" duration="42494000" />
-      <workItem from="1567315334287" duration="63699000" />
+      <workItem from="1567315334287" duration="67357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="545899000" />
+    <option name="totallyTimeSpent" value="549557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,7 +469,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34354487" />
@@ -512,16 +519,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1868.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_3752.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -963,12 +960,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42861.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+        <state relative-caret-position="380">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#181#187#0" expanded="true" />
+            <element signature="method#solution#0;class#pg_42861#0" />
+            <element signature="method#getDistance#0;class#pg_42861#0" />
+            <element signature="method#getParent#0;class#pg_42861#0" />
+            <element signature="method#unionParent#0;class#pg_42861#0" />
+            <element signature="method#findParents#0;class#pg_42861#0" />
             <element signature="method#sortList#0;class#pg_42861#0" />
+            <element signature="method#init#0;class#pg_42861#0" />
+            <element signature="class#Node#0;class#pg_42861#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42884.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
