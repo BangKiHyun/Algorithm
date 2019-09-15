@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/practice/Prime_Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/practice/Prime_Number.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_42884$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_42884$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_42884.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_42884.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/DFS_Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/DFS_Searching.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,36 +32,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_17144.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <element signature="method#copyMap#0;class#bj_17144#0" />
-                <element signature="method#removeDust1#0;class#bj_17144#0" />
-                <element signature="method#removeDust2#0;class#bj_17144#0" />
-                <element signature="method#countDust#0;class#bj_17144#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice/DP_exFibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42579.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="266">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/practice/DFS_Searching.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
-                <element signature="e#1468#1477#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +56,9 @@
         <entry file="file://$PROJECT_DIR$/src/practice/Kruskal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="893">
-              <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
               <folding>
+                <element signature="e#2113#2114#0" expanded="true" />
                 <element signature="e#2156#2157#0" expanded="true" />
               </folding>
             </state>
@@ -84,16 +68,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42861.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="304">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#181#187#0" expanded="true" />
                 <element signature="method#solution#0;class#pg_42861#0" />
                 <element signature="method#getDistance#0;class#pg_42861#0" />
                 <element signature="method#getParent#0;class#pg_42861#0" />
                 <element signature="method#unionParent#0;class#pg_42861#0" />
-                <element signature="method#findParents#0;class#pg_42861#0" />
                 <element signature="method#sortList#0;class#pg_42861#0" />
                 <element signature="method#init#0;class#pg_42861#0" />
                 <element signature="class#Node#0;class#pg_42861#0" />
@@ -105,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42884.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="76">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#sort#0;class#pg_42884#0" />
@@ -118,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice/Prime_Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="304">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -128,16 +110,25 @@
         <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_ShortestPath.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42886.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42886.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/pg_12907.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="456">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -145,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_Upgrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="209">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -174,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/problem/bj_14501.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_7733.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_14503.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_7988.java" />
@@ -193,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_1832_kakao.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_1829_kakao.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12904.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_12907.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12914.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12914_DP.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12927.java" />
@@ -225,6 +214,8 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_42884.java" />
         <option value="$PROJECT_DIR$/src/practice/Prime_Number.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42886.java" />
+        <option value="$PROJECT_DIR$/src/practice/DFS_Searching.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_12907.java" />
       </list>
     </option>
   </component>
@@ -241,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -265,12 +255,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568106710088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568555831451" />
     <property name="last_opened_file_path" value="D:/Study_Spring/SpringBootStudy" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -288,9 +279,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pg_42886">
-    <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.Kruskal" />
+  <component name="RunManager" selected="Application.pg_12907">
+    <configuration name="DFS_Searching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.DFS_Searching" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -315,8 +306,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg_42861" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_42861" />
+    <configuration name="pg_12907" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.pg_12907" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -355,19 +346,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Kruskal" />
-      <item itemvalue="Application.pg_42861" />
       <item itemvalue="Application.pg_42884" />
       <item itemvalue="Application.Prime_Number" />
       <item itemvalue="Application.pg_42886" />
+      <item itemvalue="Application.DFS_Searching" />
+      <item itemvalue="Application.pg_12907" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pg_12907" />
+        <item itemvalue="Application.DFS_Searching" />
         <item itemvalue="Application.pg_42886" />
         <item itemvalue="Application.Prime_Number" />
         <item itemvalue="Application.pg_42884" />
-        <item itemvalue="Application.pg_42861" />
-        <item itemvalue="Application.Kruskal" />
       </list>
     </recent_temporary>
   </component>
@@ -446,12 +437,13 @@
       <workItem from="1566864616490" duration="1124000" />
       <workItem from="1566865851640" duration="10595000" />
       <workItem from="1566968101802" duration="42494000" />
-      <workItem from="1567315334287" duration="71309000" />
+      <workItem from="1567315334287" duration="71679000" />
+      <workItem from="1568546610257" duration="4152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="553509000" />
+    <option name="totallyTimeSpent" value="558031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,7 +458,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34354487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3512035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -513,33 +505,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/practice/DFS_Searching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/BFS_Searching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_43164_DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1226_Re.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -641,18 +606,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_17140.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="method#main#0;class#bj_17140#0" />
-            <element signature="method#init#0;class#bj_17140#0" />
-            <element signature="method#initMap#0;class#bj_17140#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_17140.java" />
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1861.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
@@ -860,65 +814,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1251.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_15683.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="method#init#0;class#bj_15683#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1251.java" />
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_15683.java" />
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42597.java" />
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42579_me.java" />
     <entry file="file://$PROJECT_DIR$/src/practice/DP_exFibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="190">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42597.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42579_me.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42579.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding>
-            <element signature="e#1468#1477#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/Kruskal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
-          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           <folding>
+            <element signature="e#2113#2114#0" expanded="true" />
             <element signature="e#2156#2157#0" expanded="true" />
           </folding>
         </state>
@@ -926,16 +838,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42861.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="304">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#181#187#0" expanded="true" />
             <element signature="method#solution#0;class#pg_42861#0" />
             <element signature="method#getDistance#0;class#pg_42861#0" />
             <element signature="method#getParent#0;class#pg_42861#0" />
             <element signature="method#unionParent#0;class#pg_42861#0" />
-            <element signature="method#findParents#0;class#pg_42861#0" />
             <element signature="method#sortList#0;class#pg_42861#0" />
             <element signature="method#init#0;class#pg_42861#0" />
             <element signature="class#Node#0;class#pg_42861#0" />
@@ -945,8 +855,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42884.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="76">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#sort#0;class#pg_42884#0" />
@@ -956,29 +866,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/Prime_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_Upgrade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="304">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_ShortestPath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42886.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_Upgrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_12909.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42579.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/DFS_Searching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_12907.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
