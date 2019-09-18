@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_49189$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_49189.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,10 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_49189.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/pg_49189_BFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="551">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,8 +102,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_Upgrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="228">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_8382_BFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#sw_8382_BFS#0" />
+                <element signature="method#solution#0;class#sw_8382_BFS#0" />
+                <element signature="method#nextDirection#0;class#sw_8382_BFS#0" />
+                <element signature="method#direction#0;class#sw_8382_BFS#0" />
+                <element signature="class#Node#0;class#sw_8382_BFS#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1226_Re.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/programmers/pg_49191_Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1064">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,9 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/problem/bj_14503.java" />
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_7988.java" />
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_8189.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_7699.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_7466.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_6959.java" />
@@ -180,6 +217,9 @@
         <option value="$PROJECT_DIR$/src/practice/DFS_Searching.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_12907.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_49189.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_49189_BFS.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_49191_순위.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_49191_Graph.java" />
       </list>
     </option>
   </component>
@@ -213,13 +253,13 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="programmers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
+              <item name="SW" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568709546577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568785152841" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -249,20 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pg_49189">
-    <configuration name="DFS_Searching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.DFS_Searching" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.pg_49191_Graph">
     <configuration name="pg_12907" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.pg_12907" />
       <module name="Algorithm" />
@@ -289,8 +316,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg_42886" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_42886" />
+    <configuration name="pg_49189_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.pg_49189_BFS" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -302,12 +329,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg_49189" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_49189" />
+    <configuration name="pg_49191_Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.pg_49191_Graph" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sw_1226_Re" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SW.D4.sw_1226_Re" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SW.D4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,18 +357,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.pg_42884" />
-      <item itemvalue="Application.pg_42886" />
-      <item itemvalue="Application.DFS_Searching" />
       <item itemvalue="Application.pg_12907" />
-      <item itemvalue="Application.pg_49189" />
+      <item itemvalue="Application.pg_49189_BFS" />
+      <item itemvalue="Application.sw_1226_Re" />
+      <item itemvalue="Application.pg_49191_Graph" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pg_49189" />
+        <item itemvalue="Application.pg_49191_Graph" />
+        <item itemvalue="Application.sw_1226_Re" />
+        <item itemvalue="Application.pg_49189_BFS" />
         <item itemvalue="Application.pg_42884" />
         <item itemvalue="Application.pg_12907" />
-        <item itemvalue="Application.DFS_Searching" />
-        <item itemvalue="Application.pg_42886" />
       </list>
     </recent_temporary>
   </component>
@@ -408,12 +448,12 @@
       <workItem from="1566865851640" duration="10595000" />
       <workItem from="1566968101802" duration="42494000" />
       <workItem from="1567315334287" duration="71679000" />
-      <workItem from="1568546610257" duration="10963000" />
+      <workItem from="1568546610257" duration="18660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="564842000" />
+    <option name="totallyTimeSpent" value="572539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +468,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3512035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3512035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,7 +477,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49671772" visible="true" weight="0.24972618" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49671772" weight="0.24972618" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,7 +485,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49781182" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49671772" weight="0.34282586" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49671772" visible="true" weight="0.34282586" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50328225" side_tool="true" weight="0.25629792" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49671772" weight="0.3274918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -475,20 +515,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42578.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/DP_Practice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_7699.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -540,21 +566,6 @@
           <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_8382_BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#sw_8382_BFS#0" />
-            <element signature="method#solution#0;class#sw_8382_BFS#0" />
-            <element signature="method#nextDirection#0;class#sw_8382_BFS#0" />
-            <element signature="method#direction#0;class#sw_8382_BFS#0" />
-            <element signature="class#Node#0;class#sw_8382_BFS#0" />
           </folding>
         </state>
       </provider>
@@ -809,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_Upgrade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_12909.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -882,10 +886,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_49189.java">
+    <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_Upgrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        <state relative-caret-position="228">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_8382_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#sw_8382_BFS#0" />
+            <element signature="method#solution#0;class#sw_8382_BFS#0" />
+            <element signature="method#nextDirection#0;class#sw_8382_BFS#0" />
+            <element signature="method#direction#0;class#sw_8382_BFS#0" />
+            <element signature="class#Node#0;class#sw_8382_BFS#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1226_Re.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_49191_Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_49189_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
