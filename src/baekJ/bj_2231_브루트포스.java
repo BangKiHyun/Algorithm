@@ -2,7 +2,7 @@ package baekJ;
 
 import java.util.Scanner;
 
-public class bj_2231 {
+public class bj_2231_브루트포스 {
     static int N;
 
     public static void main(String[] args) {

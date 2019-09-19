@@ -266,7 +266,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568911788220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568911938102" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -284,9 +284,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_2231">
-    <configuration name="bj_2231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_2231" />
+  <component name="RunManager" selected="Application.bj_2231_브루트포스">
+    <configuration name="bj_2231_브루트포스" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_2231_브루트포스" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -298,8 +298,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bj_2798" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_2798" />
+    <configuration name="bj_2798_브루트포스" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_2798_브루트포스" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -354,13 +354,13 @@
       <item itemvalue="Application.pg_42585_Queue" />
       <item itemvalue="Application.pg_42885_Greedy" />
       <item itemvalue="Application.pg_42747_Sort" />
-      <item itemvalue="Application.bj_2798" />
-      <item itemvalue="Application.bj_2231" />
+      <item itemvalue="Application.bj_2798_브루트포스" />
+      <item itemvalue="Application.bj_2231_브루트포스" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.bj_2231" />
-        <item itemvalue="Application.bj_2798" />
+        <item itemvalue="Application.bj_2231_브루트포스" />
+        <item itemvalue="Application.bj_2798_브루트포스" />
         <item itemvalue="Application.pg_42747_Sort" />
         <item itemvalue="Application.pg_42885_Greedy" />
         <item itemvalue="Application.pg_42585_Queue" />
