@@ -109,11 +109,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2798.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="417">
+              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2231.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -155,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_1868.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42628_Queue.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_43164_DFS.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42597.java" />
@@ -206,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_42747_Sort.java" />
         <option value="$PROJECT_DIR$/src/baekJ.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_2798.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2231.java" />
       </list>
     </option>
   </component>
@@ -257,7 +266,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568910101683" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568911788220" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -275,9 +284,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_2798">
-    <configuration name="bj_2798" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_2798" />
+  <component name="RunManager" selected="Application.bj_2231">
+    <configuration name="bj_2231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_2231" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -289,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg_42583_Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_42583_Queue" />
+    <configuration name="bj_2798" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_2798" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="baekJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,19 +351,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.pg_42583_Queue" />
       <item itemvalue="Application.pg_42585_Queue" />
       <item itemvalue="Application.pg_42885_Greedy" />
       <item itemvalue="Application.pg_42747_Sort" />
       <item itemvalue="Application.bj_2798" />
+      <item itemvalue="Application.bj_2231" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_2231" />
         <item itemvalue="Application.bj_2798" />
         <item itemvalue="Application.pg_42747_Sort" />
         <item itemvalue="Application.pg_42885_Greedy" />
         <item itemvalue="Application.pg_42585_Queue" />
-        <item itemvalue="Application.pg_42583_Queue" />
       </list>
     </recent_temporary>
   </component>
@@ -434,12 +443,12 @@
       <workItem from="1566865851640" duration="10595000" />
       <workItem from="1566968101802" duration="42494000" />
       <workItem from="1567315334287" duration="71679000" />
-      <workItem from="1568546610257" duration="31309000" />
+      <workItem from="1568546610257" duration="33225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="585188000" />
+    <option name="totallyTimeSpent" value="587104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,13 +510,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_43163.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_17140.java" />
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_1861.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -913,8 +915,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2798.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="417">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2231.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
