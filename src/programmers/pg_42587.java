@@ -11,6 +11,7 @@ public class pg_42587 {
         for(int task : priorities){
             priority.add(task);
         }
+
         while(!priority.isEmpty()){
             for(int i=0; i<priorities.length; i++){
                 if(priorities[i] == (int)priority.peek()) {
