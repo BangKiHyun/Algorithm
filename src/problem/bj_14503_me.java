@@ -24,7 +24,7 @@ public class bj_14503_me {
             Node n = q.poll();
             visit[n.x][n.y] = true;
             boolean flag = false;
-            int nd = nextD(n.d);
+            int nd = n.d;
             int nx, ny;
             for (int i = 0; i < 4; i++) {
                 nd = nextD(nd);
