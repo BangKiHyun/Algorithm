@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_4195_UnionFind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+            <state relative-caret-position="312">
+              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +66,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice/Kruskal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="-923">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1976_UnionFInd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -111,9 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/practice/DFS_Searching.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_12907.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_49189.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_49189_BFS.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_49191_순위.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_49191_Graph.java" />
@@ -161,7 +167,10 @@
         <option value="$PROJECT_DIR$/src/baekJ/bj_13913_BFS.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_12852_BFS.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_4195_Topology.java" />
+        <option value="$PROJECT_DIR$/src/practice/Kruskal.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_4195_UnionFind.java" />
+        <option value="$PROJECT_DIR$/src/problem/my_1_prq.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1976_UnionFInd.java" />
       </list>
     </option>
   </component>
@@ -195,13 +204,7 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="baekJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="problem" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,14 +216,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569920299200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569982214270" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.bj_1976_UnionFInd">
     <configuration name="bj_12852_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_12852_BFS" />
       <module name="Algorithm" />
@@ -261,6 +264,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bj_1976_UnionFInd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_1976_UnionFInd" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bj_4195_UnionFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_4195_UnionFind" />
       <module name="Algorithm" />
@@ -274,21 +290,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nhnSolution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem.nhnSolution1" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nhnSolution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem.nhnSolution4" />
+    <configuration name="my_1_prq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem.my_1_prq" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -301,19 +304,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.nhnSolution1" />
-      <item itemvalue="Application.nhnSolution4" />
       <item itemvalue="Application.bj_13913_BFS" />
       <item itemvalue="Application.bj_12852_BFS" />
       <item itemvalue="Application.bj_4195_UnionFind" />
+      <item itemvalue="Application.my_1_prq" />
+      <item itemvalue="Application.bj_1976_UnionFInd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_1976_UnionFInd" />
+        <item itemvalue="Application.my_1_prq" />
         <item itemvalue="Application.bj_4195_UnionFind" />
         <item itemvalue="Application.bj_12852_BFS" />
         <item itemvalue="Application.bj_13913_BFS" />
-        <item itemvalue="Application.nhnSolution4" />
-        <item itemvalue="Application.nhnSolution1" />
       </list>
     </recent_temporary>
   </component>
@@ -395,12 +398,12 @@
       <workItem from="1567315334287" duration="71679000" />
       <workItem from="1568546610257" duration="57346000" />
       <workItem from="1569216647880" duration="44247000" />
-      <workItem from="1569563525535" duration="36275000" />
+      <workItem from="1569563525535" duration="42766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="691747000" />
+    <option name="totallyTimeSpent" value="698238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,10 +453,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithm.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/test1.java" />
     <entry file="file://$PROJECT_DIR$/src/problem/test2.java" />
     <entry file="file://$PROJECT_DIR$/src/problem/test3.java" />
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1655_Sort.java" />
@@ -820,18 +819,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/Kruskal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="-923">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/my_1_prq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="54" column="5" lean-forward="true" selection-end-line="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_4195_UnionFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+        <state relative-caret-position="312">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1976_UnionFInd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
         </state>
       </provider>
     </entry>
