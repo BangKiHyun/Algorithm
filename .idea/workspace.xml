@@ -31,18 +31,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_14891.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/problem/bj_17070.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -108,14 +96,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42628_prq.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/programmers/pg_43238_Binaray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -160,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/programmers/pg_42585_Stack.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42585_Queue.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42885_Greedy.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42747_Sort.java" />
@@ -211,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_49191_Graph.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_49993_Topology.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42628_prq.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_43238_Binaray.java" />
       </list>
     </option>
   </component>
@@ -256,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570430982497" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570441554226" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -277,20 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pg_42628_prq">
-    <configuration name="bj_1976_UnionFInd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_1976_UnionFInd" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.pg_43238_Binaray">
     <configuration name="pg_42628_prq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.pg_42628_prq" />
       <module name="Algorithm" />
@@ -306,6 +290,19 @@
     </configuration>
     <configuration name="pg_42842_완탐" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.pg_42842_완탐" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pg_43238_Binaray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.pg_43238_Binaray" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -344,19 +341,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.bj_1976_UnionFInd" />
       <item itemvalue="Application.pg_42842_완탐" />
       <item itemvalue="Application.pg_49191_Graph" />
       <item itemvalue="Application.pg_49993_Topology" />
       <item itemvalue="Application.pg_42628_prq" />
+      <item itemvalue="Application.pg_43238_Binaray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pg_43238_Binaray" />
         <item itemvalue="Application.pg_42628_prq" />
         <item itemvalue="Application.pg_49993_Topology" />
         <item itemvalue="Application.pg_49191_Graph" />
         <item itemvalue="Application.pg_42842_완탐" />
-        <item itemvalue="Application.bj_1976_UnionFInd" />
       </list>
     </recent_temporary>
   </component>
@@ -439,12 +436,12 @@
       <workItem from="1568546610257" duration="57346000" />
       <workItem from="1569216647880" duration="44247000" />
       <workItem from="1569563525535" duration="43024000" />
-      <workItem from="1570164908346" duration="9363000" />
+      <workItem from="1570164908346" duration="12986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="707859000" />
+    <option name="totallyTimeSpent" value="711482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,7 +491,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/baekJ/test3.java" />
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11657.java" />
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1655_PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -852,10 +848,17 @@
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42628_prq.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_43238_Binaray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
