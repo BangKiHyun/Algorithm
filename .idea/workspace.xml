@@ -63,11 +63,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_3055_BFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="319">
+              <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_10610_Greedy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJ/bj_11403.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_1832_kakao.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_2606_DFS.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_1753_Floyd.java" />
@@ -185,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/baekJ/bj_2206_BFS.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_1966_Queue.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_3055_BFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_10610_Greedy.java" />
       </list>
     </option>
   </component>
@@ -236,7 +248,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571292430532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571294871342" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -257,7 +269,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_3055_BFS">
+  <component name="RunManager" selected="Application.bj_10610_Greedy">
+    <configuration name="bj_10610_Greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_10610_Greedy" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bj_1966_Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_1966_Queue" />
       <module name="Algorithm" />
@@ -297,19 +322,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem.test1" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem.test2" />
       <module name="Algorithm" />
@@ -325,18 +337,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.test2" />
-      <item itemvalue="Application.test1" />
       <item itemvalue="Application.bj_2206_BFS" />
       <item itemvalue="Application.bj_1966_Queue" />
       <item itemvalue="Application.bj_3055_BFS" />
+      <item itemvalue="Application.bj_10610_Greedy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_10610_Greedy" />
         <item itemvalue="Application.bj_3055_BFS" />
         <item itemvalue="Application.bj_1966_Queue" />
         <item itemvalue="Application.bj_2206_BFS" />
         <item itemvalue="Application.test2" />
-        <item itemvalue="Application.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -421,12 +433,12 @@
       <workItem from="1569563525535" duration="43024000" />
       <workItem from="1570164908346" duration="24413000" />
       <workItem from="1570686164997" duration="13246000" />
-      <workItem from="1571029947898" duration="8371000" />
+      <workItem from="1571029947898" duration="10683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="744526000" />
+    <option name="totallyTimeSpent" value="746838000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,20 +488,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_14503_me.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_14888.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_14502_me.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
@@ -834,10 +832,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1753.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="52" column="70" lean-forward="true" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_3055_BFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="319">
+          <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_10610_Greedy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
