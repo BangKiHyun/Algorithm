@@ -93,14 +93,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15664_Combination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="513">
+              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#init#0;class#bj_15664_Combination#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15651_Dupli_Permu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15652_Dup_Combi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,9 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJ/bj_11657.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_42587_re.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_42587_prq_re.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42588_Queue_re.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42583_Queue_re.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_11279_prq.java" />
@@ -194,6 +215,9 @@
         <option value="$PROJECT_DIR$/src/baekJ/bj_15650_Combination.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_15655_Combination.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_15664_Combination.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_15651_Dupli_permu.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_15651_Dupli_Permu.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_15652_Dup_Combi.java" />
       </list>
     </option>
   </component>
@@ -239,7 +263,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571633304537" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571634792865" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -260,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_15664_Combination">
+  <component name="RunManager" selected="Application.bj_15652_Dup_Combi">
     <configuration name="bj_15650_Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_15650_Combination" />
       <module name="Algorithm" />
@@ -274,8 +298,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bj_15654_permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_15654_permutation" />
+    <configuration name="bj_15651_Dupli_Permu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_15651_Dupli_Permu" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bj_15652_Dup_Combi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_15652_Dup_Combi" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -289,19 +326,6 @@
     </configuration>
     <configuration name="bj_15655_Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_15655_Combination" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bj_15663_permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_15663_permutation" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -340,19 +364,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.bj_15654_permutation" />
-      <item itemvalue="Application.bj_15663_permutation" />
       <item itemvalue="Application.bj_15650_Combination" />
       <item itemvalue="Application.bj_15655_Combination" />
       <item itemvalue="Application.bj_15664_Combination" />
+      <item itemvalue="Application.bj_15651_Dupli_Permu" />
+      <item itemvalue="Application.bj_15652_Dup_Combi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_15652_Dup_Combi" />
+        <item itemvalue="Application.bj_15651_Dupli_Permu" />
         <item itemvalue="Application.bj_15664_Combination" />
         <item itemvalue="Application.bj_15655_Combination" />
         <item itemvalue="Application.bj_15650_Combination" />
-        <item itemvalue="Application.bj_15663_permutation" />
-        <item itemvalue="Application.bj_15654_permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -437,12 +461,12 @@
       <workItem from="1569563525535" duration="43024000" />
       <workItem from="1570164908346" duration="24413000" />
       <workItem from="1570686164997" duration="13246000" />
-      <workItem from="1571029947898" duration="35442000" />
+      <workItem from="1571029947898" duration="36841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="771597000" />
+    <option name="totallyTimeSpent" value="772996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,8 +547,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/problem/nhnSolution1.java" />
-    <entry file="file://$PROJECT_DIR$/src/problem/nhnSolution4.java" />
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11403.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -932,11 +954,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15664_Combination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="513">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#bj_15664_Combination#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15651_Dupli_Permu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15652_Dup_Combi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
