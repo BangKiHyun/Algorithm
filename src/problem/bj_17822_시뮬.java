@@ -126,11 +126,13 @@ public class bj_17822_시뮬 {
         }
 
         for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n - 1; j++) {
-                if (state[j][i] == state[j + 1][i]) {
-                    copyState[j][i] = 0;
-                    copyState[j + 1][i] = 0;
-                    check = true;
+            for (int j = 0; j < n; j++) {
+                if (j != n - 1) {
+                    if (state[j][i] == state[j + 1][i]) {
+                        copyState[j][i] = 0;
+                        copyState[j + 1][i] = 0;
+                        check = true;
+                    }
                 }
             }
         }
