@@ -1,13 +1,10 @@
 package SW.D4;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 public class sw_7792_시뮬 {
     private static String candidateName[];
-    private static HashSet<String> hashSet;
+    private static Set<Character> set;
     private static Queue<Candidate> q = new LinkedList<>();
 
     public static void main(String[] args) {
@@ -31,11 +28,11 @@ public class sw_7792_시뮬 {
 
     private static int getAlphabetCount(String candidateName) {
         candidateName = deleteBlank(candidateName);
-        hashSet = new HashSet<>();
+        set = new HashSet<>();
         for (int i = 0; i < candidateName.length(); i++) {
-            hashSet.add(candidateName.substring(i, i + 1));
+            set.add(candidateName.charAt(i));
         }
-        return hashSet.size();
+        return set.size();
     }
 
     private static String deleteBlank(String name) {
@@ -59,7 +56,7 @@ public class sw_7792_시뮬 {
     }
 
     private static String compareLeaderAndCandidate(String leader, String candidate) {
-        int len = getMinLengthOfLeaderAnsCandidate(leader, candidate);
+        int len = getMinLengthOfLeaderAndCandidate(leader, candidate);
 
         for (int i = 0; i < len; i++) {
             if (leader.equals(candidate)) {
@@ -73,7 +70,7 @@ public class sw_7792_시뮬 {
         return "";
     }
 
-    private static int getMinLengthOfLeaderAnsCandidate(String leader, String candidate) {
+    private static int getMinLengthOfLeaderAndCandidate(String leader, String candidate) {
         return Math.max(leader.length(), candidate.length());
     }
 
