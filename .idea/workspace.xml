@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem/bj_17822_시뮬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem/bj_17822_시뮬.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,13 +30,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_7810_완탐.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            <state relative-caret-position="380">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_6593_BFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret line="66" column="112" lean-forward="true" selection-start-line="66" selection-start-column="112" selection-end-line="66" selection-end-column="112" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#983#1514#1" />
+                <element signature="method#isStart#0;class#bj_6593_BFS#0" />
+                <element signature="class#Node#0;class#bj_6593_BFS#0" />
+                <element signature="method#Node#0;class#Node#0;class#bj_6593_BFS#0" />
               </folding>
             </state>
           </provider>
@@ -72,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJ/bj_2252_Topology.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_1516_Topology.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_14503_me.java" />
         <option value="$PROJECT_DIR$/src/problem/test.java" />
@@ -123,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/SW/D4/sw_7792_시뮬.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17822_시뮬.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_7810_완탐.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_6593_BFS.java" />
       </list>
     </option>
   </component>
@@ -156,14 +171,13 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SW" type="462c0819:PsiDirectoryNode" />
+              <item name="baekJ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SW" type="462c0819:PsiDirectoryNode" />
-              <item name="D4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,7 +189,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571904562906" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571987722892" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -196,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.sw_7810_완탐">
+  <component name="RunManager" selected="Application.bj_6593_BFS">
     <configuration name="bj_16637_Greedy_DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_16637_Greedy_DFS" />
       <module name="Algorithm" />
@@ -223,8 +237,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bj_9019_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_9019_BFS" />
+    <configuration name="bj_6593_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_6593_BFS" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -276,19 +290,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.bj_9019_BFS" />
       <item itemvalue="Application.sw_8567_DFS" />
       <item itemvalue="Application.sw_7792_시뮬" />
       <item itemvalue="Application.bj_17822_시뮬" />
       <item itemvalue="Application.sw_7810_완탐" />
+      <item itemvalue="Application.bj_6593_BFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_6593_BFS" />
         <item itemvalue="Application.sw_7810_완탐" />
         <item itemvalue="Application.bj_17822_시뮬" />
         <item itemvalue="Application.sw_7792_시뮬" />
         <item itemvalue="Application.sw_8567_DFS" />
-        <item itemvalue="Application.bj_9019_BFS" />
       </list>
     </recent_temporary>
   </component>
@@ -373,12 +387,12 @@
       <workItem from="1569563525535" duration="43024000" />
       <workItem from="1570164908346" duration="24413000" />
       <workItem from="1570686164997" duration="13246000" />
-      <workItem from="1571029947898" duration="70449000" />
+      <workItem from="1571029947898" duration="75569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="806604000" />
+    <option name="totallyTimeSpent" value="811724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,7 +407,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.392779" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.392779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,7 +416,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49671772" weight="0.30120483" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49671772" visible="true" weight="0.30120483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,7 +424,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49781182" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49671772" visible="true" weight="0.3461117" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49671772" weight="0.3461117" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50328225" side_tool="true" weight="0.25629792" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49671772" weight="0.3274918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -459,13 +473,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/practice/Union.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/my_1_prq.java" />
     <entry file="file://$PROJECT_DIR$/src/problem/bj_14891.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -912,10 +919,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_7810_완탐.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+        <state relative-caret-position="380">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_6593_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="66" column="112" lean-forward="true" selection-start-line="66" selection-start-column="112" selection-end-line="66" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#983#1514#1" />
+            <element signature="method#isStart#0;class#bj_6593_BFS#0" />
+            <element signature="class#Node#0;class#bj_6593_BFS#0" />
+            <element signature="method#Node#0;class#Node#0;class#bj_6593_BFS#0" />
           </folding>
         </state>
       </provider>
