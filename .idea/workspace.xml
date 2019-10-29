@@ -50,11 +50,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_6603_DFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="266">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2573_BFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="42" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#bj_2573_BFS#0" />
+                <element signature="method#init#0;class#bj_2573_BFS#0" />
+                <element signature="method#checkVisit#0;class#bj_2573_BFS#0" />
+                <element signature="method#findIce#0;class#bj_2573_BFS#0" />
+                <element signature="method#meltIce#0;class#bj_2573_BFS#0" />
+                <element signature="method#copyMap#0;class#bj_2573_BFS#0" />
+                <element signature="class#Iceberg#0;class#bj_2573_BFS#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/programmers/pg_49993_Topology.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42628_prq.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_43238_Binaray.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_5014_BFS.java" />
@@ -158,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_연속된숫자.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_2468_BFS.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_6603_DFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2573_BFS.java" />
       </list>
     </option>
   </component>
@@ -203,7 +222,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572324722197" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572328980649" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -229,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_6603_DFS">
+  <component name="RunManager" selected="Application.bj_2573_BFS">
     <configuration name="bj_16637_Greedy_DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_16637_Greedy_DFS" />
       <module name="Algorithm" />
@@ -249,6 +268,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bj_2573_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_2573_BFS" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,27 +327,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution2" />
-      <module name="Algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.solution2" />
       <item itemvalue="Application.pg_숫자추출" />
       <item itemvalue="Application.pg_연속된숫자" />
       <item itemvalue="Application.bj_2468_BFS" />
       <item itemvalue="Application.bj_6603_DFS" />
+      <item itemvalue="Application.bj_2573_BFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_2573_BFS" />
         <item itemvalue="Application.bj_6603_DFS" />
         <item itemvalue="Application.bj_2468_BFS" />
         <item itemvalue="Application.pg_연속된숫자" />
         <item itemvalue="Application.pg_숫자추출" />
-        <item itemvalue="Application.solution2" />
       </list>
     </recent_temporary>
   </component>
@@ -400,12 +425,12 @@
       <workItem from="1569563525535" duration="43024000" />
       <workItem from="1570164908346" duration="24413000" />
       <workItem from="1570686164997" duration="13246000" />
-      <workItem from="1571029947898" duration="100023000" />
+      <workItem from="1571029947898" duration="104300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="836178000" />
+    <option name="totallyTimeSpent" value="840455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,6 +443,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.392779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -485,13 +511,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42583_Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2146_BFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -962,8 +981,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_6603_DFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="266">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2573_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#bj_2573_BFS#0" />
+            <element signature="method#init#0;class#bj_2573_BFS#0" />
+            <element signature="method#checkVisit#0;class#bj_2573_BFS#0" />
+            <element signature="method#findIce#0;class#bj_2573_BFS#0" />
+            <element signature="method#meltIce#0;class#bj_2573_BFS#0" />
+            <element signature="method#copyMap#0;class#bj_2573_BFS#0" />
+            <element signature="class#Iceberg#0;class#bj_2573_BFS#0" />
+          </folding>
         </state>
       </provider>
     </entry>
