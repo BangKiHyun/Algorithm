@@ -14,8 +14,8 @@ public class bj_1018_브루트포스 {
 
     private static void init() {
         Scanner sc = new Scanner(System.in);
-        int r = sc.nextInt();
-        int c = sc.nextInt();
+        r = sc.nextInt();
+        c = sc.nextInt();
         map = new String[r][c];
 
         for (int i = 0; i < r; i++) {
@@ -25,31 +25,50 @@ public class bj_1018_브루트포스 {
     }
 
     private static void solution() {
+        int min = 64;
+
         for (int i = 0; i < r - 7; i++) {
             for (int j = 0; j < c - 7; j++) {
-                if (map[0][0].equals(WHITE)) {
-                    changeMap(i, j, BLACK);
-                } else {
-                    changeMap(i, j, WHITE);
-                }
+                int cntBlack = findCnt(i, j, BLACK, WHITE);
+                int cntWhite = findCnt(i, j, WHITE, BLACK);
+
+                int minCnt = Math.min(cntBlack, cntWhite);
+                min = Math.min(min, minCnt);
             }
         }
+
+        System.out.println(min);
     }
 
-    private static void changeMap(int position_i, int position_j, String mapColor) {
-        boolean check = false;
+    private static int findCnt(int position_i, int position_j, String correctColor, String incorrectColor) {
+        int cnt = 0;
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
-                if (i % 2 == 0 && j % 2 == 0) {
-                    if (!map[position_i + i][position_j + j].equals(mapColor)) {
-                        check = true;
+                String color = map[i + position_i][j + position_j];
+                if (i % 2 == 0) {
+                    if (j % 2 == 0) {
+                        if (!color.equals(correctColor)) {
+                            cnt++;
+                        }
+                    } else {
+                        if (!color.equals(incorrectColor)) {
+                            cnt++;
+                        }
                     }
-                } else if (i % 2 != 0 && j % 2 != 0) {
-
+                } else {
+                    if (j % 2 == 0) {
+                        if (!color.equals(incorrectColor)) {
+                            cnt++;
+                        }
+                    } else {
+                        if (!color.equals(correctColor)) {
+                            cnt++;
+                        }
+                    }
                 }
             }
         }
+        return cnt;
     }
-
 
 }
