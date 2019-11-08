@@ -35,6 +35,7 @@ public class bj_15683_DFS {
         int temp[][] = new int[r][c];
         if (cctvIdx == list.size()) {
             min = Math.min(min, getArea(copy));
+            return;
         } else {
             search(list.get(cctvIdx), cctvIdx, copy, temp);
         }
@@ -107,34 +108,34 @@ public class bj_15683_DFS {
         switch (dir) {
             case 0:
                 for (int j = now_c; j < c; j++) {
-                    if (copy[now_r][j] == 6) {
+                    if (map[now_r][j] == 6) {
                         break;
                     }
-                    map[now_r][j] = 7;
+                    copy[now_r][j] = 7;
                 }
                 break;
             case 1:
                 for (int i = now_r; i < r; i++) {
-                    if (copy[i][now_c] == 6) {
+                    if (map[i][now_c] == 6) {
                         break;
                     }
-                    map[i][now_c] = 7;
+                    copy[i][now_c] = 7;
                 }
                 break;
             case 2:
                 for (int i = now_c; i >= 0; i--) {
-                    if (copy[now_r][i] == 6) {
+                    if (map[now_r][i] == 6) {
                         break;
                     }
-                    map[now_r][i] = 7;
+                    copy[now_r][i] = 7;
                 }
                 break;
             case 3:
                 for (int j = now_r; j >= 0; j--) {
-                    if (copy[j][now_c] == 6) {
+                    if (map[j][now_c] == 6) {
                         break;
                     }
-                    map[j][now_c] = 7;
+                    copy[j][now_c] = 7;
                 }
                 break;
         }
