@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekJ/bj_15683_DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekJ/bj_15683_DFS.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,19 +31,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42577_Re.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42584_완탐.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -53,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42584_Queue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#inputStack#0;class#pg_42584_Queue#0" />
@@ -64,36 +54,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42577_Hash.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1018_브루트포스.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-              <folding>
-                <element signature="e#343#360#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="439">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1018_브루트포스.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15683_DFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            <state relative-caret-position="437">
+              <caret line="55" column="83" selection-start-line="55" selection-start-column="83" selection-end-line="55" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#265#271#0" expanded="true" />
                 <element signature="method#init#0;class#bj_15683_브루트포스#0" />
+                <element signature="method#solution#0;class#bj_15683_DFS#0" />
                 <element signature="method#getArea#0;class#bj_15683_브루트포스#0" />
+                <element signature="method#search#0;class#bj_15683_DFS#0" />
+                <element signature="method#copyMap#0;class#bj_15683_DFS#0" />
                 <element signature="method#detect#0;class#bj_15683_브루트포스#0" />
                 <element signature="class#CCTY#0;class#bj_15683_브루트포스#0" />
               </folding>
@@ -102,17 +83,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJ/test.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_10989_Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1237">
-              <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#257#263#0" expanded="true" />
-                <element signature="method#init#0;class#bj_15683_DFS#0" />
-                <element signature="method#getArea#0;class#bj_15683_DFS#0" />
-                <element signature="class#CCTY#0;class#bj_15683_DFS#0" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1181_Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="25" column="9" lean-forward="true" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -121,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42841_완탐.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="method#solution#0;class#pg_42841_완탐#0" />
                 <element signature="method#initCandidate#0;class#pg_42841_완탐#0" />
@@ -187,6 +170,8 @@
       <find>356</find>
       <find>327</find>
       <find>System.out</find>
+      <find>Hashset</find>
+      <find>Comparable</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1916_플로이드.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_15649_permutation.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_15654_permutation.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_15663_permutation.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_15650_Combination.java" />
@@ -246,6 +229,8 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_42841_완탐.java" />
         <option value="$PROJECT_DIR$/src/baekJ/test.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_15683_DFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_10989_Sort.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1181_Sort.java" />
       </list>
     </option>
   </component>
@@ -291,7 +276,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573189772635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573192532463" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -317,9 +302,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="bj_1018_브루트포스" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_1018_브루트포스" />
+  <component name="RunManager" selected="Application.bj_1181_Sort">
+    <configuration name="bj_10989_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_10989_Sort" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bj_1181_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_1181_Sort" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -370,19 +368,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg_42860_Greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_42860_Greedy" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.test" />
       <module name="Algorithm" />
@@ -397,19 +382,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.pg_42860_Greedy" />
-      <item itemvalue="Application.bj_1018_브루트포스" />
       <item itemvalue="Application.bj_15683_DFS" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.pg_42841_완탐" />
+      <item itemvalue="Application.bj_10989_Sort" />
+      <item itemvalue="Application.bj_1181_Sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_1181_Sort" />
+        <item itemvalue="Application.bj_10989_Sort" />
         <item itemvalue="Application.bj_15683_DFS" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.pg_42841_완탐" />
-        <item itemvalue="Application.bj_1018_브루트포스" />
-        <item itemvalue="Application.pg_42860_Greedy" />
       </list>
     </recent_temporary>
   </component>
@@ -496,12 +481,12 @@
       <workItem from="1570686164997" duration="13246000" />
       <workItem from="1571029947898" duration="105056000" />
       <workItem from="1572499194590" duration="21644000" />
-      <workItem from="1572749366004" duration="28270000" />
+      <workItem from="1572749366004" duration="31186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="891125000" />
+    <option name="totallyTimeSpent" value="894041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,7 +509,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49671772" visible="true" weight="0.29791895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -582,73 +567,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_16637_Greedy_DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding>
-            <element signature="method#main#0;class#bj_1541_Greedy#0" />
-            <element signature="method#init#0;class#bj_1541_Greedy#0" />
-            <element signature="method#seperateOperationAndNum#0;class#bj_1541_Greedy#0" />
-            <element signature="method#isDistinguish#0;class#bj_1541_Greedy#0" />
-            <element signature="method#setNum#0;class#bj_1541_Greedy#0" />
-            <element signature="method#calculateValue#0;class#bj_1541_Greedy#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1541_Greedy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-          <folding>
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42839_완탐.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="method#main#0;class#pg_42839_완탐#0" />
-            <element signature="method#init#0;class#pg_42839_완탐#0" />
-            <element signature="method#convertStrToInt#0;class#pg_42839_완탐#0" />
-            <element signature="method#permutate#0;class#pg_42839_완탐#0" />
-            <element signature="e#1075#1145#1" />
-            <element signature="method#isCountEqualsNumberLength#0;class#pg_42839_완탐#0" />
-            <element signature="method#isPrimeNumber#0;class#pg_42839_완탐#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_7792_시뮬.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <element signature="method#main#0;class#sw_7792#0" />
-            <element signature="method#setAlphabetCount#0;class#sw_7792#0" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="method#findLeader#0;class#sw_7792#0" />
-            <element signature="e#1533#1568#1" />
-            <element signature="method#compareLeaderAndCandidate#0;class#sw_7792#0" />
-            <element signature="class#Candidate#0;class#sw_7792#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_7733.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_8567_시뮬.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -941,7 +859,7 @@
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42577_Hash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
           <folding>
             <element signature="e#343#360#0" expanded="true" />
           </folding>
@@ -951,14 +869,14 @@
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42577_Re.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42584_Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#inputStack#0;class#pg_42584_Queue#0" />
@@ -977,21 +895,21 @@
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42584_완탐.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1018_브루트포스.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42841_완탐.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="method#solution#0;class#pg_42841_완탐#0" />
             <element signature="method#initCandidate#0;class#pg_42841_완탐#0" />
@@ -1044,16 +962,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15683_DFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="437">
+          <caret line="55" column="83" selection-start-line="55" selection-start-column="83" selection-end-line="55" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#265#271#0" expanded="true" />
             <element signature="method#init#0;class#bj_15683_브루트포스#0" />
+            <element signature="method#solution#0;class#bj_15683_DFS#0" />
             <element signature="method#getArea#0;class#bj_15683_브루트포스#0" />
+            <element signature="method#search#0;class#bj_15683_DFS#0" />
+            <element signature="method#copyMap#0;class#bj_15683_DFS#0" />
             <element signature="method#detect#0;class#bj_15683_브루트포스#0" />
             <element signature="class#CCTY#0;class#bj_15683_브루트포스#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_10989_Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="62" />
+          <folding>
+            <element signature="e#5525#5526#0" expanded="true" />
+            <element signature="e#5572#5573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1181_Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="9" lean-forward="true" selection-end-line="33" />
         </state>
       </provider>
     </entry>
