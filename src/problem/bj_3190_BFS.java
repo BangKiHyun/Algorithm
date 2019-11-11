@@ -3,17 +3,18 @@ package problem;
 import java.util.*;
 
 public class bj_3190_BFS {
-    private static int n, k;
+    private static int n, k, ans;
     private static int map[][];
     private static boolean visit[][];
     private static Queue<Snake> q = new LinkedList<>();
     private static Queue<Snake> retail = new LinkedList<>();
+    private static String last_dir;
 
     public static void main(String[] args) {
         init();
         visit[1][1] = true;
         retail.add(new Snake(1, 1));
-        int ans = solution(1, 1, 1, q.peek().second, q.peek().direction, 0, 0);
+        solution(1, 1, 1, q.peek().second, q.poll().direction, 0, 0);
         System.out.println(ans);
     }
 
@@ -30,24 +31,27 @@ public class bj_3190_BFS {
 
         int L = sc.nextInt();
         for (int i = 0; i < L; i++) {
-            q.add(new Snake(sc.nextInt(), sc.next()));
+            int second = sc.nextInt();
+            String dir = sc.next();
+            q.add(new Snake(second, dir));
+            if (i == L - 1) {
+                last_dir = dir;
+            }
         }
     }
 
-    private static int solution(int x, int y, int dir, int second, String next_dir, int now_time, int cnt) {
-        System.out.println(x + " " + y + " " + dir + " " + second + " " + now_time + " " + cnt);
-
+    private static void solution(int x, int y, int dir, int second, String next_dir, int now_time, int cnt) {
         if (second == now_time) {
-            q.poll();
-            if (q.size() != 0) {
+            if (q.isEmpty()) {
+                dir = findDir(dir, last_dir);
+            } else {
                 second = q.peek().second;
                 dir = findDir(dir, next_dir);
-                next_dir = q.peek().direction;
+                next_dir = q.poll().direction;
             }
         }
 
         int nx = x, ny = y;
-
         switch (dir) {
             case 1:
                 ny = y + 1;
@@ -66,8 +70,8 @@ public class bj_3190_BFS {
         }
 
         if (nx > n || ny > n || nx < 1 || ny < 1 || visit[nx][ny] == true) {
-            System.out.println(cnt + 1);
-            return cnt + 1;
+            ans = cnt + 1;
+            return;
         } else {
             visit[nx][ny] = true;
             if (map[nx][ny] == 1) {
@@ -79,15 +83,10 @@ public class bj_3190_BFS {
                 visit[re.x][re.y] = false;
             }
         }
-
         solution(nx, ny, dir, second, next_dir, now_time + 1, cnt + 1);
-
-        return -1;
+        return;
     }
 
-
-    //오  아  왼  위
-    //1   2   3   4
     private static int findDir(int now_dir, String next_dir) {
         switch (next_dir) {
             case "D":
