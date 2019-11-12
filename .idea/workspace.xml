@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_3190_BFS$Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_3190_BFS$Snake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_3190_BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_3190_BFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_15686_DFS$House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_15686_DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem/bj_15686_DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem/bj_15686_DFS_Fail.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,16 +61,29 @@
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2146_BFS.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="99" column="13" lean-forward="true" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+              <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/problem/bj_15686_DFS_Fail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_15686_DFS.java">
+        <entry file="file://$PROJECT_DIR$/src/problem/bj_15686_Re.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+            <state relative-caret-position="553">
+              <caret line="73" column="75" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#init#0;class#bj_15686_Re#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_7792_시뮬.java" />
-        <option value="$PROJECT_DIR$/src/problem/bj_17822_시뮬.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_7810_완탐.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_6593_BFS.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_7701.java" />
@@ -161,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/baekJ/bj_1251_브루트포스.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_3190_BFS.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_15686_DFS.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_15686_DFS_Fail.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_15686_Re.java" />
       </list>
     </option>
   </component>
@@ -212,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573538225786" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573539753007" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -238,9 +252,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_15686_DFS">
-    <configuration name="bj_15686_DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem.bj_15686_DFS" />
+  <component name="RunManager" selected="Application.bj_15686_Re">
+    <configuration name="bj_15686_DFS_Fail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem.bj_15686_DFS_Fail" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bj_15686_Re" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem.bj_15686_Re" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -278,13 +305,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solution6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution6" />
-      <module name="Algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="solution7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution7" />
       <module name="Algorithm" />
@@ -293,19 +313,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.solution6" />
       <item itemvalue="Application.solution7" />
       <item itemvalue="Application.pg_42841_완탐" />
       <item itemvalue="Application.bj_3190_BFS" />
-      <item itemvalue="Application.bj_15686_DFS" />
+      <item itemvalue="Application.bj_15686_DFS_Fail" />
+      <item itemvalue="Application.bj_15686_Re" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.bj_15686_DFS" />
+        <item itemvalue="Application.bj_15686_Re" />
+        <item itemvalue="Application.bj_15686_DFS_Fail" />
         <item itemvalue="Application.bj_3190_BFS" />
         <item itemvalue="Application.pg_42841_완탐" />
         <item itemvalue="Application.solution7" />
-        <item itemvalue="Application.solution6" />
       </list>
     </recent_temporary>
   </component>
@@ -394,12 +414,12 @@
       <workItem from="1572499194590" duration="21644000" />
       <workItem from="1572749366004" duration="58169000" />
       <workItem from="1573446399897" duration="4758000" />
-      <workItem from="1573452201708" duration="11757000" />
+      <workItem from="1573452201708" duration="13295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="937539000" />
+    <option name="totallyTimeSpent" value="939077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,7 +500,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/baekJ/solution_2.java" />
     <entry file="file://$PROJECT_DIR$/src/w_solution2.java" />
     <entry file="file://$PROJECT_DIR$/src/solution2_2.java" />
     <entry file="file://$PROJECT_DIR$/src/solution.java" />
@@ -798,14 +817,25 @@
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2146_BFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="99" column="13" lean-forward="true" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_15686_DFS.java">
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_15686_DFS_Fail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        <state relative-caret-position="395">
+          <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_15686_Re.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="73" column="75" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#bj_15686_Re#0" />
+          </folding>
         </state>
       </provider>
     </entry>

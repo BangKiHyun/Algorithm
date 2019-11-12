@@ -2,7 +2,7 @@ package problem;
 
 import java.util.*;
 
-public class bj_15686_DFS {
+public class bj_15686_DFS_Fail {
     private static int n, m;
     private static int min = Integer.MAX_VALUE;
     private static int map[][];
