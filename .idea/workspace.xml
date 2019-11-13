@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_15686_DFS$House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_15686_DFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem/bj_15686_DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem/bj_15686_DFS_Fail.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,15 +72,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/problem/bj_15686_Re.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="73" column="75" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
+            <state relative-caret-position="437">
+              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#init#0;class#bj_15686_Re#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_6118_다익스트라.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+              <folding>
+                <element signature="method#init#0;class#bj_6118_다익스트라#0" />
+                <element signature="method#getAnswer#0;class#bj_6118_다익스트라#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2252_Topology.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -124,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_7810_완탐.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_6593_BFS.java" />
         <option value="$PROJECT_DIR$/src/SW/D4/sw_7701.java" />
         <option value="$PROJECT_DIR$/src/w_solution1.java" />
@@ -175,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/problem/bj_15686_DFS.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_15686_DFS_Fail.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_15686_Re.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_6118_다익스트라.java" />
       </list>
     </option>
   </component>
@@ -211,12 +230,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="baekJ" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="problem" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -226,7 +239,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573539753007" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573653123593" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -252,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_15686_Re">
+  <component name="RunManager" selected="Application.bj_6118_다익스트라">
     <configuration name="bj_15686_DFS_Fail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem.bj_15686_DFS_Fail" />
       <module name="Algorithm" />
@@ -292,6 +305,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bj_6118_다익스트라" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_6118_다익스트라" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pg_42841_완탐" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.pg_42841_완탐" />
       <module name="Algorithm" />
@@ -305,27 +331,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solution7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution7" />
-      <module name="Algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.solution7" />
       <item itemvalue="Application.pg_42841_완탐" />
       <item itemvalue="Application.bj_3190_BFS" />
       <item itemvalue="Application.bj_15686_DFS_Fail" />
       <item itemvalue="Application.bj_15686_Re" />
+      <item itemvalue="Application.bj_6118_다익스트라" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_6118_다익스트라" />
         <item itemvalue="Application.bj_15686_Re" />
         <item itemvalue="Application.bj_15686_DFS_Fail" />
         <item itemvalue="Application.bj_3190_BFS" />
         <item itemvalue="Application.pg_42841_완탐" />
-        <item itemvalue="Application.solution7" />
       </list>
     </recent_temporary>
   </component>
@@ -414,12 +433,12 @@
       <workItem from="1572499194590" duration="21644000" />
       <workItem from="1572749366004" duration="58169000" />
       <workItem from="1573446399897" duration="4758000" />
-      <workItem from="1573452201708" duration="13295000" />
+      <workItem from="1573452201708" duration="18135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="939077000" />
+    <option name="totallyTimeSpent" value="943917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,10 +519,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/w_solution2.java" />
-    <entry file="file://$PROJECT_DIR$/src/solution2_2.java" />
-    <entry file="file://$PROJECT_DIR$/src/solution.java" />
-    <entry file="file://$PROJECT_DIR$/src/w_solution1.java" />
     <entry file="file://$PROJECT_DIR$/src/w_solution3.java" />
     <entry file="file://$PROJECT_DIR$/src/w_solution4.java" />
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_숫자추출.java">
@@ -830,11 +845,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_15686_Re.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="73" column="75" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
+        <state relative-caret-position="437">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#bj_15686_Re#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1916_플로이드.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1516_Topology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2252_Topology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_6118_다익스트라.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+          <folding>
+            <element signature="method#init#0;class#bj_6118_다익스트라#0" />
+            <element signature="method#getAnswer#0;class#bj_6118_다익스트라#0" />
           </folding>
         </state>
       </provider>
