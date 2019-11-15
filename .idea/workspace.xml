@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/practice/BFS_Searching.java" line="46" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +46,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_9370_다익스트라.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="551">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#findShortPath#0;class#bj_9370_다익스트라#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/problem/bj_16236_BFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+              <folding>
+                <element signature="method#main#0;class#bj_16236_BFS#0" />
+                <element signature="method#init#0;class#bj_16236_BFS#0" />
+                <element signature="method#solution#0;class#bj_16236_BFS#0" />
+                <element signature="method#getY#0;class#bj_16236_BFS#0" />
+                <element signature="method#findFeed#0;class#bj_16236_BFS#0" />
+                <element signature="method#initPath#0;class#bj_16236_BFS#0" />
+                <element signature="method#isValid#0;class#bj_16236_BFS#0" />
+                <element signature="class#1692:1961" />
               </folding>
             </state>
           </provider>
@@ -97,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_7701.java" />
         <option value="$PROJECT_DIR$/src/w_solution1.java" />
         <option value="$PROJECT_DIR$/src/w_solution4.java" />
         <option value="$PROJECT_DIR$/src/w_solution3.java" />
@@ -148,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/problem/bj_15686_Re.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_6118_다익스트라.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_9370_다익스트라.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_16236_BFS.java" />
       </list>
     </option>
   </component>
@@ -184,6 +201,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="baekJ" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="problem" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -193,7 +216,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573657609009" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573801601891" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -219,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_9370_다익스트라">
+  <component name="RunManager" selected="Application.bj_16236_BFS">
     <configuration name="bj_15686_DFS_Fail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem.bj_15686_DFS_Fail" />
       <module name="Algorithm" />
@@ -246,8 +269,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bj_3190_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem.bj_3190_BFS" />
+    <configuration name="bj_16236_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem.bj_16236_BFS" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -286,19 +309,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.bj_3190_BFS" />
       <item itemvalue="Application.bj_15686_DFS_Fail" />
       <item itemvalue="Application.bj_15686_Re" />
       <item itemvalue="Application.bj_6118_다익스트라" />
       <item itemvalue="Application.bj_9370_다익스트라" />
+      <item itemvalue="Application.bj_16236_BFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_16236_BFS" />
         <item itemvalue="Application.bj_9370_다익스트라" />
         <item itemvalue="Application.bj_6118_다익스트라" />
         <item itemvalue="Application.bj_15686_Re" />
         <item itemvalue="Application.bj_15686_DFS_Fail" />
-        <item itemvalue="Application.bj_3190_BFS" />
       </list>
     </recent_temporary>
   </component>
@@ -387,12 +410,12 @@
       <workItem from="1572499194590" duration="21644000" />
       <workItem from="1572749366004" duration="58169000" />
       <workItem from="1573446399897" duration="4758000" />
-      <workItem from="1573452201708" duration="22542000" />
+      <workItem from="1573452201708" duration="28866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="948324000" />
+    <option name="totallyTimeSpent" value="954648000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,24 +496,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_6603_DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2573_BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#init#0;class#bj_2573_BFS#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_6593_BFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -836,13 +841,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_16236_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_9370_다익스트라.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="551">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#findShortPath#0;class#bj_9370_다익스트라#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_16236_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+          <folding>
+            <element signature="method#main#0;class#bj_16236_BFS#0" />
+            <element signature="method#init#0;class#bj_16236_BFS#0" />
+            <element signature="method#solution#0;class#bj_16236_BFS#0" />
+            <element signature="method#getY#0;class#bj_16236_BFS#0" />
+            <element signature="method#findFeed#0;class#bj_16236_BFS#0" />
+            <element signature="method#initPath#0;class#bj_16236_BFS#0" />
+            <element signature="method#isValid#0;class#bj_16236_BFS#0" />
+            <element signature="class#1692:1961" />
           </folding>
         </state>
       </provider>
