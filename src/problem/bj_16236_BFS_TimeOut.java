@@ -2,7 +2,7 @@ package problem;
 
 import java.util.*;
 
-public class bj_16236_BFS {
+public class bj_16236_BFS_TimeOut {
     private static int n;
     private static int map[][];
     private static int dx[] = {-1, 0, 1, 0};
