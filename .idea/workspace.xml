@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_16236_BFS_Re$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_16236_BFS_Re.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/pg_42860_Greedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pg_42860_Greedy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,11 +108,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42860_Greedy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="247">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1051_브루트포스.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -163,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/w_solution3.java" />
         <option value="$PROJECT_DIR$/src/baekJ/solution_2.java" />
         <option value="$PROJECT_DIR$/src/solution.java" />
         <option value="$PROJECT_DIR$/src/w_solution2.java" />
@@ -214,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/problem/bj_16236_BFS_Re.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_9370_다익스트라.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42860_Greedy.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1051_브루트포스.java" />
       </list>
     </option>
   </component>
@@ -248,7 +256,7 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
+              <item name="baekJ" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +267,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574069868608" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574235035277" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -285,7 +293,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pg_42860_Greedy">
+  <component name="RunManager" selected="Application.bj_1051_브루트포스">
+    <configuration name="bj_1051_브루트포스" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_1051_브루트포스" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bj_16236_BFS_Re" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem.bj_16236_BFS_Re" />
       <module name="Algorithm" />
@@ -305,19 +326,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bj_6118_다익스트라" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_6118_다익스트라" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,19 +360,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.bj_6118_다익스트라" />
       <item itemvalue="Application.bj_9370_다익스트라" />
       <item itemvalue="Application.bj_16236_BFS_TimeOut" />
       <item itemvalue="Application.bj_16236_BFS_Re" />
       <item itemvalue="Application.pg_42860_Greedy" />
+      <item itemvalue="Application.bj_1051_브루트포스" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_1051_브루트포스" />
         <item itemvalue="Application.pg_42860_Greedy" />
         <item itemvalue="Application.bj_16236_BFS_Re" />
         <item itemvalue="Application.bj_16236_BFS_TimeOut" />
         <item itemvalue="Application.bj_9370_다익스트라" />
-        <item itemvalue="Application.bj_6118_다익스트라" />
       </list>
     </recent_temporary>
   </component>
@@ -453,12 +461,12 @@
       <workItem from="1572499194590" duration="21644000" />
       <workItem from="1572749366004" duration="58169000" />
       <workItem from="1573446399897" duration="4758000" />
-      <workItem from="1573452201708" duration="38032000" />
+      <workItem from="1573452201708" duration="45768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="963814000" />
+    <option name="totallyTimeSpent" value="971550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,6 +479,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26148796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -538,18 +547,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42584_Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#inputStack#0;class#pg_42584_Queue#0" />
-            <element signature="method#findSecond#0;class#pg_42584_Queue#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1018_브루트포스.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -910,8 +907,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42860_Greedy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="247">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1051_브루트포스.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
