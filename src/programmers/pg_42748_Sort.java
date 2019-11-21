@@ -2,21 +2,23 @@ package programmers;
 
 import java.util.Arrays;
 
-public class pg_42748 {
+public class pg_42748_Sort {
     static public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
         for (int i = 0; i < commands.length; i++) {
             int idx = 0;
-            int n1 = commands[i][0];
-            int n2 = commands[i][1];
-            int n3 = commands[i][2];
-            int temp[] = new int[n2 - n1 + 1];
-            for (int j = n1 - 1; j < n2; j++) {
+            int startNum = commands[i][0];
+            int endNum = commands[i][1];
+            int findIdx = commands[i][2];
+            int temp[] = new int[endNum - startNum + 1];
+
+            for (int j = startNum - 1; j < endNum; j++) {
                 temp[idx] = array[j];
                 idx++;
             }
+
             Arrays.sort(temp);
-            answer[i] = temp[n3 - 1];
+            answer[i] = temp[findIdx - 1];
         }
         return answer;
     }
