@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/pg_42748.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pg_42748_Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/pg_42840.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pg_42840_완탐.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_1002_시뮬.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_10872_팩토리얼.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_42748.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_42840.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42885_Greedy_TimeOut.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -82,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1261_BFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#init#0;class#bj_1261_BFS#0" />
@@ -93,10 +95,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11729_하노이.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_14499_시뮬.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="342">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#init#0;class#bj_14499_시뮬#0" />
+                <element signature="method#solution#0;class#bj_14499_시뮬#0" />
+                <element signature="method#isRange#0;class#bj_14499_시뮬#0" />
+                <element signature="method#moveDice#0;class#bj_14499_시뮬#0" />
+                <element signature="method#isZero#0;class#bj_14499_시뮬#0" />
+                <element signature="method#copyMapToDice#0;class#bj_14499_시뮬#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42748_Sort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -137,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1051_브루트포스.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="method#getRow#0;class#bj_1051_브루트포스#0" />
                 <element signature="method#getCol#0;class#bj_1051_브루트포스#0" />
@@ -182,7 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJ/bj_2503_브루트포스.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_2981_브루트포스.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42577.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42567_Sort.java" />
@@ -233,6 +243,7 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_42748.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42748_Sort.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_11729_하노이.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_14499_시뮬.java" />
       </list>
     </option>
   </component>
@@ -269,12 +280,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="baekJ" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -284,7 +289,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574330045112" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574333812731" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -310,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_10872_팩토리얼">
+  <component name="RunManager" selected="Application.bj_14499_시뮬">
     <configuration name="bj_1002_시뮬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_1002_시뮬" />
       <module name="Algorithm" />
@@ -357,12 +362,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg_42885_Greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_42885_Greedy" />
+    <configuration name="bj_14499_시뮬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_14499_시뮬" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="baekJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,19 +389,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.pg_42885_Greedy" />
       <item itemvalue="Application.bj_1261_BFS" />
       <item itemvalue="Application.bj_1261_BFS (1)" />
       <item itemvalue="Application.bj_1002_시뮬" />
       <item itemvalue="Application.bj_10872_팩토리얼" />
+      <item itemvalue="Application.bj_14499_시뮬" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_14499_시뮬" />
         <item itemvalue="Application.bj_10872_팩토리얼" />
         <item itemvalue="Application.bj_1002_시뮬" />
         <item itemvalue="Application.bj_1261_BFS" />
         <item itemvalue="Application.bj_1261_BFS (1)" />
-        <item itemvalue="Application.pg_42885_Greedy" />
       </list>
     </recent_temporary>
   </component>
@@ -485,12 +490,12 @@
       <workItem from="1572499194590" duration="21644000" />
       <workItem from="1572749366004" duration="58169000" />
       <workItem from="1573446399897" duration="4758000" />
-      <workItem from="1573452201708" duration="59786000" />
+      <workItem from="1573452201708" duration="63049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="985568000" />
+    <option name="totallyTimeSpent" value="988831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,7 +519,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49562362" weight="0.29791895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49562362" visible="true" weight="0.29791895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,7 +527,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49781182" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49562362" visible="true" weight="0.3461117" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49562362" weight="0.3461117" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50437635" side_tool="true" weight="0.29791895" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49562362" weight="0.3274918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -571,21 +576,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42839_permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#pg_42839_permutation_Re#0" />
-            <element signature="method#solution#0;class#pg_42839_permutation_Re#0" />
-            <element signature="method#init#0;class#pg_42839_permutation_Re#0" />
-            <element signature="method#searchPrime#0;class#pg_42839_permutation_Re#0" />
-            <element signature="method#isPrime#0;class#pg_42839_permutation_Re#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42567_Hash_Re.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -876,7 +866,7 @@
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1051_브루트포스.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="method#getRow#0;class#bj_1051_브루트포스#0" />
             <element signature="method#getCol#0;class#bj_1051_브루트포스#0" />
@@ -894,7 +884,7 @@
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42885_Greedy_TimeOut.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -939,17 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1261_BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#init#0;class#bj_1261_BFS#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42840_완탐.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -965,7 +944,7 @@
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42748_Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -973,6 +952,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1261_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#bj_1261_BFS#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_14499_시뮬.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#bj_14499_시뮬#0" />
+            <element signature="method#solution#0;class#bj_14499_시뮬#0" />
+            <element signature="method#isRange#0;class#bj_14499_시뮬#0" />
+            <element signature="method#moveDice#0;class#bj_14499_시뮬#0" />
+            <element signature="method#isZero#0;class#bj_14499_시뮬#0" />
+            <element signature="method#copyMapToDice#0;class#bj_14499_시뮬#0" />
+          </folding>
         </state>
       </provider>
     </entry>
