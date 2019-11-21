@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_1002_시뮬.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_10872_팩토리얼.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_42748.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_42840.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,26 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_16236_BFS_TimeOut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-              <folding>
-                <element signature="method#main#0;class#bj_16236_BFS#0" />
-                <element signature="method#init#0;class#bj_16236_BFS#0" />
-                <element signature="method#solution#0;class#bj_16236_BFS#0" />
-                <element signature="method#getY#0;class#bj_16236_BFS#0" />
-                <element signature="method#findFeed#0;class#bj_16236_BFS#0" />
-                <element signature="method#initPath#0;class#bj_16236_BFS#0" />
-                <element signature="method#findShark#0;class#bj_16236_BFS#0" />
-                <element signature="method#isValid#0;class#bj_16236_BFS#0" />
-                <element signature="class#1692:1961" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42860_Greedy.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1261_BFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+            <state relative-caret-position="361">
+              <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#init#0;class#bj_1261_BFS#0" />
@@ -95,10 +71,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_14499_시뮬.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_4485_다익스트라.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="31" selection-end-line="76" />
+              <folding>
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_ShortestPath.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_14499_시뮬.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="81" column="41" lean-forward="true" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#init#0;class#bj_14499_시뮬#0" />
@@ -144,19 +142,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1051_브루트포스.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="method#getRow#0;class#bj_1051_브루트포스#0" />
-                <element signature="method#getCol#0;class#bj_1051_브루트포스#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -193,8 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJ/bj_2981_브루트포스.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_42577.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42567_Sort.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42567_Hash_Re.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42577_완탐.java" />
@@ -244,6 +227,8 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_42748_Sort.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_11729_하노이.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_14499_시뮬.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1022_시뮬.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_4485_다익스트라.java" />
       </list>
     </option>
   </component>
@@ -280,6 +265,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="baekJ" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -289,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574333812731" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574338677108" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -315,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_14499_시뮬">
+  <component name="RunManager" selected="Application.bj_4485_다익스트라">
     <configuration name="bj_1002_시뮬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_1002_시뮬" />
       <module name="Algorithm" />
@@ -338,13 +329,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bj_1261_BFS (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bj_1261_BFS" />
-      <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -375,6 +359,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bj_4485_다익스트라" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_4485_다익스트라" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pg_42885_Greedy_TimeOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.pg_42885_Greedy_TimeOut" />
       <module name="Algorithm" />
@@ -390,18 +387,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.bj_1261_BFS" />
-      <item itemvalue="Application.bj_1261_BFS (1)" />
       <item itemvalue="Application.bj_1002_시뮬" />
       <item itemvalue="Application.bj_10872_팩토리얼" />
       <item itemvalue="Application.bj_14499_시뮬" />
+      <item itemvalue="Application.bj_4485_다익스트라" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_4485_다익스트라" />
         <item itemvalue="Application.bj_14499_시뮬" />
         <item itemvalue="Application.bj_10872_팩토리얼" />
         <item itemvalue="Application.bj_1002_시뮬" />
         <item itemvalue="Application.bj_1261_BFS" />
-        <item itemvalue="Application.bj_1261_BFS (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -490,12 +487,12 @@
       <workItem from="1572499194590" duration="21644000" />
       <workItem from="1572749366004" duration="58169000" />
       <workItem from="1573446399897" duration="4758000" />
-      <workItem from="1573452201708" duration="63049000" />
+      <workItem from="1573452201708" duration="67885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="988831000" />
+    <option name="totallyTimeSpent" value="993667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -576,33 +573,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42567_Hash_Re.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="41" column="33" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#pg_42567_Hash_Re#0" />
-            <element signature="method#solution#0;class#pg_42567_Hash_Re#0" />
-            <element signature="method#initHashMap#0;class#pg_42567_Hash_Re#0" />
-            <element signature="method#deleteHashMap#0;class#pg_42567_Hash_Re#0" />
-            <element signature="method#findLoser#0;class#pg_42567_Hash_Re#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42567_Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="method#solution#0;class#pg_42567_Sort#0" />
-            <element signature="method#sort#0;class#pg_42567_Sort#0" />
-            <element signature="method#findLoser#0;class#pg_42567_Sort#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/pg_42567_Hash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -729,13 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_ShortestPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -955,21 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1261_BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#init#0;class#bj_1261_BFS#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_14499_시뮬.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="281">
+          <caret line="81" column="41" lean-forward="true" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#bj_14499_시뮬#0" />
@@ -978,6 +930,45 @@
             <element signature="method#moveDice#0;class#bj_14499_시뮬#0" />
             <element signature="method#isZero#0;class#bj_14499_시뮬#0" />
             <element signature="method#copyMapToDice#0;class#bj_14499_시뮬#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1022_시뮬.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="method#init#0;class#bj_1022_시뮬#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1261_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#bj_1261_BFS#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_ShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_4485_다익스트라.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="31" selection-end-line="76" />
+          <folding>
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
           </folding>
         </state>
       </provider>
