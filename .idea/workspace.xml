@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_17471_브루트포스_Re.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_17471_브루트포스_Re.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_17142_BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/problem/bj_17142_BFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem/bj_17142_BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem/bj_17142_BFS.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,17 +41,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/problem/bj_17142_BFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="304">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding>
-                <element signature="method#init#0;class#bj_17142_BFS#0" />
-                <element signature="e#972#1269#1" />
                 <element signature="method#copyMap#0;class#bj_17142_BFS#0" />
                 <element signature="class#Virus#0;class#bj_17142_BFS#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1987_BFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15649_permutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -100,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/programmers/pg_42584_완탐.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42584_Queue.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_1018_브루트포스.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_15683_브루트포스.java" />
@@ -151,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/problem/bj_17471_브루트포스.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17471_브루트포스_Re.java" />
         <option value="$PROJECT_DIR$/src/problem/bj_17142_BFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1987_BFS.java" />
       </list>
     </option>
   </component>
@@ -185,12 +202,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="baekJ" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="problem" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -202,7 +213,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574586376509" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574663382397" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -228,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_17142_BFS">
+  <component name="RunManager" selected="Application.bj_1987_BFS">
     <configuration name="bj_17142_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem.bj_17142_BFS" />
       <module name="Algorithm" />
@@ -281,19 +292,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bj_1916_플로이드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_1916_플로이드" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="bj_1916_다익스트라" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_1916_다익스트라" />
       <module name="Algorithm" />
@@ -307,20 +305,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bj_1987_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_1987_BFS" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.bj_1916_플로이드" />
       <item itemvalue="Application.bj_17471_브루트포스" />
       <item itemvalue="Application.bj_17471_브루트포스_Re" />
       <item itemvalue="Application.bj_17142_me" />
       <item itemvalue="Application.bj_17142_BFS" />
+      <item itemvalue="Application.bj_1987_BFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_1987_BFS" />
         <item itemvalue="Application.bj_17142_BFS" />
         <item itemvalue="Application.bj_17142_me" />
         <item itemvalue="Application.bj_17471_브루트포스_Re" />
         <item itemvalue="Application.bj_17471_브루트포스" />
-        <item itemvalue="Application.bj_1916_플로이드" />
       </list>
     </recent_temporary>
   </component>
@@ -411,12 +422,12 @@
       <workItem from="1573446399897" duration="4758000" />
       <workItem from="1573452201708" duration="71869000" />
       <workItem from="1574398701788" duration="18867000" />
-      <workItem from="1574578595104" duration="3018000" />
+      <workItem from="1574578595104" duration="6976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1019536000" />
+    <option name="totallyTimeSpent" value="1023494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,7 +442,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27242887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27242887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -440,7 +451,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49452955" visible="true" weight="0.29791895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49452955" visible="true" weight="0.29791895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,7 +508,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/solution6.java" />
     <entry file="file://$PROJECT_DIR$/src/solution7.java" />
     <entry file="file://$PROJECT_DIR$/out/production/Algorithm/solution1.class" />
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1251_브루트포스.java" />
@@ -836,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15649_permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_10989_Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -857,16 +860,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15649_permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_17142_BFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
-            <element signature="method#init#0;class#bj_17142_BFS#0" />
-            <element signature="e#972#1269#1" />
             <element signature="method#copyMap#0;class#bj_17142_BFS#0" />
             <element signature="class#Virus#0;class#bj_17142_BFS#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1987_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>

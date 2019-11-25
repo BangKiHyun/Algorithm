@@ -9,7 +9,7 @@ public class bj_17142_BFS {
     private static int min = Integer.MAX_VALUE;
     private static boolean checkVirus[];
     private static int virusSize;
-    private static Queue<Virus> activateVirus = new LinkedList<>();
+    private static LinkedList<Virus> activateVirus = new LinkedList<>();
     private static int dx[] = {-1, 1, 0, 0};
     private static int dy[] = {0, 0, -1, 1};
     private static int safeArea = 0;
@@ -17,7 +17,7 @@ public class bj_17142_BFS {
 
     public static void main(String[] args) {
         init();
-        permutate(0, 0);
+        permutate(0);
         System.out.println(min == Integer.MAX_VALUE ? -1 : min);
     }
 
@@ -43,8 +43,8 @@ public class bj_17142_BFS {
         checkVirus = new boolean[virusSize];
     }
 
-    private static void permutate(int start, int depth) {
-        if (depth == m) {
+    private static void permutate(int start) {
+        if (activateVirus.size() == m) {
             copyMap();
             visit = new boolean[n][n];
             int spread[] = spreadVirus(activateVirus);
@@ -58,9 +58,9 @@ public class bj_17142_BFS {
             if (!checkVirus[i]) {
                 checkVirus[i] = true;
                 activateVirus.add(virusList.get(i));
-                permutate(i + 1, depth + 1);
+                permutate(i + 1);
                 checkVirus[i] = false;
-                activateVirus.poll();
+                activateVirus.pollLast();
             }
         }
     }
