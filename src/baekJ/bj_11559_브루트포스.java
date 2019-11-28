@@ -32,24 +32,24 @@ public class bj_11559_브루트포스 {
     }
 
     private static void findPuyo() {
-        boolean check = false;
+        boolean check = true;
 
-        while (!check) {
+        while (check) {
             ans++;
             visit = new boolean[n][m];
             deleteCnt = new int[n][m];
+            check = false;
             for (int i = n - 1; i >= 0; i--) {
-                check = false;
                 for (int j = 0; j < m; j++) {
                     if (!map[i][j].equals(".") && !visit[i][j]) {
                         //미리 복사
                         copyDeleteCnt(true);
                         visit[i][j] = true;
                         q.add(new Block(i, j));
+                        tempCnt[i][j]++;
                         int cnt = findSamePufo(map[i][j], i);
                         if (cnt >= 4) {
                             check = true;
-                        } else {
                             copyDeleteCnt(false);
                         }
                     }
@@ -57,6 +57,12 @@ public class bj_11559_브루트포스 {
             }
             if (check) {
                 changeMap();
+            }
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < m; j++) {
+                    System.out.print(map[i][j] + " ");
+                }
+                System.out.println();
             }
         }
     }
@@ -78,7 +84,7 @@ public class bj_11559_브루트포스 {
     }
 
     private static int findSamePufo(String color, int r) {
-        int cnt = 0;
+        int cnt = 1;
         while (!q.isEmpty()) {
             Block now = q.poll();
             for (int i = 0; i < 4; i++) {
@@ -86,7 +92,7 @@ public class bj_11559_브루트포스 {
                 int ny = now.y + dy[i];
 
                 if (isRange(nx, ny, color)) {
-                    changeDeleteCnt(i, ny, r);
+                    tempCnt[r][ny]++;
                     visit[nx][ny] = true;
                     q.add(new Block(nx, ny));
                     cnt++;
@@ -103,27 +109,41 @@ public class bj_11559_브루트포스 {
         return false;
     }
 
-    private static void changeDeleteCnt(int i, int y, int r) {
-        switch (i) {
-            case 0:
-            case 3:
-                deleteCnt[r][y]++;
-                break;
-            case 1:
-                deleteCnt[r][y + 1]++;
-                break;
-            case 2:
-                deleteCnt[r][y - 1]++;
-                break;
-        }
-    }
-
     private static void changeMap() {
         for (int i = n - 1; i >= 0; i--) {
             for (int j = 0; j < m; j++) {
                 if (deleteCnt[i][j] != 0) {
-
+                    deletePuyoPuyo(deleteCnt[i][j], i, j);
                 }
+            }
+        }
+
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = 0; j < m; j++) {
+                if (deleteCnt[i][j] != 0) {
+                    changePuyoPuyo(deleteCnt[i][j], i, j);
+                }
+            }
+        }
+    }
+
+    private static void deletePuyoPuyo(int cnt, int r, int c) {
+        while (cnt > 0 && r >= 0) {
+            map[r][c] = ".";
+            r--;
+            cnt--;
+        }
+    }
+
+    private static void changePuyoPuyo(int cnt, int r, int c) {
+        while (r >= 0) {
+            if (r - cnt >= 0) {
+                int nr = r - cnt;
+                map[r][c] = map[nr][c];
+                r--;
+            } else {
+                map[r][c] = ".";
+                r--;
             }
         }
     }

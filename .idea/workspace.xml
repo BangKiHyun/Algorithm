@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_11559_브루트포스.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_11559_브루트포스.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,11 +68,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state relative-caret-position="287">
+              <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
               <folding>
                 <element signature="e#753#754#0" expanded="true" />
                 <element signature="e#779#780#0" expanded="true" />
+                <element signature="method#copyDeleteCnt#0;class#bj_11559_브루트포스#0" />
+                <element signature="method#findSamePufo#0;class#bj_11559_브루트포스#0" />
+                <element signature="method#isRange#0;class#bj_11559_브루트포스#0" />
                 <element signature="class#Block#0;class#bj_11559_브루트포스#0" />
               </folding>
             </state>
@@ -215,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574846984231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574920371176" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -412,12 +417,12 @@
       <workItem from="1573452201708" duration="71869000" />
       <workItem from="1574398701788" duration="18867000" />
       <workItem from="1574578595104" duration="15052000" />
-      <workItem from="1574747558730" duration="23567000" />
+      <workItem from="1574747558730" duration="30402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1055137000" />
+    <option name="totallyTimeSpent" value="1061972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,7 +437,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27789935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27789935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -441,13 +446,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49452955" visible="true" weight="0.29791895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49452955" visible="true" weight="0.29791895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.3264642" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49781182" weight="0.32932165" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49781182" weight="0.32858709" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49562362" weight="0.3461117" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50547045" side_tool="true" weight="0.29791895" />
@@ -892,11 +897,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="287">
+          <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
           <folding>
             <element signature="e#753#754#0" expanded="true" />
             <element signature="e#779#780#0" expanded="true" />
+            <element signature="method#copyDeleteCnt#0;class#bj_11559_브루트포스#0" />
+            <element signature="method#findSamePufo#0;class#bj_11559_브루트포스#0" />
+            <element signature="method#isRange#0;class#bj_11559_브루트포스#0" />
             <element signature="class#Block#0;class#bj_11559_브루트포스#0" />
           </folding>
         </state>
