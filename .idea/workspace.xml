@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_11559_브루트포스.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_11559_브루트포스.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+            <state relative-caret-position="363">
+              <caret line="131" column="28" lean-forward="true" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
               <folding>
                 <element signature="e#753#754#0" expanded="true" />
                 <element signature="e#779#780#0" expanded="true" />
@@ -78,6 +76,28 @@
                 <element signature="method#isRange#0;class#bj_11559_브루트포스#0" />
                 <element signature="class#Block#0;class#bj_11559_브루트포스#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42898_BFS_Fail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#makeMap#0;class#pg_42898_BFS#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42898_DP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -118,9 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1181_Sort.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_11004_Sort.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_42839_permutattion.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42839_permutation_Re.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42839_permutation.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42567_Hash.java" />
@@ -169,6 +186,9 @@
         <option value="$PROJECT_DIR$/src/baekJ/bj_1748.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42627_prq.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_42898_BFS.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_42898_BFS_Fail.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_42898_DP.java" />
       </list>
     </option>
   </component>
@@ -202,13 +222,7 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="baekJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="problem" type="462c0819:PsiDirectoryNode" />
+              <item name="programmers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574920371176" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574923591084" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -246,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_11559_브루트포스">
+  <component name="RunManager" selected="Application.pg_42898_DP">
     <configuration name="bj_11559_브루트포스" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_11559_브루트포스" />
       <module name="Algorithm" />
@@ -273,32 +287,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bj_3109_백트랙킹" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_3109_백트랙킹" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pg_42627_DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_42627_DFS" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="pg_42627_prq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.pg_42627_prq" />
       <module name="Algorithm" />
@@ -312,20 +300,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pg_42898_BFS_Fail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.pg_42898_BFS_Fail" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pg_42898_DP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.pg_42898_DP" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.bj_3109_백트랙킹" />
-      <item itemvalue="Application.pg_42627_DFS" />
       <item itemvalue="Application.bj_1748" />
       <item itemvalue="Application.pg_42627_prq" />
       <item itemvalue="Application.bj_11559_브루트포스" />
+      <item itemvalue="Application.pg_42898_BFS_Fail" />
+      <item itemvalue="Application.pg_42898_DP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pg_42898_DP" />
+        <item itemvalue="Application.pg_42898_BFS_Fail" />
         <item itemvalue="Application.bj_11559_브루트포스" />
         <item itemvalue="Application.pg_42627_prq" />
         <item itemvalue="Application.bj_1748" />
-        <item itemvalue="Application.pg_42627_DFS" />
-        <item itemvalue="Application.bj_3109_백트랙킹" />
       </list>
     </recent_temporary>
   </component>
@@ -417,12 +431,12 @@
       <workItem from="1573452201708" duration="71869000" />
       <workItem from="1574398701788" duration="18867000" />
       <workItem from="1574578595104" duration="15052000" />
-      <workItem from="1574747558730" duration="30402000" />
+      <workItem from="1574747558730" duration="33882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1061972000" />
+    <option name="totallyTimeSpent" value="1065452000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,26 +529,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42841_완탐.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="method#solution#0;class#pg_42841_완탐#0" />
-            <element signature="method#initCandidate#0;class#pg_42841_완탐#0" />
-            <element signature="method#isValid#0;class#pg_42841_완탐#0" />
-            <element signature="method#CheckedCandidateAndBaseball#0;class#pg_42841_완탐#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1516_Topology.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/Kruskal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -897,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        <state relative-caret-position="363">
+          <caret line="131" column="28" lean-forward="true" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
           <folding>
             <element signature="e#753#754#0" expanded="true" />
             <element signature="e#779#780#0" expanded="true" />
@@ -907,6 +901,24 @@
             <element signature="method#isRange#0;class#bj_11559_브루트포스#0" />
             <element signature="class#Block#0;class#bj_11559_브루트포스#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42898_BFS_Fail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#makeMap#0;class#pg_42898_BFS#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42898_DP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
         </state>
       </provider>
     </entry>
