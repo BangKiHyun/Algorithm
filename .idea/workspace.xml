@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_3109_백트랙킹.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="338">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
               <folding>
                 <element signature="method#init#0;class#bj_3109_백트랙킹#0" />
               </folding>
@@ -52,13 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42627_prq.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1941_백트래킹.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -67,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
-              <caret line="131" column="28" lean-forward="true" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+              <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
               <folding>
                 <element signature="e#753#754#0" expanded="true" />
                 <element signature="e#779#780#0" expanded="true" />
@@ -96,32 +93,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/pg_42898_DP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_17837_시뮬.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-665">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#moveHorse#0;class#bj_17837_시뮬#0" />
-                <element signature="method#isRange#0;class#bj_17837_시뮬#0" />
-                <element signature="method#changeDir#0;class#bj_17837_시뮬#0" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2583_브루트포스.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1339_수학.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -162,9 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/solution2.java" />
-        <option value="$PROJECT_DIR$/src/solution3.java" />
-        <option value="$PROJECT_DIR$/src/solution1.java" />
         <option value="$PROJECT_DIR$/src/solution4.java" />
         <option value="$PROJECT_DIR$/src/solution5.java" />
         <option value="$PROJECT_DIR$/src/solution6.java" />
@@ -210,13 +198,16 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_42898_BFS.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42898_BFS_Fail.java" />
         <option value="$PROJECT_DIR$/src/programmers/pg_42898_DP.java" />
-        <option value="$PROJECT_DIR$/src/problem/bj_17837_시뮬.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_1339_백트랙킹.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_1339_수학.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1941_백트래킹.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_17837_시뮬.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_17779_브루트포스.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2583_브루트포스.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -248,6 +239,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="baekJ" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="problem" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -258,14 +255,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575014201627" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575101440809" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -284,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_1339_수학">
+  <component name="RunManager" selected="Application.bj_2583_브루트포스">
     <configuration name="bj_11559_브루트포스" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_11559_브루트포스" />
       <module name="Algorithm" />
@@ -311,12 +308,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg_42627_prq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_42627_prq" />
+    <configuration name="bj_2583_브루트포스" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_2583_브루트포스" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="baekJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.pg_42627_prq" />
       <item itemvalue="Application.bj_11559_브루트포스" />
       <item itemvalue="Application.pg_42898_BFS_Fail" />
       <item itemvalue="Application.pg_42898_DP" />
       <item itemvalue="Application.bj_1339_수학" />
+      <item itemvalue="Application.bj_2583_브루트포스" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bj_2583_브루트포스" />
         <item itemvalue="Application.bj_1339_수학" />
         <item itemvalue="Application.pg_42898_DP" />
         <item itemvalue="Application.pg_42898_BFS_Fail" />
         <item itemvalue="Application.bj_11559_브루트포스" />
-        <item itemvalue="Application.pg_42627_prq" />
       </list>
     </recent_temporary>
   </component>
@@ -455,12 +452,12 @@
       <workItem from="1573452201708" duration="71869000" />
       <workItem from="1574398701788" duration="18867000" />
       <workItem from="1574578595104" duration="15052000" />
-      <workItem from="1574747558730" duration="44904000" />
+      <workItem from="1574747558730" duration="55283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1076474000" />
+    <option name="totallyTimeSpent" value="1086853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,41 +537,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekJ/bj_3109_백트랙킹.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_15686_DFS_Fail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2146_BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/Topology_Practice2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_16236_BFS.java" />
     <entry file="file://$PROJECT_DIR$/src/problem/bj_16236_BFS_Re.java" />
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1976_UnionFInd.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -875,30 +838,10 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_3109_백트랙킹.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="method#init#0;class#bj_3109_백트랙킹#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42627_prq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11559_브루트포스.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
-          <caret line="131" column="28" lean-forward="true" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+          <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
           <folding>
             <element signature="e#753#754#0" expanded="true" />
             <element signature="e#779#780#0" expanded="true" />
@@ -921,30 +864,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42898_DP.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1339_수학.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_3109_백트랙킹.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="method#init#0;class#bj_3109_백트랙킹#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/Prime_Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42627_prq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1941_백트래킹.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/problem/bj_17837_시뮬.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-665">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="533">
+          <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#bj_17837_시뮬#0" />
+            <element signature="method#solution#0;class#bj_17837_시뮬#0" />
             <element signature="method#moveHorse#0;class#bj_17837_시뮬#0" />
             <element signature="method#isRange#0;class#bj_17837_시뮬#0" />
+            <element signature="method#moveHorse#0;class#bj_17837_시뮬#0" />
+            <element signature="method#isExist#0;class#bj_17837_시뮬#0" />
+            <element signature="method#changePosition#0;class#bj_17837_시뮬#0" />
             <element signature="method#changeDir#0;class#bj_17837_시뮬#0" />
+            <element signature="class#Horse#0;class#bj_17837_시뮬#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1339_수학.java">
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_17779_브루트포스.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="361">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42898_DP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2583_브루트포스.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
         </state>
       </provider>
     </entry>
