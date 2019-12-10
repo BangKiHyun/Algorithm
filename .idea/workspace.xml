@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_13460_BFS$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_13460_BFS$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_13460_BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_13460_BFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/pg_60057.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,15 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42583_Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_3190_시뮬.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,17 +99,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1021_Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="399">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1888#1889#0" expanded="true" />
                 <element signature="e#1977#1978#0" expanded="true" />
                 <element signature="e#2554#2555#0" expanded="true" />
                 <element signature="e#2626#2627#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/programmers/pg_60058.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1944#1945#0" expanded="true" />
+                <element signature="e#2018#2019#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,7 +168,6 @@
       <find>21</find>
       <find>unionParent</find>
       <find>nd</find>
-      <find>System</find>
       <find>key</find>
       <find>sc</find>
       <find>rep</find>
@@ -175,6 +180,7 @@
       <find>House</find>
       <find>findex</find>
       <find>30 50</find>
+      <find>System</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJ/bj_11729_하노이.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_14499_시뮬.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_1022_시뮬.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_4485_다익스트라.java" />
@@ -234,6 +239,7 @@
         <option value="$PROJECT_DIR$/src/programmers/pg_60057_Fail.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_2164_Queue.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_1021_Queue.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_60058.java" />
       </list>
     </option>
   </component>
@@ -268,12 +274,6 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="baekJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="programmers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -285,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575874894157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575959744171" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -311,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bj_1021_Queue">
+  <component name="RunManager" selected="Application.pg_60058">
     <configuration name="bj_1021_Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJ.bj_1021_Queue" />
       <module name="Algorithm" />
@@ -364,27 +364,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="pg_60058" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.pg_60058" />
       <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.pg_60057_Fail" />
       <item itemvalue="Application.bj_13460_BFS" />
       <item itemvalue="Application.bj_2164_Queue" />
       <item itemvalue="Application.bj_1021_Queue" />
+      <item itemvalue="Application.pg_60058" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pg_60058" />
         <item itemvalue="Application.bj_1021_Queue" />
         <item itemvalue="Application.bj_2164_Queue" />
         <item itemvalue="Application.bj_13460_BFS" />
         <item itemvalue="Application.pg_60057_Fail" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -478,12 +484,12 @@
       <workItem from="1574578595104" duration="15052000" />
       <workItem from="1574747558730" duration="125919000" />
       <workItem from="1575865733351" duration="145000" />
-      <workItem from="1575866475722" duration="6934000" />
+      <workItem from="1575866475722" duration="14855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1164568000" />
+    <option name="totallyTimeSpent" value="1172489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,13 +570,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1339_수학.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/Prime_Number.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -913,14 +912,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1021_Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="399">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1888#1889#0" expanded="true" />
             <element signature="e#1977#1978#0" expanded="true" />
             <element signature="e#2554#2555#0" expanded="true" />
             <element signature="e#2626#2627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/pg_60058.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+            <element signature="e#2018#2019#0" expanded="true" />
           </folding>
         </state>
       </provider>
