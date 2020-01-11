@@ -11,12 +11,12 @@ public class pg_42888_kakao {
     }
 
     private static String[] solution(String[] record) {
-        HashMap<String, String> hashMap = new HashMap<>();
-        int size = 0;
+        HashMap<String, String> hashMap = new HashMap<>(); //key:id. value:name
+        int size = 0;//정답 배열 크기
         for (String s : record) {
             String[] text = s.split(" ");
-            if (text.length == 3) {
-                if (text[0].equals("Enter")) size++;
+            if (text.length == 3) { //length 3일때 : Enter, Change
+                if (text[0].equals("Enter")) size++; //출력문에는 Change 를 보여줄 필요 없으므로 Enter 일때만 size 더해줌
                 hashMap.put(text[1], text[2]);
             } else size++;
         }
@@ -27,7 +27,7 @@ public class pg_42888_kakao {
         for (int i = 0; i < record.length; i++) {
             String[] text = record[i].split(" ");
             name = hashMap.get(text[1]);
-            if (text.length == 3 && text[0].equals("Enter")) {
+            if (text[0].equals("Enter")) {
                 answer[idx] = name + "님이 들어왔습니다.";
                 idx++;
             } else if (text.length == 2) {
