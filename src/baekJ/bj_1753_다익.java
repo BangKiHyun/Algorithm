@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class bj_1753 {
+public class bj_1753_다익 {
     private static int distance[];
     private static ArrayList<Node>[] list;
     private static boolean visit[];
@@ -63,10 +63,6 @@ public class bj_1753 {
         Node(int idx, int dis) {
             this.idx = idx;
             this.dis = dis;
-        }
-
-        int compatreTo(Node n) {
-            return this.dis - dis;
         }
 
         @Override
