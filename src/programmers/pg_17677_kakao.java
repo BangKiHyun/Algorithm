@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class pg_17677_kakao {
     public static void main(String[] args) {
-        String str1 = "abcdefg";
-        String str2 = "AAAA12";
+        String str1 = "FRANCE";
+        String str2 = "french";
         System.out.println(solution(str1, str2));
     }
 
@@ -15,35 +15,48 @@ public class pg_17677_kakao {
 
         ArrayList<String> list1 = new ArrayList<>();
         ArrayList<String> list2 = new ArrayList<>();
-        for (int i = 0; i < str1.length() - 1; i++) {
-            char c1 = str1.charAt(i);
-            char c2 = str1.charAt(i + 1);
-            if (c1 >= 97 && c1 <= 122 && c2 >= 97 && c2 <= 122) {
-                list1.add(Character.toString(c1) + c2);
+        initList(str1, list1);
+        initList(str2, list2);
+
+        int intersectionCnt = getIntersectionCount(list1, list2);
+        int unionCnt = getUnionCount(list1.size(), list2.size(), intersectionCnt);
+
+        if (unionCnt == 0) return 65536;
+        double num = ((double) intersectionCnt / unionCnt) * 65536;
+        return (int) num;
+    }
+
+    private static void initList(String str, ArrayList<String> list) {
+        for (int i = 0; i < str.length() - 1; i++) {
+            char c1 = str.charAt(i);
+            char c2 = str.charAt(i + 1);
+            if (isAlphabet(c1) && isAlphabet(c2)) {
+                list.add(getAlphabet(c1, c2));
             }
         }
+    }
 
-        for (int i = 0; i < str2.length() - 1; i++) {
-            char c1 = str2.charAt(i);
-            char c2 = str2.charAt(i + 1);
-            if (c1 >= 97 && c1 <= 122 && c2 >= 97 && c2 <= 122) {
-                list2.add(Character.toString(c1) + c2);
-            }
-        }
+    private static boolean isAlphabet(char alphabet) {
+        return alphabet >= 'a' && alphabet <= 'z';
+    }
 
-        double unionCnt = 0;
-        double intersectionCnt = 0;
+    private static String getAlphabet(char c1, char c2) {
+        return Character.toString(c1) + c2;
+    }
+
+    private static int getIntersectionCount(ArrayList<String> list1, ArrayList<String> list2) {
+        int intersectionCnt = 0;
         for (String str : list1) {
             if (list2.contains(str)) {
                 intersectionCnt++;
                 list2.remove(str);
             }
-            unionCnt = intersectionCnt + list2.size() + (list1.size() - intersectionCnt);
         }
+        return intersectionCnt;
+    }
 
-        if (unionCnt == 0) return 65536;
-        double num = (intersectionCnt / unionCnt) * 65536;
-        return (int) num;
+    private static int getUnionCount(int size1, int size2, int intersectionCnt) {
+        return size1 + intersectionCnt + (size2 - intersectionCnt);
     }
 }
 
