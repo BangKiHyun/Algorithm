@@ -6,7 +6,7 @@ import java.util.Comparator;
 
 public class pg_17686_kakao {
     public static void main(String[] args) {
-        String[] files = {"img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"};
+        String[] files = {"F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat", "F-15"};
 
         for (String s : solution(files)) {
             System.out.println(s);
@@ -30,7 +30,8 @@ public class pg_17686_kakao {
         String[] ans = new String[files.length];
         int idx = 0;
         for (File i : list) {
-            ans[idx] = i.head + i.number + i.tail;
+            if (i.tail == null) ans[idx] = i.head + i.number;
+            else ans[idx] = i.head + i.number + i.tail;
             idx++;
         }
 
@@ -45,10 +46,12 @@ public class pg_17686_kakao {
     }
 
     private static String getNumber(String file) {
+        int numberCnt = 0;
         for (int i = 0; i < file.length(); i++) {
-            if (!isNumber(file.charAt(i))) return file.substring(0, i);
+            if (!isNumber(file.charAt(i)) || numberCnt == 5) return file.substring(0, i);
+            numberCnt++;
         }
-        return "";
+        return file;
     }
 
     private static boolean isNumber(char c) {
@@ -78,38 +81,16 @@ public class pg_17686_kakao {
             String firstHead = o1.head.toUpperCase();
             String secondHead = o2.head.toUpperCase();
 
-            if (firstStringIsBigger(firstHead, secondHead)) return 1;
-            else {
-                if (firstHead.equals(secondHead)) {
-                    if (firstNumberIsBigger(Integer.parseInt(o1.number), Integer.parseInt(o2.number))) return 1;
-                    else {
-                        if (Integer.parseInt(o1.number) == Integer.parseInt(o2.number)) {
-                            return 1;
-                        }
-                        return -1;
-                    }
-                }
-                return -1;
-            }
-        }
-
-        private boolean firstStringIsBigger(String first, String second) {
-            char[] c1 = first.toCharArray();
-            char[] c2 = second.toCharArray();
-
-            for (int i = 0; i < c1.length; i++) {
-                if (c1[i] > c2[i]) return true;
-                else return false;
-            }
-            return true;
-        }
-
-        private boolean firstNumberIsBigger(int num1, int num2) {
-            return num1 > num2;
+            if (firstHead.compareTo(secondHead) < 0) return -1;
+            else if (firstHead.compareTo(secondHead) == 0) {
+                if (Integer.parseInt(o1.number) < Integer.parseInt(o2.number)) return -1;
+                else if (Integer.parseInt(o1.number) == Integer.parseInt(o2.number)) return 0;
+                else return 1;
+            } else return 1;
         }
     }
 }
 
 //TC
 //{"img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"};
-//{"F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat"};
+//{"F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat", "F-15"};
