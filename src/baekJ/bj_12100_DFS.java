@@ -12,11 +12,13 @@ import java.io.InputStreamReader;
 //이 문제에서 다루는 2048 게임은 보드의 크기가 N×N 이다.
 // 보드의 크기와 보드판의 블록 상태가 주어졌을 때, 최대 5번 이동해서 만들 수 있는 가장 큰 블록의 값을 구하는 프로그램을 작성하시오.
 public class bj_12100_DFS {
-    private static int[] dx = {-1, 1, 0, 0};
-    private static int[] dy = {0, 0, -1, 1};
-    private static int max = 0;
     private static final int EMPTY = 0;
+    private static final int UP = 0;
+    private static final int DOWN = 1;
+    private static final int LEFT = 2;
+    private static final int RIGHT = 3;
 
+    private static int max = -1;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -32,117 +34,215 @@ public class bj_12100_DFS {
         for (int i = 0; i < n; i++) {
             line = br.readLine().split(" ");
             for (int j = 0; j < n; j++) {
-                board[i][j] = Integer.parseInt(line[0]);
-                max = Math.max(max, board[i][j]);
+                board[i][j] = Integer.parseInt(line[j]);
             }
         }
 
         move(board, n, 0);
+        System.out.println(max);
     }
 
     private static void move(int[][] board, int n, int depth) {
-        if (depth == 5) return;
+        if (depth == 5) {
+            checkMaxValue(board, n);
+            return;
+        }
 
-
-        for (int i = 0; i < 4; i++) {
-            if (i == 0) {
-                up(board, n);
-            } else if (i == 1) {
-                down(board, n);
-            } else if (i == 2) {
-                left(board, n);
-            } else {
-                right(board, n);
+        System.out.println();
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(board[i][j] + " ");
             }
+            System.out.println();
+        }
 
-            move(board, n, depth + 1);
+        int[][] copy;
+        copy = up(board, n);
+        move(copy, n, depth + 1);
+
+        copy = down(board, n);
+        move(copy, n, depth + 1);
+
+        copy = left(board, n);
+        move(copy, n, depth + 1);
+
+        copy = right(board, n);
+        move(copy, n, depth + 1);
+    }
+
+
+    private static void checkMaxValue(int[][] board, int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                max = Math.max(max, board[i][j]);
+            }
         }
     }
 
-    private static void up(int[][] board, int n) {
-        Node first, second;
-        int temp = 0;
-        int cnt;
+    private static int[][] up(int[][] board, int n) {
+        int[][] copy = deleteEmpty(board, n, UP);
+        mergeBoard(copy, n, UP);
+        copy = deleteEmpty(copy, n, UP);
 
-        for (int j = 0; j < n; j++) {
-            cnt = 0;
-            first = null;
-            second = null;
-            for (int i = 0; i < n; i++) {
-                if (board[i][j] != EMPTY) {
-                    if (cnt % 2 == 0) {
-                        first = new Node(i, j, board[i][j]);
-                    } else if (cnt % 2 == 1) {
-                        second = new Node(i, j, board[i][j]);
+        return copy;
+    }
 
-                        if (first.num == second.num) {
-                            board[first.x][first.y] = first.num * 2;
-                            board[second.x][second.y] = EMPTY;
-                            second = null;
-                            first = null;
+    private static int[][] down(int[][] board, int n) {
+        int[][] copy = deleteEmpty(board, n, DOWN);
+        mergeBoard(copy, n, DOWN);
+        copy = deleteEmpty(copy, n, DOWN);
+
+        return copy;
+    }
+
+    private static int[][] left(int[][] board, int n) {
+        int[][] copy = deleteEmpty(board, n, LEFT);
+        mergeBoard(copy, n, LEFT);
+        copy = deleteEmpty(copy, n, LEFT);
+
+        return copy;
+    }
+
+    private static int[][] right(int[][] board, int n) {
+        int[][] copy = deleteEmpty(board, n, RIGHT);
+        mergeBoard(copy, n, RIGHT);
+        copy = deleteEmpty(copy, n, RIGHT);
+
+        return copy;
+    }
+
+    private static int[][] deleteEmpty(int[][] original, int n, int direction) {
+        int[][] copy = new int[n][n];
+        int temp_x, temp_y;
+
+        switch (direction) {
+            case UP:
+                for (int j = 0; j < n; j++) {
+                    temp_x = 0;
+                    for (int i = 0; i < n; i++) {
+                        if (original[i][j] != EMPTY) {
+                            copy[temp_x++][j] = original[i][j];
                         }
                     }
-                    cnt++;
                 }
-            }
-        }
-    }
-
-    private static void down(int[][] board, int n) {
-        int now, next;
-
-        for (int i = 0; i < n; i++) {
-            for (int j = n - 1; j > 0; j--) {
-                now = board[i][j];
-                next = board[i][j - 1];
-
-                if (isSame(now, next)) {
-                    board[i][j] = combine(now, next);
-                    board[i][j - 1] = EMPTY;
-                    j--;
-                } else if (now == EMPTY) {
-
+                break;
+            case DOWN:
+                for (int j = 0; j < n; j++) {
+                    temp_x = n - 1;
+                    for (int i = n - 1; i >= 0; i--) {
+                        if (original[i][j] != EMPTY) {
+                            copy[temp_x--][j] = original[i][j];
+                        }
+                    }
                 }
-            }
+                break;
+            case LEFT:
+                for (int i = 0; i < n; i++) {
+                    temp_y = 0;
+                    for (int j = 0; j < n; j++) {
+                        if (original[i][j] != EMPTY) {
+                            copy[i][temp_y++] = original[i][j];
+                        }
+                    }
+                }
+                break;
+            case RIGHT:
+                for (int i = 0; i < n; i++) {
+                    temp_y = n - 1;
+                    for (int j = n - 1; j >= 0; j--) {
+                        if (original[i][j] != EMPTY) {
+                            copy[i][temp_y--] = original[i][j];
+                        }
+                    }
+                }
+            default:
+                break;
+        }
+        return copy;
+    }
+
+    private static void mergeBoard(int[][] board, int n, int direction) {
+        switch (direction) {
+            case UP:
+                for (int j = 0; j < n - 1; j++) {
+                    for (int i = 0; i < n - 1; i++) {
+                        if (isSame(board[i][j], board[i + 1][j])) {
+                            board[i][j] += board[i + 1][j];
+                            board[i + 1][j] = EMPTY;
+                        }
+                    }
+                }
+                break;
+            case DOWN:
+                for (int j = 0; j < n; j++) {
+                    for (int i = n - 1; i > 0; i--) {
+                        if (isSame(board[i][j], board[i - 1][j])) {
+                            board[i][j] += board[i - 1][j];
+                            board[i - 1][j] = EMPTY;
+                        }
+                    }
+                }
+                break;
+            case LEFT:
+                for (int i = 0; i < n; i++) {
+                    for (int j = 0; j < n - 1; j++) {
+                        if (isSame(board[i][j], board[i][j + 1])) {
+                            board[i][j] += board[i][j + 1];
+                            board[i][j + 1] = EMPTY;
+                        }
+                    }
+                }
+                break;
+            case RIGHT:
+                for (int i = 0; i < n; i++) {
+                    for (int j = n - 1; j > 0; j--) {
+                        if (isSame(board[i][j], board[i][j - 1])) {
+                            board[i][j] += board[i][j - 1];
+                            board[i][j - 1] = EMPTY;
+                        }
+                    }
+                }
+            default:
+                break;
         }
     }
 
-    private static void left(int[][] board, int n) {
-
-    }
-
-    private static void right(int[][] board, int n) {
-
-    }
-
-    private static boolean isSame(int now, int next) {
-        return now == next && now != EMPTY && next != EMPTY;
-    }
-
-    private static int combine(int now, int next) {
-        return now + next;
-    }
-
-    private static class Node {
-        private int x;
-        private int y;
-        private int num;
-
-        public Node(int x, int y, int num) {
-            this.x = x;
-            this.y = y;
-            this.num = num;
-        }
+    private static boolean isSame(int first, int second) {
+        return first == second;
     }
 }
 
-//상하좌우 순으로 board를 움직인다.
-//움직인 방향에 따라 now와 next의 값이 같으면 now값에 합쳐준다.
-//now와 next의 값이 다르면 그다음값으로 넘어간다
-//next의 값이 n의 범위를 벗어나면 끝
-//상하좌우로 5번씩 다 반복하면서 max값을 계속 갱신해준다
+//상하좌우 순으로 board를 움직인다. 이때 DFS를 활용한다
+//board 를 움직이기 전에 숫자가 없는 부분을 지워준다
+//그 다음 병합해준다
 
-//EMPTY 가 아닌 값을 찾으면 cnt++
-//다 돌린 후 cnt==0 이면 그냥 return
-//cnt = 1이면 그전 EMPTY 였던 값에 대입
-//cnt = 2이면 cnt==1 이였던 곳에 cnt==2 였던 놈을 비교 한 후 합침
+/*
+4
+2 0 2 8
+0 0 2 2
+0 0 0 0
+0 0 0 0
+
+4
+2 4 8 16
+4 8 16 32
+8 16 32 64
+16 32 64 128
+
+9
+4 2 0 0 0 0 0 0 0
+4 8 0 0 0 0 0 0 0
+4 0 0 0 0 0 0 0 0
+8 0 0 0 0 0 0 0 0
+8 0 0 0 0 0 0 0 0
+8 0 0 0 0 0 0 0 0
+8 0 0 0 0 0 0 0 0
+8 4 0 0 0 0 0 0 0
+8 2 0 0 0 0 0 0 0
+
+3
+16 2 2
+2 2 2
+2 2 16
+*/
+
