@@ -3,8 +3,10 @@ package baekJ;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Set;
 
 //형택이는 1부터 9까지의 숫자와, 구멍이 있는 직사각형 보드에서 재밌는 게임을 한다.
 //
@@ -31,7 +33,7 @@ public class bj_1103_BFS {
 
         for (int i = 0; i < n; i++) {
             line = br.readLine().split("");
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < m; j++) {
                 if (line[j].equals("H")) board[i][j] = HOLE;
                 else board[i][j] = Integer.parseInt(line[j]);
             }
@@ -45,8 +47,10 @@ public class bj_1103_BFS {
         int[] dx = {-1, 1, 0, 0};
         int[] dy = {0, 0, -1, 1};
 
+        boolean[][] visit = new boolean[max_x][max_y];
+        visit[0][0] = true;
         Queue<Coin> q = new LinkedList<>();
-        q.add(new Coin(0, 0, 0));
+        q.add(new Coin(0, 0, 1, visit));
 
         int max = 0;
         while (!q.isEmpty()) {
@@ -59,11 +63,12 @@ public class bj_1103_BFS {
                 int ny = dy[i] * distance + now.y;
 
                 if (isValue(nx, ny, max_x, max_y)) {
-                    if (Repeat(nx, ny, dx[i], dy[i])) {
+                    if (now.visit[nx][ny]) {
                         return -1;
                     }
-
-                    q.add(new Coin(nx, ny, now.cnt + 1));
+                    now.visit[nx][ny] = true;
+                    q.add(new Coin(nx, ny, now.cnt + 1, now.visit));
+                    now.visit[nx][ny] = false;
                 }
             }
         }
@@ -75,24 +80,31 @@ public class bj_1103_BFS {
         return x >= 0 && y >= 0 && x < max_x && y < max_y && board[x][y] != HOLE;
     }
 
-    private static boolean Repeat(int x, int y, int dx, int dy) {
-        int distance = board[x][y];
-
-        int nx = x + dx * distance;
-        int ny = y + dy + distance;
-
-        return x == nx && y == ny;
-    }
-
     private static class Coin {
         private int x;
         private int y;
         private int cnt;
+        private boolean[][] visit;
 
-        public Coin(int x, int y, int cnt) {
+        public Coin(int x, int y, int cnt, boolean[][] visit) {
             this.x = x;
             this.y = y;
             this.cnt = cnt;
+            this.visit = visit;
         }
     }
 }
+
+/*
+3 4
+3552
+5555
+2553
+
+5 5
+4HHH9
+HHHHH
+HHH12
+HHHHH
+3HH2H
+*/
