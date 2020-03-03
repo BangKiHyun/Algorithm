@@ -22,11 +22,6 @@ public class bj_15684_브루트포스 {
         int m = Integer.parseInt(st.nextToken());
         int h = Integer.parseInt(st.nextToken());
 
-        if (m == 0) {
-            System.out.println(0);
-            return;
-        }
-
         board = new int[h + 1][n + 1];
         //둘째 줄부터 M개의 줄에는 가로선의 정보가 한 줄에 하나씩 주어진다.
         for (int i = 0; i < m; i++) {
@@ -36,6 +31,12 @@ public class bj_15684_브루트포스 {
             board[a][b] = RIGHT;
             board[a][b + 1] = LEFT;
         }
+
+        if (operateSuccess(h, n)) {
+            System.out.println(0);
+            return;
+        }
+
         for (int i = 1; i <= 3; i++) {
             if (connectBridge(h, n, i, 0)) {
                 System.out.println(i);
@@ -92,4 +93,3 @@ public class bj_15684_브루트포스 {
 //2차월 배열 board[][] 를 이용해서 true 이면 연결된 것
 //비교를 할 때 현 위치에서 좌우를 확인하여 오른쪽이면 y+1 왼쪽이면 y-1, x + 1을 해줌
 //쭉 내려오다가 x의 범위를 벗어나면 그 곳이 도착지점
-

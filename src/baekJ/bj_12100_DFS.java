@@ -38,7 +38,8 @@ public class bj_12100_DFS {
             }
         }
 
-        move(board, n, 0);
+        move(board, n, 1);
+
         System.out.println(max);
     }
 
@@ -48,25 +49,17 @@ public class bj_12100_DFS {
             return;
         }
 
-        System.out.println();
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                System.out.print(board[i][j] + " ");
-            }
-            System.out.println();
-        }
-
         int[][] copy;
         copy = up(board, n);
         move(copy, n, depth + 1);
 
-        copy = down(board, n);
+        copy = right(board, n);
         move(copy, n, depth + 1);
 
         copy = left(board, n);
         move(copy, n, depth + 1);
 
-        copy = right(board, n);
+        copy = down(board, n);
         move(copy, n, depth + 1);
     }
 
@@ -164,7 +157,7 @@ public class bj_12100_DFS {
     private static void mergeBoard(int[][] board, int n, int direction) {
         switch (direction) {
             case UP:
-                for (int j = 0; j < n - 1; j++) {
+                for (int j = 0; j < n; j++) {
                     for (int i = 0; i < n - 1; i++) {
                         if (isSame(board[i][j], board[i + 1][j])) {
                             board[i][j] += board[i + 1][j];
@@ -176,6 +169,7 @@ public class bj_12100_DFS {
             case DOWN:
                 for (int j = 0; j < n; j++) {
                     for (int i = n - 1; i > 0; i--) {
+                        if (board[i][j] == EMPTY) continue;
                         if (isSame(board[i][j], board[i - 1][j])) {
                             board[i][j] += board[i - 1][j];
                             board[i - 1][j] = EMPTY;
@@ -186,6 +180,7 @@ public class bj_12100_DFS {
             case LEFT:
                 for (int i = 0; i < n; i++) {
                     for (int j = 0; j < n - 1; j++) {
+                        if (board[i][j] == EMPTY) continue;
                         if (isSame(board[i][j], board[i][j + 1])) {
                             board[i][j] += board[i][j + 1];
                             board[i][j + 1] = EMPTY;
@@ -244,5 +239,17 @@ public class bj_12100_DFS {
 16 2 2
 2 2 2
 2 2 16
+
+10
+8 8 4 16 32 0 0 8 8 8
+8 8 4 0 0 8 0 0 0 0
+16 0 0 16 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 16
+0 0 0 0 0 0 0 0 0 2
 */
 
