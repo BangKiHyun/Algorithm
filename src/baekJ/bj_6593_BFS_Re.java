@@ -3,6 +3,7 @@ package baekJ;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -34,9 +35,9 @@ public class bj_6593_BFS_Re {
 
             if (isEndMessage(L, R, C)) return;
 
-            dx = new int[]{-1, 1, 0, 0, R, -R};
+            dx = new int[]{-1, 1, 0, 0, R + 1, -(R + 1)};
             dy = new int[]{0, 0, -1, 1, 0, 0};
-            R *= L;
+            R = R * L + L - 1;
             building = new int[R][C];
             visit = new boolean[R][C];
             q = new LinkedList<>();
@@ -44,7 +45,7 @@ public class bj_6593_BFS_Re {
             for (int i = 0; i < R; i++) {
                 String line = br.readLine();
                 if (line.equals("")) {
-                    i--;
+                    Arrays.fill(building[i], 1);
                     continue;
                 }
                 String[] split = line.split("");
@@ -102,6 +103,7 @@ public class bj_6593_BFS_Re {
                 if (isRange(next_x, next_y, max_x, max_y)) {
                     if (!isBlock(building[next_x][next_y])) {
                         q.add(new Dot(next_x, next_y, now.cnt + 1));
+                        visit[next_x][next_y] = true;
                     }
                 }
             }
@@ -110,7 +112,7 @@ public class bj_6593_BFS_Re {
     }
 
     private static boolean isRange(int nx, int ny, int ran_x, int ran_y) {
-        return nx >= 0 && ny >= 0 && nx < ran_x && ny < ran_y;
+        return nx >= 0 && ny >= 0 && nx < ran_x && ny < ran_y && !visit[nx][ny];
     }
 
     private static boolean isBlock(int num) {
