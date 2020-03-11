@@ -22,6 +22,7 @@ public class bj_1420_DFS_BFS {
 
     private static final String EMPTY = ".";
     private static final String WALL = "#";
+    private static String[][] copy;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -30,6 +31,7 @@ public class bj_1420_DFS_BFS {
         int m = Integer.parseInt(line[1]);
 
         map = new String[n][m];
+        copy = new String[n][m];
         for (int i = 0; i < n; i++) {
             line = br.readLine().split("");
             for (int j = 0; j < m; j++) {
@@ -61,7 +63,7 @@ public class bj_1420_DFS_BFS {
 
     private static boolean goDFS(int len_x, int len_y, int cnt, int depth) {
         if (cnt == depth) {
-            String[][] copy = copyMap(len_x, len_y);
+            copyMap(len_x, len_y);
             if (!approachedSchool(len_x, len_y, copy)) {
                 return true;
             }
@@ -82,16 +84,12 @@ public class bj_1420_DFS_BFS {
         return false;
     }
 
-    private static String[][] copyMap(int len_x, int len_y) {
-        String[][] copy = new String[len_x][len_y];
-
+    private static void copyMap(int len_x, int len_y) {
         for (int i = 0; i < len_x; i++) {
             for (int j = 0; j < len_y; j++) {
                 copy[i][j] = map[i][j];
             }
         }
-
-        return copy;
     }
 
     private static boolean approachedSchool(int len_x, int len_y, String[][] map) {
