@@ -3,7 +3,7 @@ package baekJ;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class bj_9370_다익스트라 {
+public class bj_9370_플로이드_Fail {
     private static Scanner sc = new Scanner(System.in);
     private static int n, m, k;
     private static int start, passStart, passEnd;
