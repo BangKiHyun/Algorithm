@@ -4,8 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/practice/BFS_Searching.java" line="46" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="환승(메모리초과)">
+    <list default="true" id="168d4d2a-1577-4a06-adcd-aa7ff76ac0e7" name="Default Changelist" comment="소수 쌍">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekJ/bj_9370_다익스트라.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,119 +32,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_12100_DFS.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_9370_다익.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="1064">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3578#3579#0" expanded="true" />
-                <element signature="e#3645#3646#0" expanded="true" />
-                <element signature="e#3698#3699#0" expanded="true" />
-                <element signature="e#3731#3732#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1789_구현.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2851_구현.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1491#1492#0" expanded="true" />
-                <element signature="e#1572#1573#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_4991_BFS_DFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="142" selection-start-line="142" selection-end-line="142" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#bj_4991_BFS#0" />
-                <element signature="n#!!block;n#TerminateSignal#0;n#bj_4991_BFS#0" />
-                <element signature="e#2478#2479#0" expanded="true" />
-                <element signature="method#moveRobot#0;class#bj_4991_BFS_Fail#0" />
-                <element signature="method#isValid#0;class#bj_4991_BFS_Fail#0" />
-                <element signature="method#findMinimum#0;class#bj_4991_BFS_Fail#0" />
-                <element signature="class#Robot#0;class#bj_4991_BFS_Fail#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_17472_bfs_dfs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="53" column="13" selection-end-line="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_ShortestPath.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11404_플로이드.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_42889_kakao.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1504_다익.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="209">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="17" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codingTest/SM_algo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codingTest/SW_algo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#canShape#0;class#SW_algo2#0" />
+                <element signature="e#1486#1556#1" />
+                <element signature="e#1550#1551#0" expanded="true" />
+                <element signature="method#up#0;class#SW_algo2#0" />
+                <element signature="method#down#0;class#SW_algo2#0" />
+                <element signature="n#!!block;n#Range#0;n#SW_algo2#0" />
+                <element signature="e#2967#2968#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codingTest/SW_algo3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/programmers/pg_17681_kakao.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-              <folding>
-                <element signature="method#getBinaryToString#0;class#pg_17681_kakao#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJ/bj_5214_BFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem/bj_17143_시뮬.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            <state relative-caret-position="38">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -154,24 +124,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>c1</find>
-      <find>dsfa</find>
-      <find>21</find>
-      <find>unionParent</find>
-      <find>nd</find>
-      <find>key</find>
-      <find>sc</find>
-      <find>rep</find>
-      <find>356</find>
-      <find>327</find>
-      <find>System.out</find>
-      <find>Hashset</find>
       <find>Comparable</find>
       <find>q.add</find>
       <find>House</find>
@@ -184,6 +143,24 @@
       <find>`</find>
       <find>small_bracket</find>
       <find>test</find>
+      <find>1</find>
+      <find>8 16 4</find>
+      <find>16 2</find>
+      <find>16 2 4</find>
+      <find>16 16 8 32 32 8</find>
+      <find>32 8 64 16 16</find>
+      <find>32 8 64 32</find>
+      <find>true true true true false</find>
+      <find>false false true true false</find>
+      <find>false true true false false</find>
+      <find>1 2 1 2 0</find>
+      <find>0 1 2 0 0</find>
+      <find>64</find>
+      <find>16 16 8 32 32 8 0 8 8 8</find>
+      <find>0 0 0 0 0 0 0 0 0 32</find>
+      <find>7</find>
+      <find>2 2 0 2 2</find>
+      <find>3 3 0</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,59 +169,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJ/bj_11375_이분매칭.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_11376_이분매칭.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1671_이분매칭.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_11377_이분매칭.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_9576_이분매칭.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_2293_브루트.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_11047_브루트.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_11047_그리디.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1931_그리디.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_16930_BFS.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1946_그리디.java" />
-        <option value="$PROJECT_DIR$/src/test.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_4949_문자열.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1063_시뮬.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_10816_HashMap.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1620_이분매칭.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1620_이분.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1620_Hash.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_3020_이분.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_2042_세그먼트.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_2042_구현.java" />
-        <option value="$PROJECT_DIR$/src/Casting_test.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_12100_BFS.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_7578_구현.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_17677_kakao_re.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_42890_kakao_re.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_17687_kakao.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_17677_kakao.java" />
+        <option value="$PROJECT_DIR$/src/programmers/pg_17686_kakao.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2352_구현.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2352_DFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1867_이분매칭.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2960_에라토스테네스.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1062_브루트포스.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1713_구현.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_11404_플로이드.java" />
+        <option value="$PROJECT_DIR$/src/problem/bj_17472_BFS_DFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1103_BFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1043_그래프.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_3830_구현.java" />
+        <option value="$PROJECT_DIR$/src/PrivateTset.java" />
+        <option value="$PROJECT_DIR$/src/MyName.java" />
+        <option value="$PROJECT_DIR$/src/DefaultTest.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_15684_브루트포스.java" />
         <option value="$PROJECT_DIR$/src/baekJ/bj_12100_DFS.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_43237_이분.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1049_그리디.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_12943_단순구현.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_12926_ASCII.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_12904_구현_fail.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1019_브루트포스.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1019_완탐.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_7453_이분.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1080_그리디.java" />
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_2105_BFS.java" />
-        <option value="$PROJECT_DIR$/src/SW/D4/sw_2105_DFS.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_2490_구현.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_1789_구현.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_2851_구현.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_4991_BFS.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_4991_BFS_Fail.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_4991_BFS_DFS.java" />
-        <option value="$PROJECT_DIR$/src/problem/bj_4991_BFS_DFS.java" />
-        <option value="$PROJECT_DIR$/src/problem/bj_17472_bfs_dfs.java" />
-        <option value="$PROJECT_DIR$/src/baekJ/bj_5214_최단거리.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_42889_kakao.java" />
-        <option value="$PROJECT_DIR$/src/programmers/kakago_17681.java" />
-        <option value="$PROJECT_DIR$/src/programmers/kakao_17681.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_kakao_17681.java" />
-        <option value="$PROJECT_DIR$/src/programmers/pg_17681_kakao.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2580_DFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2661_DFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1799_DFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1298_이분매칭.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1017_이분매칭.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_4963_BFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_5719_다익.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1238_다익.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_6593_BFS_Re.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2211_크루스칼.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2211_다익.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_11378_이분매칭.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_2414_이분매칭.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_11004_정렬.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_5549_탐색.java" />
+        <option value="$PROJECT_DIR$/src/sw_test.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1051_Re.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1342_백트.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1420_DFS_BFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1062_DFS.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1348_이분매칭.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1939_다익.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1939_이분.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_9370_다익.java" />
+        <option value="$PROJECT_DIR$/src/baekJ/bj_1504_다익.java" />
+        <option value="$PROJECT_DIR$/src/examination/SM_algo1.java" />
+        <option value="$PROJECT_DIR$/src/examination/SW_algo2.java" />
+        <option value="$PROJECT_DIR$/src/examination/SW_algo3.java" />
+        <option value="$PROJECT_DIR$/src/codingTest/SW_algo3.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="953" />
@@ -259,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,23 +254,28 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="Algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Algorithm" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582092393838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584169667545" />
     <property name="last_opened_file_path" value="D:/Bang_Spring/ds_alcohol_project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -317,13 +304,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pg_17681_kakao">
-    <configuration name="bj_2851_구현" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_2851_구현" />
+  <component name="RunManager" selected="Application.SW_algo3">
+    <configuration name="SM_algo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTest.SM_algo1" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problem.*" />
+          <option name="PATTERN" value="codingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +318,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bj_4991_BFS_DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem.bj_4991_BFS_DFS" />
+    <configuration name="SW_algo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTest.SW_algo2" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problem.*" />
+          <option name="PATTERN" value="codingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,8 +331,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bj_5214_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJ.bj_5214_BFS" />
+    <configuration name="SW_algo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTest.SW_algo3" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bj_11404_플로이드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_11404_플로이드" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -357,25 +357,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg_17681_kakao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_17681_kakao" />
+    <configuration name="bj_1504_다익" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJ.bj_1504_다익" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pg_42889_kakao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.pg_42889_kakao" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="baekJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,19 +371,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.bj_2851_구현" />
-      <item itemvalue="Application.bj_4991_BFS_DFS" />
-      <item itemvalue="Application.bj_5214_BFS" />
-      <item itemvalue="Application.pg_42889_kakao" />
-      <item itemvalue="Application.pg_17681_kakao" />
+      <item itemvalue="Application.bj_11404_플로이드" />
+      <item itemvalue="Application.bj_1504_다익" />
+      <item itemvalue="Application.SM_algo1" />
+      <item itemvalue="Application.SW_algo2" />
+      <item itemvalue="Application.SW_algo3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pg_17681_kakao" />
-        <item itemvalue="Application.pg_42889_kakao" />
-        <item itemvalue="Application.bj_5214_BFS" />
-        <item itemvalue="Application.bj_4991_BFS_DFS" />
-        <item itemvalue="Application.bj_2851_구현" />
+        <item itemvalue="Application.SW_algo3" />
+        <item itemvalue="Application.SW_algo2" />
+        <item itemvalue="Application.SM_algo1" />
+        <item itemvalue="Application.bj_1504_다익" />
+        <item itemvalue="Application.bj_11404_플로이드" />
       </list>
     </recent_temporary>
   </component>
@@ -528,168 +515,26 @@
       <workItem from="1580886675190" duration="13991000" />
       <workItem from="1581231877267" duration="15940000" />
       <workItem from="1581587847186" duration="9515000" />
-      <workItem from="1581658119624" duration="47543000" />
-    </task>
-    <task id="LOCAL-00001" summary="gitignore 등록">
-      <created>1577683486057</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1577683486057</updated>
-    </task>
-    <task id="LOCAL-00002" summary="후보키 testcase찾기">
-      <created>1577688446618</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1577688446618</updated>
-    </task>
-    <task id="LOCAL-00003" summary="후보키 testcase찾기">
-      <created>1577688534471</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1577688534471</updated>
-    </task>
-    <task id="LOCAL-00004" summary="후보키 testcase찾아보기">
-      <created>1577688733295</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1577688733295</updated>
-    </task>
-    <task id="LOCAL-00005" summary="세로읽기">
-      <created>1577772015092</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1577772015092</updated>
-    </task>
-    <task id="LOCAL-00006" summary="3차 압축 testcase찾기">
-      <created>1578134727381</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1578134727381</updated>
-    </task>
-    <task id="LOCAL-00007" summary="듣보잡">
-      <created>1578215713169</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1578215713169</updated>
-    </task>
-    <task id="LOCAL-00008" summary="낚시왕 반례 및 시간단축 필요">
-      <created>1578299556116</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1578299556116</updated>
-    </task>
-    <task id="LOCAL-00009" summary="결혼식 DFS">
-      <created>1578458216285</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1578458216289</updated>
-    </task>
-    <task id="LOCAL-00010" summary="원판돌리기 반례를 못찾겠다">
-      <created>1578471335969</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1578471335969</updated>
-    </task>
-    <task id="LOCAL-00011" summary="시험 감독">
-      <created>1578558721686</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1578558721686</updated>
-    </task>
-    <task id="LOCAL-00012" summary="감소하는 수">
-      <created>1578643480324</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1578643480324</updated>
-    </task>
-    <task id="LOCAL-00013" summary="오픈채팅방 설명추가 및 수박수박문제풀이">
-      <created>1578745063515</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1578745063515</updated>
-    </task>
-    <task id="LOCAL-00014" summary="단어 나누기, 문자열 뒤집는 방법">
-      <created>1578815502706</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1578815502706</updated>
-    </task>
-    <task id="LOCAL-00015" summary="방문 길이">
-      <created>1578895145657</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1578895145658</updated>
-    </task>
-    <task id="LOCAL-00016" summary="첫번째 효율성 1번 실패, 두번째 모두성공">
-      <created>1578985438156</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1578985438156</updated>
-    </task>
-    <task id="LOCAL-00017" summary="균형잡힌 세상, 문자열 폭발(메모리 초과)">
-      <created>1579173430274</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1579173430274</updated>
-    </task>
-    <task id="LOCAL-00018" summary="ACM 호텔, AC">
-      <created>1579238872614</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1579238872614</updated>
-    </task>
-    <task id="LOCAL-00019" summary="단어공부">
-      <created>1579330639987</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1579330639987</updated>
-    </task>
-    <task id="LOCAL-00020" summary="손익분기점, re(선형버전, 느림)">
-      <created>1579413681733</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1579413681733</updated>
-    </task>
-    <task id="LOCAL-00021" summary="상범 빌딩 메모리 붐!">
-      <created>1579509709836</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1579509709836</updated>
-    </task>
-    <task id="LOCAL-00022" summary="수 찾기, 나무 자르기, 달팽이는 올라가고 싶다">
-      <created>1579611462803</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1579611462803</updated>
-    </task>
-    <task id="LOCAL-00023" summary="랜선 자르기, 예산">
-      <created>1579676872562</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1579676872562</updated>
+      <workItem from="1581658119624" duration="52703000" />
+      <workItem from="1582176003241" duration="12979000" />
+      <workItem from="1582262622485" duration="8724000" />
+      <workItem from="1582278180823" duration="4137000" />
+      <workItem from="1582365015785" duration="4568000" />
+      <workItem from="1582515465834" duration="10095000" />
+      <workItem from="1582607230388" duration="46022000" />
+      <workItem from="1583072219163" duration="9557000" />
+      <workItem from="1583224152184" duration="7236000" />
+      <workItem from="1583301479955" duration="5783000" />
+      <workItem from="1583322977554" duration="13082000" />
+      <workItem from="1583399828535" duration="8845000" />
+      <workItem from="1583554889120" duration="10243000" />
+      <workItem from="1583639850650" duration="8946000" />
+      <workItem from="1583749458367" duration="12084000" />
+      <workItem from="1583830935695" duration="399000" />
+      <workItem from="1583837247940" duration="7334000" />
+      <workItem from="1583996024247" duration="1767000" />
+      <workItem from="1584077242949" duration="5011000" />
+      <workItem from="1584098730281" duration="9951000" />
     </task>
     <task id="LOCAL-00024" summary="입국심사">
       <created>1579762240590</created>
@@ -838,11 +683,207 @@
       <option name="project" value="LOCAL" />
       <updated>1581919021378</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="비밀지도, 실패율">
+      <created>1582092465028</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1582092465028</updated>
+    </task>
+    <task id="LOCAL-00046" summary="환승(메모리초과), 폰켓몬">
+      <created>1582097439756</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1582097439756</updated>
+    </task>
+    <task id="LOCAL-00047" summary="뉴스 클러스터링, 파일명 정렬, n진수 게임,">
+      <created>1582189364091</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1582189364091</updated>
+    </task>
+    <task id="LOCAL-00048" summary="파일명 정렬">
+      <created>1582265300850</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1582265300850</updated>
+    </task>
+    <task id="LOCAL-00049" summary="파일명 정렬">
+      <created>1582265637519</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1582265637519</updated>
+    </task>
+    <task id="LOCAL-00050" summary="돌멩이 제거, 반도체 설계">
+      <created>1582271349717</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1582271349718</updated>
+    </task>
+    <task id="LOCAL-00051" summary="2048(Easy)">
+      <created>1582364046128</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1582364046128</updated>
+    </task>
+    <task id="LOCAL-00052" summary="2048(Easy)">
+      <created>1582364122660</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1582364122660</updated>
+    </task>
+    <task id="LOCAL-00053" summary="2048(Easy)">
+      <created>1582537454555</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1582537454556</updated>
+    </task>
+    <task id="LOCAL-00054" summary="가르침(TImeOut), 에라토스테네스 체">
+      <created>1582615202975</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1582615202976</updated>
+    </task>
+    <task id="LOCAL-00055" summary="플로이드, 후보 추천하기">
+      <created>1582720406359</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1582720406360</updated>
+    </task>
+    <task id="LOCAL-00056" summary="게임">
+      <created>1582778671050</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1582778671050</updated>
+    </task>
+    <task id="LOCAL-00057" summary="다리 만들기2(미완성)">
+      <created>1582900316781</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1582900316781</updated>
+    </task>
+    <task id="LOCAL-00058" summary="게임(TImeOut), 다리만들기2(성공)">
+      <created>1582962576661</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1582962576661</updated>
+    </task>
+    <task id="LOCAL-00059" summary="거짓말, 교수님은 기다리지 않는다">
+      <created>1583053186760</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1583053186760</updated>
+    </task>
+    <task id="LOCAL-00060" summary="사다리 조작">
+      <created>1583136065211</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1583136065212</updated>
+    </task>
+    <task id="LOCAL-00061" summary="사다리 조작(수정), 학교 가지마!(메모리 초과)">
+      <created>1583231369574</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1583231369574</updated>
+    </task>
+    <task id="LOCAL-00062" summary="스도쿠">
+      <created>1583306777092</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1583306777092</updated>
+    </task>
+    <task id="LOCAL-00063" summary="비숍(시간초과), 좋은수열">
+      <created>1583388891490</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1583388891490</updated>
+    </task>
+    <task id="LOCAL-00064" summary="노트북의 주인을 찾아서">
+      <created>1583399886481</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1583399886481</updated>
+    </task>
+    <task id="LOCAL-00065" summary="소수 쌍, 섬의 개수">
+      <created>1583476717852</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1583476717852</updated>
+    </task>
+    <task id="LOCAL-00066" summary="파티, 거의 최단 경로">
+      <created>1583565848276</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1583565848276</updated>
+    </task>
+    <task id="LOCAL-00067" summary="상범 빌딜(수정 성공)">
+      <created>1583648273466</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1583648273467</updated>
+    </task>
+    <task id="LOCAL-00068" summary="네트워크 복구(Kruskal vs Djikstra)">
+      <created>1583648418883</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1583648418883</updated>
+    </task>
+    <task id="LOCAL-00069" summary="열혈강호 4, 게시판 구멍 막기">
+      <created>1583826466939</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1583826466939</updated>
+    </task>
+    <task id="LOCAL-00070" summary="코드 수정">
+      <created>1583913091128</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1583913091129</updated>
+    </task>
+    <task id="LOCAL-00071" summary="중량 제한">
+      <created>1583997782343</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1583997782344</updated>
+    </task>
+    <task id="LOCAL-00072" summary="미확인 도착지">
+      <created>1584082166128</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1584082166128</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1525734000" />
+    <option name="totallyTimeSpent" value="1717657000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -857,7 +898,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3238512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27899343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -866,15 +907,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49452955" visible="true" weight="0.2935378" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49452955" visible="true" weight="0.3242059" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.3263965" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49781182" weight="0.32858709" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49781182" weight="0.31653887" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49562362" weight="0.33844468" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49562362" weight="0.33734939" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50547045" side_tool="true" weight="0.29791895" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49562362" weight="0.33187294" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -883,7 +924,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32932165" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32932165" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -891,256 +932,343 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="손익분기점, re(선형버전, 느림)" />
-    <MESSAGE value="상범 빌딩 메모리 붐!" />
-    <MESSAGE value="수 찾기, 나무 자르기, 달팽이는 올라가고 싶다" />
-    <MESSAGE value="랜선 자르기, 예산" />
-    <MESSAGE value="입국심사" />
-    <MESSAGE value="신기한 소수(백트로 푼게 효율좋음), 기타 레슨(이분)" />
-    <MESSAGE value="소문난 칠공주 fail" />
-    <MESSAGE value="소문난 칠공주" />
-    <MESSAGE value="행운의 문자열 메모리 줄이기..." />
-    <MESSAGE value="열혈강호, 열혈강호2, 상어의 저녁식사, 축사 배정" />
-    <MESSAGE value="열혈강호, 책 나눠주기" />
-    <MESSAGE value="동전 0, 동전 1" />
-    <MESSAGE value="시저암호, 콜라츠 추측" />
-    <MESSAGE value="달리기(시간초과), 회의실배정" />
-    <MESSAGE value="기타줄, 신입사원" />
-    <MESSAGE value="킹, 숫자 카드2" />
-    <MESSAGE value="예산" />
-    <MESSAGE value="나는야 포켓몬 마스터 이다솜, 구간 합 구하기, 개똥벌레(시간초과)" />
-    <MESSAGE value="공장(시간초과)" />
-    <MESSAGE value="책 페이지, 합이 0인 네 정수(한번 더 풀어보기)" />
-    <MESSAGE value="행렬" />
-    <MESSAGE value="디저트 카페" />
-    <MESSAGE value="1789수정, 윷놀이" />
-    <MESSAGE value="슈퍼마리오" />
-    <MESSAGE value="로봇 청소기" />
-    <option name="LAST_COMMIT_MESSAGE" value="로봇 청소기" />
+    <MESSAGE value="비밀지도, 실패율" />
+    <MESSAGE value="환승(메모리초과), 폰켓몬" />
+    <MESSAGE value="뉴스 클러스터링, 파일명 정렬, n진수 게임," />
+    <MESSAGE value="파일명 정렬" />
+    <MESSAGE value="돌멩이 제거, 반도체 설계" />
+    <MESSAGE value="2048(Easy)" />
+    <MESSAGE value="가르침(TImeOut), 에라토스테네스 체" />
+    <MESSAGE value="플로이드, 후보 추천하기" />
+    <MESSAGE value="게임" />
+    <MESSAGE value="다리 만들기2(미완성)" />
+    <MESSAGE value="게임(TImeOut), 다리만들기2(성공)" />
+    <MESSAGE value="거짓말, 교수님은 기다리지 않는다" />
+    <MESSAGE value="사다리 조작" />
+    <MESSAGE value="사다리 조작(수정), 학교 가지마!(메모리 초과)" />
+    <MESSAGE value="스도쿠" />
+    <MESSAGE value="비숍(시간초과), 좋은수열" />
+    <MESSAGE value="노트북의 주인을 찾아서" />
+    <MESSAGE value="소수 쌍, 섬의 개수" />
+    <MESSAGE value="파티, 거의 최단 경로" />
+    <MESSAGE value="상범 빌딜(수정 성공)" />
+    <MESSAGE value="네트워크 복구(Kruskal vs Djikstra)" />
+    <MESSAGE value="열혈강호 4, 게시판 구멍 막기" />
+    <MESSAGE value="코드 수정" />
+    <MESSAGE value="중량 제한" />
+    <MESSAGE value="미확인 도착지" />
+    <option name="LAST_COMMIT_MESSAGE" value="미확인 도착지" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/practice/Bipartite_Matching_3.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1017_이분매칭.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        <state relative-caret-position="304">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initPrimeNumber#0;class#bj_1017_이분매칭#0" />
+            <element signature="method#initPrimeList#0;class#bj_1017_이분매칭#0" />
+            <element signature="method#successMatching#0;class#bj_1017_이분매칭#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_10789_구현.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_4963_BFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="722">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#bj_4963_BFS#0" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1764_구현.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11376_이분매칭.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1298_이분매칭.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="46" />
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11403.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_4195_UnionFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="399">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_12100_DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1671_이분매칭.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="363">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_Upgrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="280" column="15" selection-start-line="280" selection-start-column="15" selection-end-line="280" selection-end-column="15" />
-          <folding>
-            <element signature="e#10361#10362#0" expanded="true" />
-            <element signature="e#10388#10389#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_9576_이분매칭.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11047_그리디.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2293_브루트.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_8979_구현.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_4949_문자열.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="78" column="3" lean-forward="true" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2606_DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1931_그리디.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_16930_BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1946_그리디.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2986#2987#0" expanded="true" />
-            <element signature="e#3042#3043#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1654_이분.java">
+    <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_ShortestPath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Casting_test.java" />
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2042_세그먼트.java" />
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_10816_HashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1238_다익.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="-323">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="class#Path#0;class#bj_1238_다익#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1620_Hash.java">
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_4991_BFS_DFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="78">
+          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2478#2479#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_3020_이분.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_6593_BFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="-532">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/Kruskal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1916_다익스트라.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_6593_BFS_Re.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#2026#2027#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3517#3518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_5549_탐색.java" />
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2211_크루스칼_Fail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2042_구현.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2211_다익.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="class#Node#0;class#bj_2211_다익#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1063_시뮬.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11378_이분매칭.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        <state relative-caret-position="1045">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#findIntegerPosition#0;class#bj_1063_시뮬#0" />
-            <element signature="method#findStrPosition#0;class#bj_1063_시뮬#0" />
-            <element signature="class#Node#0;class#bj_1063_시뮬#0" />
-            <element signature="method#findXY#0;class#bj_1063_시뮬#0" />
-            <element signature="e#4075#4076#0" expanded="true" />
-            <element signature="e#4136#4137#0" expanded="true" />
-            <element signature="e#4191#4192#0" expanded="true" />
-            <element signature="e#4234#4235#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11047_브루트_fail.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2414_이분매칭.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem/bj_17472_BFS_DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#NumberingIsland#0;class#bj_17472_BFS_DFS#0" />
+            <element signature="method#goBFS#0;class#bj_17472_BFS_DFS#0" />
+            <element signature="method#isValue#0;class#bj_17472_BFS_DFS#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw_test.java" />
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11004_정렬.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1051_브루트포스.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1342_백트.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1420_DFS_BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3211">
+          <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3947#3948#0" expanded="true" />
+            <element signature="e#3994#3995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1799_DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1867_이분매칭.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1062_DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1769#1770#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1051_Re.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1348_이분매칭.java" />
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1939_이분.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1149,225 +1277,161 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11377_이분매칭.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="285">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_9370_플로이드_Fail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_9370_다익.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_7578_구현.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11375_이분매칭.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1049_그리디.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_12943_단순구현.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_12926_ASCII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="67" column="3" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_12904_구현_fail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="61" column="3" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_43237_이분.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1019_완탐.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_7453_이분.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1080_그리디.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SW/D4/sw_2105_DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_17142_Re.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2490_구현.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_17143_시뮬.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1789_구현.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_12100_DFS.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_5719_다익.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1539">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3578#3579#0" expanded="true" />
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3698#3699#0" expanded="true" />
-            <element signature="e#3731#3732#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2851_구현.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_4991_BFS_DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_4991_BFS_DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#bj_4991_BFS#0" />
-            <element signature="n#!!block;n#TerminateSignal#0;n#bj_4991_BFS#0" />
-            <element signature="e#2478#2479#0" expanded="true" />
-            <element signature="method#moveRobot#0;class#bj_4991_BFS_Fail#0" />
-            <element signature="method#isValid#0;class#bj_4991_BFS_Fail#0" />
-            <element signature="method#findMinimum#0;class#bj_4991_BFS_Fail#0" />
-            <element signature="class#Robot#0;class#bj_4991_BFS_Fail#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem/bj_17472_bfs_dfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="53" column="13" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_5214_BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra_ShortestPath.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_11404_플로이드.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_42889_kakao.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1504_다익.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/pg_17681_kakao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="209">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="17" selection-end-column="34" />
           <folding>
-            <element signature="method#getBinaryToString#0;class#pg_17681_kakao#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_1038_브루트포스.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2309_브루트포스.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_2231_브루트포스.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15655_Combination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15663_permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15654_permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15651_Dupli_Permu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJ/bj_15684_브루트포스.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codingTest/SW_algo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#canShape#0;class#SW_algo2#0" />
+            <element signature="e#1486#1556#1" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="method#up#0;class#SW_algo2#0" />
+            <element signature="method#down#0;class#SW_algo2#0" />
+            <element signature="n#!!block;n#Range#0;n#SW_algo2#0" />
+            <element signature="e#2967#2968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codingTest/SM_algo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codingTest/SW_algo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
