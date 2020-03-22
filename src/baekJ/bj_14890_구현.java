@@ -21,7 +21,6 @@ import java.util.StringTokenizer;
 public class bj_14890_구현 {
     private static int n, L;
     private static int[][] map;
-    private static boolean[][] visit;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -39,80 +38,87 @@ public class bj_14890_구현 {
 
         int ans = 0;
         for (int i = 0; i < n; i++) {
-            if (searchCol(i)) ans++;
-            visit = new boolean[n][n];
-            if (searchRow(i)) ans++;
-            visit = new boolean[n][n];
+            if (searchCol(i)) {
+                ans++;
+            }
+            if (searchRow(i)) {
+                ans++;
+            }
         }
 
         System.out.println(ans);
     }
 
     private static boolean searchCol(int idx) {
+        boolean[] visit = new boolean[n];
+
         for (int j = 0; j < n - 1; j++) {
             if (map[idx][j] != map[idx][j + 1]) {
-                if (!checkCol(idx, j)) return false;
-                j += L;
+                if (!checkCol(idx, j, visit)) return false;
             }
         }
         return true;
     }
 
-    private static boolean checkCol(int x, int y) {
+    private static boolean checkCol(int x, int y, boolean[] visit) {
         if (Math.abs(map[x][y] - map[x][y + 1]) > 1) return false;
 
         if (map[x][y] - map[x][y + 1] > 0) {
             if (y + L >= n) return false;
 
             for (int j = y + 1; j < y + L; j++) {
-                if (map[x][j] != map[x][j + 1] || visit[x][j] || visit[x][j + 1]) return false;
-                visit[x][j] = true;
+                System.out.println(y + " " + map[x][j] + " " + map[x][j + 1]);
+                if (map[x][j] != map[x][j + 1] || visit[j] || visit[j + 1]) return false;
+                visit[j] = true;
             }
-            visit[x][y - 1] = true;
+            visit[y + L] = true;
 
         } else {
-            if (y - L < 0) return false;
+            y++;
+            if (y - L < 0 || visit[y - 1]) return false;
 
             for (int j = y - L; j < y - 1; j++) {
-                if (map[x][j] != map[x][j + 1] || visit[x][j] || visit[x][j + 1]) return false;
-                visit[x][j] = true;
+                if (map[x][j] != map[x][j + 1] || visit[j] || visit[j + 1]) return false;
+                visit[j] = true;
             }
-            visit[x][y - 1] = true;
+            visit[y - 2] = true;
         }
 
         return true;
     }
 
     private static boolean searchRow(int idx) {
+        boolean[] visit = new boolean[n];
+
         for (int i = 0; i < n - 1; i++) {
             if (map[i][idx] != map[i + 1][idx]) {
-                if (!checkRow(i, idx)) return false;
-                i += L;
+                if (!checkRow(i, idx, visit)) return false;
             }
         }
 
         return true;
     }
 
-    private static boolean checkRow(int x, int y) {
+    private static boolean checkRow(int x, int y, boolean[] visit) {
         if (Math.abs(map[x][y] - map[x + 1][y]) > 1) return false;
 
         if (map[x][y] - map[x + 1][y] > 0) {
             if (x + L >= n) return false;
 
             for (int i = x + 1; i < x + L; i++) {
-                if (map[i][y] != map[i][y + 1] || visit[i][y] || visit[i + 1][y]) return false;
-                visit[i][y] = true;
+                if (map[i][y] != map[i + 1][y] || visit[i] || visit[i + 1]) return false;
+                visit[i] = true;
             }
-            visit[x][y + L] = true;
+            visit[x + L] = true;
         } else {
-            if (x - L < 0) return false;
+            x++;
+            if (x - L < 0 || visit[x - 1]) return false;
 
             for (int i = x - L; i < x - 1; i++) {
-                if (map[i][y] != map[i][y + 1] || visit[i][y] || visit[i + 1][y]) return false;
-                visit[i][y] = true;
+                if (map[i][y] != map[i + 1][y] || visit[i] || visit[i + 1]) return false;
+                visit[i] = true;
             }
-            visit[x][y + L] = true;
+            visit[x - 1] = true;
         }
 
         return true;
