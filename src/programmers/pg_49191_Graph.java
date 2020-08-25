@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 public class pg_49191_Graph {
-    static ArrayList<RankNode> list = new ArrayList<>();
+    static ArrayList<Player> list = new ArrayList<>();
 
     public static void main(String[] args) {
         int n = 5;
@@ -16,10 +16,10 @@ public class pg_49191_Graph {
 
     public static int solution(int n, int[][] results) {
         int answer = 0;
-        list.add(new RankNode(0));
+        list.add(new Player(0));
 
         for (int i = 1; i <= n; i++) {
-            list.add(new RankNode(i));
+            list.add(new Player(i));
             list.get(i).win = new HashSet<>();
             list.get(i).lose = new HashSet<>();
         }
@@ -29,42 +29,44 @@ public class pg_49191_Graph {
             list.get(r[1]).lose.add(r[0]);
         }
 
+        for (int count = 0; count < 2; count++) {
+
+            for (int i = 1; i <= n; i++) {
+                Player player = list.get(i);
+                HashSet<Integer> tmp = new HashSet<>();
+                for (int win : player.win) {
+                    tmp.addAll(list.get(win).win);
+                }
+                player.win.addAll(tmp);
+                tmp.clear();
+                for (int lose : player.lose) {
+                    tmp.addAll(list.get(lose).lose);
+                }
+                player.lose.addAll(tmp);
+            }
+        }
+
         for (int i = 1; i <= n; i++) {
-            RankNode rn = list.get(i);
-            HashSet<Integer> tmp = new HashSet<>();
-            for (int win : rn.win) {
-                for (int w : list.get(win).win) {
-                    tmp.add(w);
-                }
-            }
-            rn.win.addAll(tmp);
-            tmp.clear();
-            for (int lose : rn.lose) {
-                for (int l : list.get(lose).lose) {
-                    tmp.add(l);
-                }
-            }
-            rn.lose.addAll(tmp);
+            Player player = list.get(i);
+            int winCount = player.win.size();
+            int loseCount = player.lose.size();
 
-            int num = rn.win.size();
-            num += rn.lose.size();
-
-            if (num == n - 1) {
+            if (winCount + loseCount == n - 1) {
                 answer++;
             }
         }
         return answer;
     }
 
-    static class RankNode {
+    static class Player {
         int key;
         HashSet<Integer> win;
         HashSet<Integer> lose;
 
-        RankNode(int k) {
+        Player(int k) {
             this.key = k;
-            this.win = win;
-            this.lose = lose;
+            this.win = new HashSet<>();
+            this.lose = new HashSet<>();
         }
     }
 }
