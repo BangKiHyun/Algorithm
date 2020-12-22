@@ -16,6 +16,7 @@ public class bj_2636_Re {
     private static int[][] map;
     private static boolean[][] visited;
     private static Queue<Node> meltingQ = new LinkedList<>();
+    private static Queue<Node> meltingCheesePoses = new LinkedList<>();
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -32,30 +33,20 @@ public class bj_2636_Re {
             }
         }
 
+        checkOutsideAir(0, 0);
+
         int ans = 0;
         int preCheeseCnt = 0;
         while (true) {
-            visited = new boolean[n][m];
-            int airPosX, airPosY;
-            for (int i = 0; i < n; i++) {
-                boolean findAir = false;
-                for (int j = 0; j < m; j++) {
-                    if (map[i][j] == 0) {
-                        airPosX = i;
-                        airPosY = j;
-                        checkOutsideAir(airPosX, airPosY);
-                        findAir = true;
-                        break;
-                    }
-                }
-                if (findAir) break;
-            }
-
             findMeltingCheese();
-            preCheeseCnt = meltingQ.size();
-
             if (meltingQ.isEmpty()) break;
+
+            preCheeseCnt = meltingQ.size();
             meltCheese();
+
+            for (Node meltingCheesePos : meltingCheesePoses) {
+                checkOutsideAir(meltingCheesePos.x, meltingCheesePos.y);
+            }
             ans++;
         }
 
@@ -63,8 +54,10 @@ public class bj_2636_Re {
     }
 
     private static void meltCheese() {
-        final Node cheesePos = meltingQ.poll();
-        map[cheesePos.x][cheesePos.y] = AIR;
+        while (!meltingQ.isEmpty()) {
+            final Node cheesePos = meltingQ.poll();
+            meltingCheesePoses.offer(new Node(cheesePos.x, cheesePos.y));
+        }
     }
 
     private static void checkOutsideAir(int startX, int startY) {
@@ -93,34 +86,7 @@ public class bj_2636_Re {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (isMeltingCheese(i, j)) {
-                    goBFS(i, j);
-                }
-            }
-        }
-    }
-
-    private static void goBFS(int i, int j) {
-        Queue<Node> q = new LinkedList<>();
-        q.offer(new Node(i, j));
-        visited[i][j] = true;
-
-        while (!q.isEmpty()) {
-            final Node curNode = q.poll();
-            int x = curNode.x;
-            int y = curNode.y;
-
-            if (isEdge(x, y)) {
-                map[x][y] = 2;
-                meltingQ.offer(new Node(x, y));
-            }
-
-            for (int k = 0; k < 4; k++) {
-                int nx = x + DX[k];
-                int ny = y + DY[k];
-
-                if (isRange(nx, ny) && map[nx][ny] == 1 && !visited[nx][ny]) {
-                    q.offer(new Node(nx, ny));
-                    visited[nx][ny] = true;
+                    meltingQ.offer(new Node(i, j));
                 }
             }
         }
@@ -131,11 +97,11 @@ public class bj_2636_Re {
     }
 
     private static boolean isNewAir(int x, int y) {
-        return isRange(x, y) && !visited[x][y] && map[x][y] != AIR;
+        return isRange(x, y) && !visited[x][y] && map[x][y] == 0;
     }
 
     private static boolean isRange(int x, int y) {
-        return x >= 0 && y > -0 && x < n && y < m;
+        return x >= 0 && y >= -0 && x < n && y < m;
     }
 
     private static boolean isEdge(int x, int y) {
