@@ -5,10 +5,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-import static java.lang.Math.min;
-
 public class pg_합승_택시_요금 {
-    private static List<Path>[] pathList;
 
     public static void main(String[] args) {
         int n = 6;
@@ -29,65 +26,63 @@ public class pg_합승_택시_요금 {
     }
 
     public static int solution(int n, int s, int a, int b, int[][] fares) {
-        pathList = new ArrayList[n + 1];
-        int[] pays = new int[n + 1];
+        List<Path>[] pathList = new ArrayList[n + 1];
+        int[] startCosts = new int[n + 1];
+        int[] aCosts = new int[n + 1];
+        int[] bCosts = new int[n + 1];
         for (int i = 1; i <= n; i++) {
             pathList[i] = new ArrayList<>();
-            pays[i] = Integer.MAX_VALUE;
+            startCosts[i] = Integer.MAX_VALUE;
+            aCosts[i] = Integer.MAX_VALUE;
+            bCosts[i] = Integer.MAX_VALUE;
         }
 
         for (int[] fare : fares) {
-            int from = fare[0];
-            int to = fare[1];
-            int pay = fare[2];
-            pathList[from].add(new Path(to, pay));
-            pathList[to].add(new Path(from, pay));
-        }
-        goDijkstra(s, 0, pays);
-
-        int answer = Integer.MAX_VALUE;
-        answer = min(answer, pays[a] + pays[b]);
-
-        for (int i = 1; i <= n; i++) {
-            if (i == s) continue;
-            int[] tempPays = new int[n + 1];
-            for (int j = 1; j <= n; j++) {
-                tempPays[j] = Integer.MAX_VALUE;
-            }
-            goDijkstra(i, pays[i], tempPays);
-            answer = min(answer, tempPays[a] + tempPays[b] - pays[i]);
+            int start = fare[0];
+            int end = fare[1];
+            int cost = fare[2];
+            pathList[start].add(new Path(end, cost));
+            pathList[end].add(new Path(start, cost));
         }
 
+        goDijkstra(pathList, startCosts, s, 0);
+        goDijkstra(pathList, aCosts, a, 0);
+        goDijkstra(pathList, bCosts, b, 0);
+
+        int answer = startCosts[a] + startCosts[b];
+        for (int connectionIdx = 1; connectionIdx <= n; connectionIdx++) {
+            answer = Math.min(answer, startCosts[connectionIdx] + aCosts[connectionIdx] + bCosts[connectionIdx]);
+        }
         return answer;
     }
 
-    private static void goDijkstra(int start, int startPay, int[] pays) {
+    private static void goDijkstra(List<Path>[] pathList, int[] costs, int s, int cost) {
         Queue<Path> prq = new PriorityQueue<>();
-        prq.add(new Path(start, pays[start] = startPay));
+        prq.add(new Path(s, costs[s] = cost));
 
         while (!prq.isEmpty()) {
             final Path curPath = prq.poll();
-            for (Path nextPath : pathList[curPath.idx]) {
-                if (pays[curPath.idx] + nextPath.pay < pays[nextPath.idx]) {
-                    pays[nextPath.idx] = pays[curPath.idx] + nextPath.pay;
-                    prq.add(new Path(nextPath.idx, pays[nextPath.idx]));
+            for (Path nextPath : pathList[curPath.pos]) {
+                if (costs[curPath.pos] + nextPath.cost < costs[nextPath.pos]) {
+                    costs[nextPath.pos] = costs[curPath.pos] + nextPath.cost;
+                    prq.add(new Path(nextPath.pos, costs[nextPath.pos]));
                 }
             }
         }
     }
 
     private static class Path implements Comparable<Path> {
-        private int idx;
-        private int pay;
+        private int pos;
+        private int cost;
 
-        public Path(int idx, int pay) {
-            this.idx = idx;
-            this.pay = pay;
+        public Path(int pos, int cost) {
+            this.pos = pos;
+            this.cost = cost;
         }
 
         @Override
-        public int compareTo(Path o) {
-            return this.pay - o.pay;
+        public int compareTo(Path path) {
+            return this.cost - path.cost;
         }
     }
 }
