@@ -6,8 +6,9 @@ import java.util.List;
 import java.util.Queue;
 
 public class pg_가장_먼_노드 {
+
     private static boolean[] visit;
-    private static List<Node> nodeList = new ArrayList<>();
+    private static List<NodeInfo> nodeInfoList = new ArrayList<>();
 
     public static void main(String[] args) {
         int n = 6;
@@ -18,11 +19,11 @@ public class pg_가장_먼_노드 {
     }
 
     public int solution(int n, int[][] edge) {
-        visit = new boolean[n + 1];
         List<Integer>[] edgeList = new ArrayList[n + 1];
         for (int idx = 1; idx <= n; idx++) {
             edgeList[idx] = new ArrayList();
         }
+
         for (int[] fromTo : edge) {
             int from = fromTo[0];
             int to = fromTo[1];
@@ -30,44 +31,48 @@ public class pg_가장_먼_노드 {
             edgeList[to].add(from);
         }
 
-        int maxDepth = findMaxDepth(edgeList);
-        return (int) nodeList.stream()
-                .filter(node -> node.depth == maxDepth)
+        visit = new boolean[n + 1];
+        final int maxDepth = findMaxDepthOfStartNode(edgeList);
+
+        return (int) nodeInfoList.stream()
+                .filter(nodeInfo -> nodeInfo.depth == maxDepth)
                 .count();
     }
 
-    private int findMaxDepth(List<Integer>[] edge) {
-        int maxDepth = 0;
-        Queue<Node> q = new LinkedList();
+    private int findMaxDepthOfStartNode(List<Integer>[] edgeList) {
+        int maxDepth = -1;
+        Queue<NodeInfo> q = new LinkedList<>();
         visit[1] = true;
-        nodeList.add(new Node(1, 0));
-        for (int to : edge[1]) {
-            final Node node = new Node(to, 1);
-            q.add(node);
-            nodeList.add(node);
+        for (int to : edgeList[1]) {
+            final NodeInfo nodeInfo = new NodeInfo(to, 1);
+            q.add(nodeInfo);
+            nodeInfoList.add(nodeInfo);
             visit[to] = true;
         }
 
         while (!q.isEmpty()) {
-            final Node curNode = q.poll();
-            maxDepth = curNode.depth;
-            for (int next : edge[curNode.idx]) {
-                if (!visit[next]) {
-                    final Node node = new Node(next, curNode.depth + 1);
-                    q.add(node);
-                    nodeList.add(node);
-                    visit[next] = true;
+            final NodeInfo from = q.poll();
+            for (int to : edgeList[from.idx]) {
+                if (!visit[to]) {
+                    final NodeInfo nodeInfo = new NodeInfo(to, from.depth + 1);
+                    q.add(nodeInfo);
+                    nodeInfoList.add(nodeInfo);
+                    visit[to] = true;
                 }
+            }
+
+            if (q.isEmpty()) {
+                maxDepth = from.depth;
             }
         }
         return maxDepth;
     }
 
-    private static class Node {
-        int idx;
-        int depth;
+    private static class NodeInfo {
+        private int idx;
+        private int depth;
 
-        public Node(int idx, int depth) {
+        public NodeInfo(int idx, int depth) {
             this.idx = idx;
             this.depth = depth;
         }
