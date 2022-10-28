@@ -34,33 +34,41 @@ public class pg_등대 {
             inDegree[to]++;
         }
 
-        Queue<Lighthouse> prq = new PriorityQueue<>();
+        List<Lighthouse> lighthouseList = new ArrayList<>();
         for (int idx = 1; idx <= max; idx++) {
             final Lighthouse house = new Lighthouse(idx, inDegree[idx], false);
-            prq.offer(house);
+            lighthouseList.add(house);
             lighthouseMap.put(idx, house);
         }
 
         int count = 0;
-        while (!prq.isEmpty()) {
-            final Lighthouse curLighthouse = prq.poll();
-            if (curLighthouse.isVisit()) {
-                continue;
+        while (!lighthouseList.isEmpty()) {
+            if (isSafe(max)) {
+                break;
             }
-
             count++;
+            lighthouseList.sort(((o1, o2) -> o2.inDegree - o1.inDegree));
+            final Lighthouse curLighthouse = lighthouseList.remove(0);
+            curLighthouse.visit = true;
             for (int next : connectedList[curLighthouse.idx]) {
                 final Lighthouse nextLighthouse = lighthouseMap.get(next);
-                if (nextLighthouse == null || nextLighthouse.inDegree == curLighthouse.inDegree) continue;
-
-                nextLighthouse.visit = true;
                 nextLighthouse.inDegree--;
             }
         }
         return count;
     }
 
-    private static class Lighthouse implements Comparable<Lighthouse> {
+    private boolean isSafe(int n) {
+        for (int idx = 1; idx <= n; idx++) {
+            final Lighthouse lighthouse = lighthouseMap.get(idx);
+            if (!lighthouse.isSafe()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static class Lighthouse{
         private int idx;
 
         private int inDegree;
@@ -77,9 +85,14 @@ public class pg_등대 {
             return this.visit;
         }
 
-        @Override
-        public int compareTo(Lighthouse o) {
-            return o.inDegree - this.inDegree;
+        public boolean isSafe() {
+            if (isVisit()) return true;
+            for (int next : connectedList[idx]) {
+                if (lighthouseMap.get(next).isVisit()) {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
